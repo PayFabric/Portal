@@ -1,5 +1,14 @@
-# Summary
-Audiences of this document are developers who are ready to add payment features into their desktop applications, web applications, or mobile applications. PayFabric has below outstanding features which can complete the integration quickly and gracefully.
+# What is PayFabric
+PayFabric is a payment service for developers to be integreated with, which includes Payment APIs, Hosted Checkout Page, and so on. Audiences of this document are developers who are ready to add payment features into their desktop applications, web applications, or mobile applications. PayFabric has below outstanding features which can complete the integration quickly and gracefully.
+
+# Features
+
+* Full featured and flexible payment APIs.
+* Support many and growing gateways.
+* PCI Compliance right way with Hosted Payment Page.
+* Support customer wallet.
+* Fully customizable hosted pages.
+
 
 # [Glossary](#glossary)
 
@@ -14,17 +23,10 @@ Below is the terms we are using in this documents. You may not see it before, or
 | Device Password| Each device has one. Required when exchanging security token with PayFabric|  
 | Security Token| Token string is submitted along with API call for authentication |
 
-# Features
-
-* Full featured and flexible payment APIs.
-* Support many and growing gateways.
-* PCI Compliance right way with Hosted Payment Page.
-* Support customer wallet.
-* Fully customizable hosted pages.
 
 Before programming with PayFabric, you need a PayFabric account to get started. We have a [Quick Start](https://github.com/PayFabric/API-Samples/wiki/Quick-Start) to guide you through the preparations. 
 
-# Chapters
+# Extended Reading
 * [API References](https://github.com/PayFabric/API-Samples/wiki/API-References)
 * [API Objects](https://github.com/PayFabric/API-Samples/wiki/API-Objects)
 * Level 2&3 Fields
