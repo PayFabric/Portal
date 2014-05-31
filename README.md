@@ -1,5 +1,5 @@
 # What is PayFabric
-PayFabric is a payment service for developers to be integreated with, which includes Payment APIs, Hosted Checkout Page, and so on. Audiences of this document are developers who are ready to add payment features into their desktop applications, web applications, or mobile applications. PayFabric has below outstanding features which can complete the integration quickly and gracefully.
+PayFabric is a payment service for developers, which includes **Payment APIs** , **Hosted Checkout Page** , and so on. Audiences of this document are developers who are ready to add payment features into their desktop applications, web applications, or mobile applications. PayFabric has below outstanding features which can complete the integration quickly and gracefully.
 
 # Features
 
