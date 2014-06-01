@@ -29,5 +29,3 @@ Before programming with PayFabric, you need a PayFabric account to get started. 
 # Extended Reading
 * [Getting Started](https://github.com/PayFabric/Portal/wiki)
 * [API References](https://github.com/PayFabric/API-Samples)
-* Level 2&3 Fields
-* Show Cases
