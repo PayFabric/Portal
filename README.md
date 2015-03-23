@@ -16,9 +16,9 @@ Below is the terms we are using in this documents. You may not see it before, or
 
 | Terms        | Definition| 
 | :-------------|:-------------| 
-| Gateway| Payment gateway such as PayPal, FirstData, and so on | 
+| Gateway| Payment gateway such as PayPal, FirstDataGGe4, and so on | 
 | Transaction| Payment transaction submitted to PayFabric | 
-| Wallet | Token string is submitted along with API call for authentication |
+| Wallet | Payment wallet submitted to PayFabric |
 | Device ID| A Guid to identify different applications or websites under one merchant account|  
 | Device Password| Each device has one. Required when exchanging security token with PayFabric|  
 | Security Token| Token string is submitted along with API call for authentication |
