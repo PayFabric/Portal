@@ -27,6 +27,6 @@ Below is the terms we are using in this documents. You may not see it before, or
 Before programming with PayFabric, you need a PayFabric account to get started. We have a [Quick Start](https://github.com/PayFabric/Portal/wiki) to guide you through the preparations. 
 
 # Extended Reading
-* [Getting Started](wiki)
+* [Getting Started](https://github.com/PayFabric/Portal/wiki)
 * [APIs](https://github.com/PayFabric/PayFabric-APIs)
 * [Settings](https://github.com/PayFabric/Portal/wiki/PayFabric-Settings)
