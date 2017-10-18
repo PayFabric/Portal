@@ -1,8 +1,7 @@
 Nodus PayFabric Cloud service has its own web portal where merchant can configure their PayFabric account settings, view and manage their transaction reports.
 
 ## PayFabric Portal URL:
-
-**Sandbox & Production**: https://www.payfabric.com/portal
+https://www.payfabric.com/portal
 
 ## Service Mode
 
