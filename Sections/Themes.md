@@ -1,3 +1,5 @@
+# Themes
+
 Different application may have different needs of utilizing PayFabric’s hosted payment page. A **Theme** can be assigned to a device to customize the layout and format of the PayFabric’s hosted payment page. 
 The "Themes" page can be displayed by navigating **Settings** > **Themes** (under **Dev Central** section). 
 1.	In the **DEV Central** section, select the ‘Themes’ option 
