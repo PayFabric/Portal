@@ -34,7 +34,7 @@ You can keep on adding multiple devices based on your business needs. A single d
 
 ## Themes
 
-Different application may have different demand of displaying PayFabric hosted payment page. This is **PayFabric Theme** coming into picture. A "Theme" can be assigned to a device to enable the PayFabric hosted page get a specific UI when loading at that device. Click [here](#Themes.md) for more details.
+Different application may have different demand of displaying PayFabric hosted payment page. This is **PayFabric Theme** coming into picture. A "Theme" can be assigned to a device to enable the PayFabric hosted page get a specific UI when loading at that device. Click [here](Themes.md) for more details.
 
 ## Gateway Profile
 
