@@ -41,8 +41,8 @@ Different application may have different demand of displaying PayFabric hosted p
 Payment gateway account is needed to process transactions with PayFabric. 
 STEPS:
 1.	If the payment gateway account is not associated to an existing PayFabric account, under **Settings** > **Gateway Account**, click ‘**+ Add New Gateway**’ to create new gateway profile.
-2.	Choose ‘**Use your Existing Gateway**’ option
-3.	Fill in the remaining fields based on the payment gateway that is being used
+2.	Choose ‘**Use your Existing Gateway**’ option.
+3.	Fill in the remaining fields based on the payment gateway that is being used. Click [here](Gateway%20Configuration.md) for more details.
 
  * If a Gateway Account has already been setup, choose which of the supported gateways that will be used for processing transactions. 
  * If a gateway account is needed, please contact Nodus Technologies Support for information on setting up a Gateway Account. 
@@ -52,7 +52,7 @@ STEPS:
 
 ## Advanced Settings
 
-* [PayFabric Settings]()
+* [PayFabric Settings](PayFabric%20Settings.md)
 * [L2/3 Fields Default]()
 * [Receipt Email]()
-* [Themes]()
+* [Themes](Themes.md)
