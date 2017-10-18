@@ -12,7 +12,7 @@ PayFabric is a payment service for developers which includes **Payment APIs** , 
 
 # Glossary
 
-Below are key terms used throughout our documentation. Although you might already be familiar with these terms, our definitions may be different than other sources.
+Below are key terms used throughout our documentation. Although you might already be familiar with these terms, our definitions may be different than those found on other sources.
 
 | Terms        | Definition| 
 | :-------------|:-------------| 
@@ -24,7 +24,7 @@ Below are key terms used throughout our documentation. Although you might alread
 | Security Token| Token string is submitted along with API call for authentication |
 
 
-Before you start programming with PayFabric you'll need a PayFabric account. We have a [Quick Start](https://github.com/PayFabric/Portal/wiki) to guide you through the preparations. 
+Before you start programming with PayFabric you'll need to setup a PayFabric account. We have a [Quick Start](https://github.com/PayFabric/Portal/wiki) to guide you through the necessary preparations. 
 
 # Extended Reading
 * [Getting Started](https://github.com/PayFabric/Portal/wiki)
