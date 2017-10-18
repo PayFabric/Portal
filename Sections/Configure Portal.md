@@ -34,18 +34,7 @@ You can keep on adding multiple devices based on your business needs. A single d
 
 ## Themes
 
-Different application may have different needs of utilizing PayFabric’s hosted payment page. A **Theme** can be assigned to a device to customize the layout and format of the PayFabric’s hosted payment page. 
-The "Themes" page can be displayed by navigating **Settings** > **Themes** (under **Dev Central** section). 
-1.	In the **DEV Central** section, select the ‘Themes’ option 
-2.	Click the **Create New +** button and enter a name that would be relevant to the application 
-3.	Click the **Save** button to save the changes to the theme.
-
-## Assigning Theme to a Device
-
-Go back to **Devices** page and click on the icon of **Default Theme** and select the desired theme to associate to the chosen device. 
-Besides configuring theme for device, you can also "Change" device name, "Reset" device password, "Revoke" the device, or "Delete" this device. "Revoke" device will regenerate the GUID.
-
-![Default theme](https://s3-us-west-1.amazonaws.com/github-screenshot-repository/V3/DefaultTheme.png)
+Different application may have different demand of displaying PayFabric hosted payment page. This is **PayFabric Theme** coming into picture. A "Theme" can be assigned to a device to enable the PayFabric hosted page get a specific UI when loading at that device. Click [here](#Themes.md) for more details.
 
 ## Gateway Profile
 
