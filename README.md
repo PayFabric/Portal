@@ -12,7 +12,7 @@ PayFabric is a payment service for developers which includes **Payment APIs** , 
 
 # Glossary
 
-Below are key terms used throughout our documentation. Although you might already be familiar with these terms, our definitions may be different than those found on other sources.
+Below are key terms used throughout our documentation. Although you might already be familiar with these terms, our definitions may be different than those found in other sources.
 
 | Terms        | Definition| 
 | :-------------|:-------------| 
