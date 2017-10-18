@@ -1,10 +1,10 @@
 PayFabric support multiple and growing payment gateways. Each gateway will have their own setup information , therefore PayFabric support these setup with a flexible way. As you are switching the "Connector" field on the Gateway Account Profiles page, the "Gateway Fields" section will be refreshed in accordance with your selection.
 
 And currently, PayFabric support below gateways.
-* [Payflowpro (Paypal)](#payflowpro)
+* [Payflowpro (Paypal)](#payflowpro-paypal)
 * [Payeezy (First Data GGe4)](#payeezy-first-data-gge4)
 * [USAePay](#usaepay)
-* [Authorize.Net](#authorize.net)
+* [Authorize.Net](#authorizenet)
 * [Cybersource SOAP](#cybersource-soap)
 * [Cybersource](#cybersource)
 * [Paymentech](#paymentech)
@@ -15,7 +15,7 @@ And currently, PayFabric support below gateways.
 
 Configure the Gateway Account Profile using the following information. Fields not mentioned here are not required for the minimum configuration.
 
-## Payflowpro
+## Payflowpro (PayPal)
 | Field         | Value                   | 
 | ------------- |:---------------------------- | 
 |Connector|PayFlowPro|
