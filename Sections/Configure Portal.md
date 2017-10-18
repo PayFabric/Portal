@@ -53,6 +53,6 @@ STEPS:
 ## Advanced Settings
 
 * [PayFabric Settings](PayFabric%20Settings.md)
-* [L2/3 Fields Default]()
-* [Receipt Email]()
+* [L2/3 Fields Default](L2%20and%20L3%20Fields%20Default.md)
+* [Receipt Email](Payment%20Receipt.md)
 * [Themes](Themes.md)
