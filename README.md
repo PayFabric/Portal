@@ -20,7 +20,7 @@ Below are key terms used throughout our documentation. Although you might alread
 | Transaction| Payment transaction submitted to PayFabric | 
 | Wallet | Payment wallet submitted to PayFabric |
 | Device ID| A Guid to identify different applications or websites under one merchant account|  
-| Device Password| Each device has one which is required when exchanging security token with PayFabric|  
+| Device Password| Each device has one which is required to authenticate API request to PayFabric|  
 | Security Token| Token string is submitted along with API call for authentication |
 
 
