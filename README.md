@@ -10,7 +10,7 @@ PayFabric is a payment service for developers which includes **Payment APIs** , 
 * Fully customizable hosted pages
 
 
-# [Glossary](#glossary)
+# Glossary
 
 Below are key terms used throughout our documentation. Although you might already be familiar with these terms, our definitions may be different than other sources.
 
