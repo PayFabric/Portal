@@ -27,6 +27,11 @@ Below is the terms we are using in this documents. You may not see it before, or
 Before programming with PayFabric, you need a PayFabric account to get started. We have a [Quick Start](Sections/Configure%20Portal.md) to guide you through the preparations. 
 
 # Extended Reading
-* [Getting Started](https://github.com/PayFabric/Portal/wiki)
-* [APIs](https://github.com/PayFabric/PayFabric-APIs)
-* [Settings](https://github.com/PayFabric/Portal/wiki/PayFabric-Settings)
+* [PayFabric APIs](https://github.com/PayFabric/PayFabric-APIs)
+* [PayFabric Settings](Sections/PayFabric%20Settings.md)
+* [Gateway Configuration](Sections/Gateway%20Configuration.md)
+* [Themes](Sections/Themes.md)
+* [Payment Receipt](Sections/Payment%20Receipt.md)
+* [Level 2 and Level 3 Fields Default](Sections/L2%20and%20L3%20Fields%20Default.md)
+* [Transaction Types](Sections/Transaction%20Types.md)
+* [PayFabric Error Codes](Sections/PayFabric%20Error%20Codes.md)
