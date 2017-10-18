@@ -21,7 +21,7 @@ By default, the account is set to sandbox mode when the account is first created
 
 Any application that utilizes PayFabric in the backend for payment processing requires a set of device & password.
 
-| FIELD                | DESCRIPTION  | 
+| Field                | Description  | 
 | :--------------------|:-------------| 
 | Device ID            | A unique & secure identifier to identify different applications under a single PayFabric merchant account. | 
 | Device Password      | Assigned to a single device. Both device Id and device password are required when integrating with PayFabric. | 
