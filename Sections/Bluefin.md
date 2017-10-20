@@ -6,6 +6,8 @@ With P2PE, it helps with reduce PCI Scope and protects against malware in regard
 
 Supported P2PE device: IDTech SRED.
 
+To configure Bluefin profile, navigate to **Settings** > **Bluefin Profile** (under **P2PE Decryptx Settings**).
+
 ![Bluefin Profile](https://s3-us-west-1.amazonaws.com/github-screenshot-repository/V3/BluefinProfile.png)
 
 |Field                          |Description  | 
