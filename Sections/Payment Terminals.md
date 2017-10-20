@@ -43,7 +43,7 @@ Specify a terminal device under this option so the selected device is always the
 ![Terminal Processing Method](https://s3-us-west-1.amazonaws.com/github-screenshot-repository/V3/TerminalsProcessingMethod.png)
 
 |Field                          |Description  | 
-|------------------------------|:-------------| 
+|------------------------------|-------------| 
 |Web Entry Only| Only allow transaction using web entry via hosted page |
 |EMV Only| Only allow transaction using EMV device |
 |Both EMV and Web Entry| Allow both EMV and web entry |
