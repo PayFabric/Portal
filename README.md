@@ -33,5 +33,7 @@ Before programming with PayFabric, you need a PayFabric account to get started. 
 * [Themes](Sections/Themes.md)
 * [Payment Receipt](Sections/Payment%20Receipt.md)
 * [Level 2 and Level 3 Fields Default](Sections/L2%20and%20L3%20Fields%20Default.md)
+* [Payment Terminals](Sections/Payment%20Terminals.md)
+* [Bluefin](Sections/Bluefin.md)
 * [Transaction Types](Sections/Transaction%20Types.md)
 * [Error Codes](Sections/PayFabric%20Error%20Codes.md)
