@@ -29,7 +29,6 @@ Following parameters are able to be embeded into email templates. At the moment 
 | \[\[CompanyStreet2\]\]   | Merchant's street line 2 in profile page|
 | \[\[CompanyStreet3\]\]   | Merchant's street line 3 in profile page|
 | \[\[CompanyEmail\]\]   | Merchant's company email in profile page|
-| \[\[CompanyAccountNumber\]\] | Unique number allocated by PayFabric|
 | \[\[DocumentNumber\]\]   | Invoice number or order number of this transaction|
 | \[\[PaymentNumber\]\]   | PayFabric transaction key|
 | \[\[PaymentProcessDate\]\]   | Date and time of processing this transaction|
