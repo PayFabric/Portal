@@ -1,28 +1,27 @@
-# What is PayFabric
-PayFabric is a payment service for developers, which includes **Payment APIs** , **Hosted Checkout Page** , and so on. Audiences of this document are developers who are ready to add payment features into their desktop applications, web applications, or mobile applications. PayFabric has below outstanding features which can complete the integration quickly and gracefully.
+# What is PayFabric?
+PayFabric is a payment service for developers which includes **Payment APIs** , **Hosted Checkout Page**, **Customizable Themes** and more. Audiences of this document are developers who are ready to add payment features into their desktop, web or mobile applications. PayFabric has many outstanding features which help complete integrations quickly and gracefully.
 
 # Features
 
-* Full featured and flexible payment APIs.
-* Support many and growing gateways.
-* PCI Compliance right way with Hosted Payment Page.
-* Support customer wallet.
-* Fully customizable hosted pages.
+* Full featured and flexible payment APIs
+* Support many and growing gateways
+* PCI Compliance right way with Hosted Payment Page
+* Support customer wallet
+* Fully customizable hosted pages
 
 
-# [Glossary](#glossary)
+# Glossary
 
-Below is the terms we are using in this documents. You may not see it before, or we will give different meaning other than you previously know about.
+Below are key terms used throughout our documentation. Although you might already be familiar with these terms, our definitions may be different than those found in other sources.
 
 | Terms        | Definition| 
 | :-------------|:-------------| 
-| Gateway| Payment gateway such as PayPal, FirstDataGGe4, and so on | 
+| Gateway| Payment gateway such as PayPal, FirstDataGGe4 and so on | 
 | Transaction| Payment transaction submitted to PayFabric | 
 | Wallet | Payment wallet submitted to PayFabric |
 | Device ID| A Guid to identify different applications or websites under one merchant account|  
-| Device Password| Each device has one. Required when exchanging security token with PayFabric|  
+| Device Password| Each device has one which is required when authenticating API request to PayFabric|  
 | Security Token| Token string is submitted along with API call for authentication |
-
 
 Before programming with PayFabric, you need a PayFabric account to get started. We have [Steps](Sections/Configure%20Portal.md) to guide you through the preparations. 
 
