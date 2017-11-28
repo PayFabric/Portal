@@ -23,10 +23,16 @@ Below are key terms used throughout our documentation. Although you might alread
 | Device Password| Each device has one which is required when authenticating API request to PayFabric|  
 | Security Token| Token string is submitted along with API call for authentication |
 
-
-Before you start programming with PayFabric you'll need to setup a PayFabric account. We have a [Quick Start](https://github.com/PayFabric/Portal/wiki) to guide you through the necessary preparations. 
+Before programming with PayFabric, you need a PayFabric account to get started. We have [Steps](Sections/Configure%20Portal.md) to guide you through the preparations. 
 
 # Extended Reading
-* [Getting Started](https://github.com/PayFabric/Portal/wiki)
 * [APIs](https://github.com/PayFabric/PayFabric-APIs)
-* [Settings](https://github.com/PayFabric/Portal/wiki/PayFabric-Settings)
+* [Settings](Sections/PayFabric%20Settings.md)
+* [Gateway Configuration](Sections/Gateway%20Configuration.md)
+* [Themes](Sections/Themes.md)
+* [Payment Receipt](Sections/Payment%20Receipt.md)
+* [Level 2 and Level 3 Fields Default](Sections/L2%20and%20L3%20Fields%20Default.md)
+* [Payment Terminals](Sections/Payment%20Terminals.md)
+* [Bluefin](Sections/Bluefin.md)
+* [Transaction Types](Sections/Transaction%20Types.md)
+* [Error Codes](Sections/PayFabric%20Error%20Codes.md)
