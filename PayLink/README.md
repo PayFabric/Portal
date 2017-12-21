@@ -23,7 +23,7 @@ Below is the terms we are using in this documents. You may not see it before, or
 
 | Terms        | Definition| 
 | :-------------|:-------------| 
-| Gateway | Payment gateway such as PayPal, FirstDataGGe4, and so on | 
+| Gateway | Payment gateway such as PayPal, FirstDataGGe4 and so on | 
 | Transaction | Payment transaction submitted to PayFabric | 
 | Wallet | Payment wallet submitted to PayFabric |
 | Device ID | A Guid to identify different applications or websites under one merchant account |  
@@ -31,12 +31,12 @@ Below is the terms we are using in this documents. You may not see it before, or
 | Security Token | Token string is submitted along with API call for authentication |
 
 
-Before programming with PayLink, you need a PayLink account to get started. We have a [Quick Start Guide](Sections/Quick%20Start%20Guide.md) to guide you through the preparations. 
+Before programming with PayLink, you need a PayLink account to get started. Refer to [Steps](/Sections/Configure%20Portal.md) to go through the preparations. 
 
 Extended Reading
 ----------------
 
-* [PayLink Portal Pages](Sections/Features.md)
-* [API Documentation](../../../APIs/tree/v2)
+* [PayLink Featrues](Sections/Features.md)
+* [API Documentation](../../../APIs/tree/master)
 * [PayFabric Portal Documentation](https://github.com/PayFabric/Portal)
 * [PayFabric API Documentation](https://github.com/PayFabric/APIs)
