@@ -40,3 +40,4 @@ Extended Reading
 * [API Documentation](../../../APIs/tree/master)
 * [PayFabric Portal Documentation](https://github.com/PayFabric/Portal)
 * [PayFabric API Documentation](https://github.com/PayFabric/APIs)
+* [eCommerce with PayFabric & GP](../PayFabric/Sections/eCommerce%20with%20PayFabric%20%26%20GP.pdf)
