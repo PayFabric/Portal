@@ -31,7 +31,7 @@ Below is the terms we are using in this documents. You may not see it before, or
 | Security Token | Token string is submitted along with API call for authentication |
 
 
-Before programming with PayLink, you need a PayLink account to get started. Refer to [Steps](/Sections/Configure%20Portal.md) to go through the preparations. 
+Before programming with PayLink, you need a PayLink account to get started. Refer to [Steps](/PayLink/Sections/Configure%20Portal.md) to go through the preparations. 
 
 Extended Reading
 ----------------
