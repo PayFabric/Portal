@@ -37,7 +37,7 @@ Extended Reading
 ----------------
 
 * [PayLink Featrues](Sections/Features.md)
-* [API Documentation](../../../APIs/tree/master)
-* [PayFabric Portal Documentation](https://github.com/PayFabric/Portal)
-* [PayFabric API Documentation](https://github.com/PayFabric/APIs)
+* [API Documentation](../../../../APIs/tree/master/PayLink)
+* [PayFabric Portal Documentation](../PayFabric)
+* [PayFabric API Documentation](../../../../APIs/tree/master/PayFabric)
 * [eCommerce with PayFabric & GP](../PayFabric/Sections/eCommerce%20with%20PayFabric%20%26%20GP.pdf)
