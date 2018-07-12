@@ -109,8 +109,8 @@ To use the Cybersource Gateway, it is necessary to obtain the secure CyberSource
 |Processor|Paymentech|
 |Card Class|Choose ‘Credit’ for Credit Card Transactions|
 ||Choose ‘ECheck’ for eCheck Transactions|
-| Server.Address       | For Test Transactions: https://orbitalvar1.paymentech.net/authorize |
-|| For Live Transactions: https://orbital1.paymentech.net/authorize | 
+| Server.Address       | For Test Transactions: https://orbitalvar1.chasepaymentech.com/authorize |
+|| For Live Transactions: https://orbital1.chasepaymentech.com/authorize | 
 |Port|443|
 | MerchantID           | This is the Merchant identifier used for the Paymentech Account|
 | BIN                  | This is the typically 6 digits bin number associated with the Paymentech Account |
