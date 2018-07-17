@@ -177,6 +177,23 @@ To use the Cybersource Gateway, it is necessary to obtain the secure CyberSource
 | CustomerIDUDFID      | This is the customer identifier obtained from FrontStream Fundraising Pro |
 | InvoiceNumbersUDFID  | This is the invoice number identifier obtained from FrontStream Fundraising Pro |
 
+## EVO
+
+| Field                | Value                   | 
+| -------------------- |:---------------------------- | 
+|Connector|EVO|
+|Processor|Evo US|
+|Card Class|Credit|
+| Server.Url           | https://api.cipcert.goevo.com/2.1.29/REST |
+| Server.Port             | 443 |
+| IdentityToken             | This is the Identity Token for the API service obtained from EVO |
+| ApplicationId             | This is the Application ID for the API service obtained from EVO |
+| MerchantProfile             | This is the Merchant ID for the API service obtained from EVO |
+| EmvMerchantProfile             | This is the EMV Merchant ID for the API service obtained from EVO |
+| ServiceId             | This is the Service ID for the API service obtained from EVO |
+| SvaMerchantProfile             | This is the SVA Merchant ID for the API service obtained from EVO |
+| SvaServiceId             | This is the SVA Service ID for the API service obtained from EVO |
+
 ## EziDebit
 
 | Field                | Value                   | 
@@ -185,5 +202,5 @@ To use the Cybersource Gateway, it is necessary to obtain the secure CyberSource
 |Processor|EziDebit|
 |Card Class|ECheck|
 | Server.Url           | For Test Transactions: https://api.demo.ezidebit.com.au/v3-5/pci |
-|| For Live Transactions: https://api.ezidebit.com.au/v3-5/pci | 
+|| For Live Transactions: https://api.ezidebit.com.au/v3-5/pci |
 | Digital Key             | This is the Digital Key for the API service obtained from EziDebit|
