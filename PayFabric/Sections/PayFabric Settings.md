@@ -34,6 +34,7 @@ These are settings relate to process a payment transaction.
 | Maximum Shipping Address| Limit the number of shipping address(s) loaded on PayFabric hosted payment page by specify the number of saved card. The default value is 10.|
 | Batch Number Prefix|User defined prefix for batch number.|
 |Maximum Amount Per Transaction|Specify a maximum amount for each transaction.|
+|Enable Security Token|For APIs and Hosted Pages: this is the default option where security token will be allow to use as the authentication method in both hosted pages and APIs. For Hosted Pages Only: with this option, security token will ONLY be allow to use as the authentication method in hosted pages. The API service response will fail authentication if any API calls was authenticated using security token.|
 
 ## Unit Of Measure Mapping for Payeezy (First Data GGE4)
 For merchant using Payeezy gateway, item’s unit of measure needs to be mapped to the values supported by the gateway. See referenced URL for valid UOM from First Data. 
