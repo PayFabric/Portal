@@ -18,7 +18,7 @@ These are settings relate to process a payment transaction.
 | Lock Gateway Account           | If this option is check marked, system will prevent user from changing the gateway account profile on PayFabric’s hosted payment page. |
 | Fail On CVV2 Mismatch          | Payment gateway verifies the CSC (Card Security Code). By checking this option, PayFabric will automatically void any approved payment if the CSC verification failed by the gateway/processor. |
 | Shipping Address Required | By default, shipping address is not required as processing transactions. Checking this option to enable this logic. |
-| Partial Shipping | This option is for capturing a pre-authorized transaction. By default (uncheck), the capturing amount must be same with pre-authorization. By checking this option, merchant allow the capturing amount less than the original pre-authorization transaction.|
+| Partial Shipping | This option is for capturing a pre-authorized transaction. By default (uncheck), the capturing amount must be same with pre-authorization. By checking this option, merchant allow the capturing amount less/more than the original pre-authorization transaction.|
 | Lock Transaction Type| If this option is check marked, system will prevent user from changing the transaction type on PayFabric’s hosted payment page.|
 |Fail On Address Mismatch | Payment gateway verifies the billing address. By checking this option, PayFabric will automatically void any approved payment if the address verification failed by the gateway/processor.|
 |Lock Currency| If this option is check marked, system will prevent user from changing the currency type on PayFabric’s hosted payment page.|
