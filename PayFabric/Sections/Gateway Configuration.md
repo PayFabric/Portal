@@ -3,7 +3,7 @@ PayFabric support multiple and growing payment gateways. Each gateway will have 
 And currently, PayFabric support below gateways.
 * [Payflowpro (Paypal)](#payflowpro-paypal)
 * [Payeezy (First Data GGe4)](#payeezy-first-data-gge4)
-* [USAePay](#usaepay)
+* [USAePaySOAP](#usaepaysoap)
 * [Authorize.Net](#authorizenet)
 * [Cybersource SOAP](#cybersource-soap)
 * [Cybersource](#cybersource)
@@ -12,6 +12,7 @@ And currently, PayFabric support below gateways.
 * [Moneris](#moneris)
 * [Forte](#forte)
 * [FrontStream Fundraising Pro](#frontstream-fundraising-pro)
+* [EziDebit](#ezidebit)
 
 Configure the Gateway Account Profile using the following information. Fields not mentioned here are not required for the minimum configuration.
 
@@ -45,17 +46,19 @@ To obtain most of this information, log into the gateway account, browse to ‘T
 | GatewayID       |‘Gateway ID’ associated to the Terminal for the Payeezy account. This value is located under the ‘Details’ tab after selecting the terminal.     |
 | GatewayPassword | ‘Password’ associated to the Terminal for the Payeezy account. This value is generated under the ‘Details’ tab after selecting the terminal.    |
 
-## USAePay
+## USAePaySOAP
 | Field                | Value                   | 
 | -------------------- |:---------------------------- | 
-|Connector|USAePay|
+|Connector|USAePaySOAP|
 |Processor|USAePay|
 |Card Class|Choose ‘Credit’ for Credit Card Transactions|
 ||Choose ‘ECheck’ for eCheck Transactions|
-|Server.Address|Put Test or Live in this field if this Setup id being used for a test or live account respectively|
+|Server.Address|For Test Transactions: https://sandbox.usaepay.com/soap/gate|
+|| For Live Transactions: https://secure.usaepay.com/soap/gate | 
 |Server.Port|443|
+|Server.APIKey|245VMXN8|
 | SourceKey           | This is the Source Key that is obtained from the settings of the USAePay gateway    |
-| TestMode            | For only check the connection, set this value to 'True', other wise set it to 'False'   |
+| Pin            | This is the Pin of the Source Key that is obtained from the settings of the USAePay gateway   |
 
 ## Authorize.Net
 | Field                | Value                   | 
@@ -69,7 +72,6 @@ To obtain most of this information, log into the gateway account, browse to ‘T
 | Server.Port         | 443 |
 | LoginID             | This is the login id used for the Authorize.net account  |
 | TransactionKey      | This key can be obtained from the Authorize.Net Gateway. Contact the Authorize.net gateway provider for more details.      |
-| TestMode            | For only check the connection, set this value to 'True', other wise set it to 'False' |
 
 ## Cybersource SOAP
 
@@ -162,6 +164,9 @@ To use the Cybersource Gateway, it is necessary to obtain the secure CyberSource
 
 | Field                | Value                   | 
 | -------------------- |:---------------------------- | 
+|Connector|FrontStreamFundraisingPro|
+|Processor|FrontStreamFundraisingPro|
+|Card Class|Credit|
 | Server.Url           | For Test Transactions: https://secureuat.artezhq.com/api/ |
 || For Live Transactions: https://secure.e2rm.com/api/Donations | 
 | UserName             | This is the user name for the API service obtained from FrontStream Fundraising Pro|
@@ -171,3 +176,14 @@ To use the Cybersource Gateway, it is necessary to obtain the secure CyberSource
 | OrganizationNameUDFID|This is the organization identifier obtained from FrontStream Fundraising Pro |
 | CustomerIDUDFID      | This is the customer identifier obtained from FrontStream Fundraising Pro |
 | InvoiceNumbersUDFID  | This is the invoice number identifier obtained from FrontStream Fundraising Pro |
+
+## EziDebit
+
+| Field                | Value                   | 
+| -------------------- |:---------------------------- | 
+|Connector|EziDebit|
+|Processor|EziDebit|
+|Card Class|ECheck|
+| Server.Url           | For Test Transactions: https://api.demo.ezidebit.com.au/v3-5/pci |
+|| For Live Transactions: https://api.ezidebit.com.au/v3-5/pci | 
+| Digital Key             | This is the Digital Key for the API service obtained from EziDebit|
