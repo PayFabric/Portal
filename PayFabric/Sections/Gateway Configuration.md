@@ -12,6 +12,7 @@ And currently, PayFabric support below gateways.
 * [Moneris](#moneris)
 * [Forte](#forte)
 * [FrontStream Fundraising Pro](#frontstream-fundraising-pro)
+* [EVO](#evo)
 * [EziDebit](#ezidebit)
 
 Configure the Gateway Account Profile using the following information. Fields not mentioned here are not required for the minimum configuration.
