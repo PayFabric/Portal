@@ -36,7 +36,7 @@ Before programming with PayLink, you need a PayLink account to get started. Refe
 Extended Reading
 ----------------
 
-* [PayLink Featrues](Sections/Features.md)
+* [PayLink Features](Sections/Features.md)
 * [API Documentation](../../../../APIs/tree/master/PayLink)
 * [PayFabric Portal Documentation](../PayFabric)
 * [PayFabric API Documentation](../../../../APIs/tree/master/PayFabric)
