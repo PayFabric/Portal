@@ -36,3 +36,4 @@ Before programming with PayFabric, you need a PayFabric account to get started. 
 * [Bluefin](Sections/Bluefin.md)
 * [Transaction Types](Sections/Transaction%20Types.md)
 * [Error Codes](Sections/PayFabric%20Error%20Codes.md)
+* [eCommerce with PayFabric & GP](Sections/eCommerce%20with%20PayFabric%20%26%20GP.pdf)

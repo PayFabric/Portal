@@ -31,12 +31,13 @@ Below is the terms we are using in this documents. You may not see it before, or
 | Security Token | Token string is submitted along with API call for authentication |
 
 
-Before programming with PayLink, you need a PayLink account to get started. Refer to [Steps](/Sections/Configure%20Portal.md) to go through the preparations. 
+Before programming with PayLink, you need a PayLink account to get started. Refer to [Steps](/PayLink/Sections/Configure%20Portal.md) to go through the preparations. 
 
 Extended Reading
 ----------------
 
-* [PayLink Featrues](Sections/Features.md)
-* [API Documentation](../../../APIs/tree/master)
-* [PayFabric Portal Documentation](https://github.com/PayFabric/Portal)
-* [PayFabric API Documentation](https://github.com/PayFabric/APIs)
+* [PayLink Features](Sections/Features.md)
+* [API Documentation](../../../../APIs/tree/master/PayLink)
+* [PayFabric Portal Documentation](../PayFabric)
+* [PayFabric API Documentation](../../../../APIs/tree/master/PayFabric)
+* [eCommerce with PayFabric & GP](../PayFabric/Sections/eCommerce%20with%20PayFabric%20%26%20GP.pdf)

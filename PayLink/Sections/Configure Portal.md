@@ -1,4 +1,4 @@
-To start integrating with PayLink, users will have to pre-configure their Payfabric and PayLink services. Click [here](https://github.com/PayFabric/Portal/blob/master/Sections/Configure%20Portal.md) for PayFabric Setup.
+To start integrating with PayLink, users will have to pre-configure their Payfabric and PayLink services. Click [here](/PayFabric/Sections/Configure%20Portal.md) for PayFabric Setup.
 
 
 Access PayLink Service
