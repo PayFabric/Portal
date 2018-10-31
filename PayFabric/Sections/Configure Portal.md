@@ -1,4 +1,4 @@
-Nodus PayFabric Cloud service has its own web portal where merchant can configure their PayFabric account settings, view and manage their transaction reports.
+﻿Nodus PayFabric Cloud service has its own web portal where merchant can configure their PayFabric account settings, view and manage their transaction reports.
 
 ## PayFabric Portal URL:
 https://www.payfabric.com/portal
@@ -25,7 +25,7 @@ Any application that utilizes PayFabric in the backend for payment processing re
 | Device ID            | A unique & secure identifier to identify different applications under a single PayFabric merchant account. | 
 | Device Password      | Assigned to a single device. Both device Id and device password are required when integrating with PayFabric. | 
 
-Every merchant will get a **System Default** device by default when they were creating a PayFabric account. System default device is generally the device that is used if user creates wallet entry or process a transaction directly from the PayFabric portal.
+Every merchant will get a **Virtaul Terminal** device by default when they were creating a PayFabric account. Virtaul Terminal device is generally the device that is used if user creates wallet entry or process a transaction directly from the PayFabric portal.
 To generate a new set of device and corresponding password, navigate through Settings. From **Settings** >  **Devices** (under **Dev Central** section) > click **Generate** button and populate fields "Device Name", "Password", "Confirm Password", and click "Save". 
 
 ![Device](https://s3-us-west-1.amazonaws.com/github-screenshot-repository/V3/DeviceManagement.png)
