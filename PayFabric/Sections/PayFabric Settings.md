@@ -24,6 +24,7 @@ These are settings relate to process a payment transaction.
 |Lock Currency| If this option is check marked, system will prevent user from changing the currency type on PayFabric’s hosted payment page.|
 |Popup Message|If this option is check marked, system will display response or error message to end-user using popup message instead of inline within PayFabric’s hosted payment page and hosted wallet page.|
 |IP Address Validation for Security Token|If enabled, PayFabric will validate the security token’s IP address. If the IP address associated with the security token at the time of token creation does not match the security token at the time of token consumption, PayFabric will return the ‘failed authentication’ error during API calls. If disabled, PayFabric will not validate the security’s token IP address during API calls. By default, this setting is enabled.|
+|Partial Referenced Credit|If enabled, PayFabric will allow to process partial referenced credit/refund transaction for their customers from `Manage Transactions`. Note: This options is only available for Virtual Terminal. |
 
 ## General Settings
 |Field                          |Description  | 
