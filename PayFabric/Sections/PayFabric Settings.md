@@ -2,7 +2,7 @@ To configure transaction-related settings, navigate to Settings > DEV Central > 
 
 ## Design Mode
 
-PayFabric Virtual Terminal have introduced two UI Modes for `Process a Transaction` , `Legacy Design` and `Modern Design`
+PayFabric Virtual Terminal have introduced two UI Modes for virtual terminal , `Legacy Design` and `Modern Design`
 
 * `Legacy Design`: Maintain the existing user interface and experience for virtual terminal where user can mimic the hosted API calls for PayFabric and also review the custom’s device theme directly on PayFabric portal. 
 ![LegacyDesign](https://s3-us-west-1.amazonaws.com/github-screenshot-repository/V3/LegacyDesign.png)
