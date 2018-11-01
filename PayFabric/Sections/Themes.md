@@ -6,7 +6,7 @@ The "Themes" page can be displayed by navigating **Settings** > **Themes** (unde
 2.	Click the **Create New +** button and enter a name that would be relevant to the application 
 3.	Click the **Save** button to save the changes to the theme.
 
-![Theme](https://s3-us-west-1.amazonaws.com/github-screenshot-repository/V3/Themes.png)
+![Theme](https://s3-us-west-1.amazonaws.com/github-screenshot-repository/V3/LegacyDesign.png)
 
 Also you can choose to show/hide the related fields on hosted payment page by check/uncheck the parameters of the theme.
 
