@@ -1,4 +1,8 @@
-To configure transaction-related settings, navigate to Settings > DEV Central > PayFabric Settings. Please see the detailed description for each corresponding section below. 
+To configure transaction-related settings. Please see the detailed description for each corresponding section below. 
+
+# PayFabric Settings
+
+Navigate to Settings > DEV Central > PayFabric Settings.
 
 ## Design Mode
 
@@ -56,3 +60,19 @@ For merchant using Payeezy gateway, item’s unit of measure needs to be mapped 
 ![Payeezy UOM](https://s3-us-west-1.amazonaws.com/github-screenshot-repository/V3/UOMMapping.png)
 
 Reference: https://support.payeezy.com/hc/en-us/articles/203732159-Units-of-Measure
+
+# Default Gateway Settings
+
+Navigate to Settings > DEV Central > Default Gateway Settings.
+
+With `Modern Design`, PayFabric provides merchant the ability to specify default gateway profile based on currency types so their internal user does not need to select a gateway profile at the time of processing a transaction. This functionality is supported through PayFabric API calls for all PayFabric apps/devices.
+
+![DefaultGatewaySetings](https://s3-us-west-1.amazonaws.com/github-screenshot-repository/V3/DefaultGatewaySetings.png)
+
+Each Device is allowed to setup a Credit card and a eCheck gateway profile against currency, prior to setup default gateway, gateway profile must be created from `Settings` > `Gateway Account Profiles`. `Virtual Terminal` option of Device Name is only available when Design Mode is `Modern Design` under `PayFabric Settings`.
+
+# Discretionary Data
+
+Navigate to Settings > DEV Central > Discretionary Data.
+
+With `Modern Design` mode for Virtual Terminal, merchant will have the ability to create their own custom field to associate additional data for each transaction with PayFabric. Discretionary data will only reside with PayFabric and will not be pass on to payment gateway or payment processor. 
