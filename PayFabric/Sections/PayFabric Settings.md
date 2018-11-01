@@ -1,9 +1,20 @@
 To configure transaction-related settings, navigate to Settings > DEV Central > PayFabric Settings. Please see the detailed description for each corresponding section below. 
 
-![Settings](https://s3-us-west-1.amazonaws.com/github-screenshot-repository/V3/Settings.png)
+## Design Mode
+
+PayFabric Virtual Terminal have introduced two UI Modes for `Process a Transaction` , `Legacy Design` and `Modern Design`
+
+* `Legacy Design`: Maintain the existing user interface and experience for virtual terminal where user can mimic the hosted API calls for PayFabric and also review the custom’s device theme directly on PayFabric portal. 
+![LegacyDesign](https://s3-us-west-1.amazonaws.com/github-screenshot-repository/V3/LegacyDesign.png)
+
+* `Modern Design`: Introduce a new user friendly design for Virtual Terminal to allow merchant to process transactions against PayFabric web portal via web entry and/or terminal entry. 
+![ModernDesign](https://s3-us-west-1.amazonaws.com/github-screenshot-repository/V3/ModernDesign.png)
 
 ## Device Name
 The drop-down consists all existing devices associated with the PayFabric account. PayFabric enable user to configure different transaction settings for every device. Choose the corresponding device from the drop-down list, then begin making changes to the settings.
+
+## Web Entry Transaction Fields
+Define the field(s) that will be available on `Process a Transaction` page by tick or untick the field name from the list, to control the additional values for transaction processing. 
 
 ## Accept Card Types
 Define the supported card type(s) by tick or untick the card type from the list. 
@@ -33,10 +44,11 @@ These are settings relate to process a payment transaction.
 | PostURL       | PayFabric will post transaction response data (Non-sensitive fields) to this URL once this transaction is processed (successful or failed) |
 | Maximum History Cards |Limit the number of wallet entries loaded on PayFabric hosted pages by specify the number of saved card. The default value is 10.|
 | Return URL|A URL address that PayFabric can redirect to once a transaction is processed. The response fields will be encoded and attached into query string.|
-| Maximum Shipping Address| Limit the number of shipping address(s) loaded on PayFabric hosted payment page by specify the number of saved card. The default value is 10.|
-| Batch Number Prefix|User defined prefix for batch number.|
+| Maximum Shipping Address| Limit the number of shipping address(s) loaded on PayFabric hosted payment page by specify the number of saved card. The default value is 10. Note: this options is only available for `Legacy Design`|
+| Batch Number Prefix|User defined prefix for batch number. Note: this options is only available for `Legacy Design`|
 |Maximum Amount Per Transaction|Specify a maximum amount for each transaction.|
 |Enable Security Token|For APIs and Hosted Pages: this is the default option where security token will be allow to use as the authentication method in both hosted pages and APIs. For Hosted Pages Only: with this option, security token will ONLY be allow to use as the authentication method in hosted pages. The API service response will fail authentication if any API calls was authenticated using security token.|
+| Default Transaction Type|PayFabric offers the ability for merchant to specify the default transaction type on PayFabric’s Virtual Terminal.. Note: this options is only available for `Modern Design`|
 
 ## Unit Of Measure Mapping for Payeezy (First Data GGE4)
 For merchant using Payeezy gateway, item’s unit of measure needs to be mapped to the values supported by the gateway. See referenced URL for valid UOM from First Data. 
