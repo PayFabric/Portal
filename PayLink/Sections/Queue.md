@@ -31,6 +31,6 @@ Note: Cancelled Wallet Links are not displayed by default, you need to mark **In
 Extended Reading
 ----------------
 
-* [API Documentation](../../../APIs/tree/master)
+* [API Documentation](https://github.com/PayFabric/APIs/tree/master/PayLink)
 * [PayFabric Portal Documentation](https://github.com/PayFabric/Portal)
 * [PayFabric API Documentation](https://github.com/PayFabric/APIs)
