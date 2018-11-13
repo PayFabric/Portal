@@ -24,10 +24,10 @@ For more information on how to configure your Device and Payment Gateway informa
 
 |Field                          |Description  |
 |:------------------------------|:-------------|
-| ERP Connection          | Setup connection for specific ERP. |
+| ERP ConnectionÂ  Â  Â  Â  Â  | Setup connection for specific ERP. |
 | Card Name Mapping       | Setup mapping bewteen supported card type in PayLink and card name in selected ERP. |
 | Document Batch ID       |  This option allow to specify Batch ID for post document. |
-| Generate Payment Number Setting       | When PayLink document's Post Data Type is Cash Receipt, specify the document prefix and the length of the PayLink’s payment document with this setting. Only available for Microsoft Dynamics GP integration. |
+| Generate Payment Number Setting       | When PayLink document's Post Data Type is Cash Receipt, specify the document prefix and the length of the PayLinkâ€™s payment document with this setting. Only available for Microsoft Dynamics GP integration. |
 | Generate Debit Memo Number Setting       | When PayLink document contains Surcharge amount, a debit memo will be posted to Microsoft Dynamics GP with the amount. Only available for Microsoft Dynamics GP integration. |
 
 ![PayLinkERPConfiguration](https://s3-us-west-1.amazonaws.com/github-screenshot-repository/V3/PayLinkERPConfiguration.png)
@@ -49,6 +49,6 @@ All of our templates have ability of inserting parameters.  Parameters are activ
 Extended Reading
 ----------------
 
-* [API Documentation](../../../APIs/tree/master)
+* [API Documentation](https://github.com/PayFabric/APIs/tree/master/PayLink)
 * [PayFabric Portal Documentation](https://github.com/PayFabric/Portal)
 * [PayFabric API Documentation](https://github.com/PayFabric/APIs)
