@@ -1,7 +1,7 @@
 Receivables
 =======
 
-What is Receivables
+What is PayFabric Receivables?
 ---------------
 
 PayFabric Receivables is an add-on service to PayFabric that provides businesses the tools to
