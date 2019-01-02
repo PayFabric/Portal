@@ -12,7 +12,7 @@ Features
 * Faster Payment Collection
 * Lower Risk & Liability
 * Reduced and Simplified Billing Expenses
-* Seamless Integration with Microsoft Dynamics GP, SL and CRM
+* Seamless Integration with Microsoft Dynamics GP and SL
 * Simple but Powerful APIs
 
 
