@@ -20,7 +20,7 @@ For more information on how to configure your Device and Payment Gateway informa
 
 ### Configure ERP Connection
 
-**Settings** > **Configure ERP Connection**. PayLink is able to send payment information back to Microsoft Dynamics GP, Microsoft Dynamics SL and Salespad after payment get processed.
+**Settings** > **Configure ERP Connection**. PayLink is able to send payment information back to Microsoft Dynamics GP, Microsoft Dynamics SL and Salespad after the payment is processed.
 
 |Field                          |Description  |
 |:------------------------------|:-------------|
