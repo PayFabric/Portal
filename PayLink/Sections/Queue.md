@@ -4,7 +4,7 @@ Queues
 Document Queue
 ------
 
-You are able to search out all existing PayLinks in Document Queue and export the list, Furthermore, it allow to perform various actions on your existing PayLinks.  You are able to:
+User is able to search for all existing PayLinks from Document Queue and export the list. Furthermore, it allows user to perform various actions agaisnt existing PayLinks, such as:
 
 * Cancel Unpaid PayLinks 
 * Resend Notifications for PayLinks
@@ -14,19 +14,19 @@ You are able to search out all existing PayLinks in Document Queue and export th
 
 ![PayLinkQueue](https://s3-us-west-1.amazonaws.com/github-screenshot-repository/V3/PayLinkQueue.png)
 
-Note: Cancelled PayLinks are not displayed by default, you need to mark **Include Cancelled Document** under **Search** Tab to display it.
+Note: Cancelled PayLinks are not displayed by default, user needs to mark **Include Cancelled Document** under **Search** Tab to display them.
 
 Wallet Queue
 --------
 
-You are able to search out all existing WalletLinks in Document Queue and export the list, Furthermore, it perform various actions on your existing WalletLinks.  You are able to:
+User is able to search for all existing WalletLinks in Wallet Queue and export the list. Furthermore, it allows user to perform various actions against existing WalletLinks, such as:
 
 * Cancel Incomplete WalletLinks
 * Resend Notifications for WalletLinks
 
 ![WalletLinkQueue](https://s3-us-west-1.amazonaws.com/github-screenshot-repository/V3/WalletLinkQueue.png)
 
-Note: Cancelled Wallet Links are not displayed by default, you need to mark **Include Cancelled Document** under **Search** Tab to display it.
+Note: Cancelled Wallet Links are not displayed by default, user needs to mark **Include Cancelled Document** under **Search** Tab to display them.
 
 Extended Reading
 ----------------
