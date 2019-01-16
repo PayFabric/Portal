@@ -8,7 +8,7 @@ For more information on how to configure your Device and Payment Gateway informa
 
 ### PayFabric Device
 
-**Settings** > **PayFabric Device**. PayLink leverage the PayFabric's hosted page to process transaction and save wallet. User needs to set PayFabric Device to enable proper authentication for PayLink to consume PayFabric service in the background for transaction processing. The PayFabric Device will only list the devices available from PayFabric within the same organization as PayLink service.
+**Settings** > **PayFabric Device**. PayLink leverages the PayFabric's hosted page to process transaction and save wallet. User needs to set PayFabric Device to enable proper authentication for PayLink to consume PayFabric service in the background for transaction processing. The PayFabric Device will only list the devices available from PayFabric within the same organization as PayLink service.
 
 ![PayLinkDevice](https://s3-us-west-1.amazonaws.com/github-screenshot-repository/V3/PayLinkDevice.png)
 
