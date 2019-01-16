@@ -14,7 +14,7 @@ For more information on how to configure your Device and Payment Gateway informa
 
 ### Send a Test PayLink Notification
 
-**Settings** > **Send a Test PayLink Notification**. PayLink provides the ability to send test payment links, these allow you to test the notification templates, and payment page theme, and to go through the experience of how a PayLink will work from end-customer’s perspective. Please note these are for testing purposes only and WILL NOT process actual funds. There is a limit on these tests, if you happen to reach this limit and require more, please contact our support team at <support@payfabric.com>.
+**Settings** > **Send a Test PayLink Notification**. PayLink provides the ability to send test payment links, this enables merchant to test the notification templates, payment page theme, and to go through the experience of how a PayLink will work from end-customer’s perspective. Please note these are for testing purposes only and WILL NOT process actual funds. There is a limit on these tests, if you happen to reach this limit and require more, please contact our support team at <support@payfabric.com>.
 
 ![PayLinkTest](https://s3-us-west-1.amazonaws.com/github-screenshot-repository/V3/PayLinkTest.png)
 
