@@ -122,7 +122,7 @@ To use the Cybersource Gateway, it is necessary to obtain the secure CyberSource
 | CurrencyCode         | Transaction currency, e.g. '840' for US Dollar, '124' for Canadian Dollar |
 | CurrencyExponent     | 2 |
 | DropLevel2Data       | 0 or 1 |
-| CurrencyExponent     | 0 or 1 |
+| DropLevel3Data       | 0 or 1 |
 
 ## WorldPay
 
