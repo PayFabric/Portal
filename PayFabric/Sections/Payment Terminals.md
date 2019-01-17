@@ -58,4 +58,7 @@ This option is only available when **Both EMV and Web Entry option** of **Proces
 
 ### Require Credit Card Signature
 
-This option is only available when **Both EMV and Web Entry option** of **Processing Method** are selected. If check marked, customer will be required to provide signature for card-present transaction, as applicable
+This option is only available when **Both EMV and Web Entry option** of **Processing Method** are selected. If check marked, customer will be required to provide signature for card-present transaction, as applicable.
+
+###### Related Reading
+* [How to retrieve signature image](../../../../../../PayFabric/Hosted-Pages/blob/master/Sections/Payment%20Terminals%20Signature%20Page.md)
