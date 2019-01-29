@@ -14,6 +14,7 @@ And currently, PayFabric support below gateways.
 * [FrontStream Fundraising Pro](#frontstream-fundraising-pro)
 * [EVO](#evo)
 * [EziDebit](#ezidebit)
+* [NMI](#nmi)
 
 Configure the Gateway Account Profile using the following information. Fields not mentioned here are not required for the minimum configuration.
 
@@ -144,7 +145,7 @@ To use the Cybersource Gateway, it is necessary to obtain the secure CyberSource
 |Processor|Moneris|
 |Card Class|Credit|
 | Server.Address       | For Test Transactions: https://esqa.moneris.com:43924/gateway2/servlet/MpgRequest |
-|| For Test Transactions: https://www3.moneris.com:43924/gateway2/servlet/MpgRequest | 
+|| For Live Transactions: https://www3.moneris.com:43924/gateway2/servlet/MpgRequest | 
 | Server.Port          |43924          |
 | StoreID              | This is the Store identifier obtained from Moneris |
 | APIToken             | This is the API Token value obtained from Moneris |
@@ -208,3 +209,17 @@ To use the Cybersource Gateway, it is necessary to obtain the secure CyberSource
 | Server.Url           | For Test Transactions: https://api.demo.ezidebit.com.au/v3-5/pci |
 || For Live Transactions: https://api.ezidebit.com.au/v3-5/pci |
 | Digital Key             | This is the Digital Key for the API service obtained from EziDebit|
+
+## NMI
+
+| Field                | Value                   | 
+| -------------------- |:---------------------------- | 
+|Connector|NMIPayment|
+|Processor|NMI Payment|
+|Card Class|Credit|
+| Server.Address           | For both Live and Test Transactions: https://secure.networkmerchants.com/api/transact.php |
+| UserName             | This is the user name for the API service obtained from NMI|
+| Password             | This is the password for the user name obtained from NMI |
+| SecurityKey             | This is the Security Key for the API service obtained from NMI|
+
+Note: Provide either UserName/Password or SecurityKey for creating NMI gateway profile, if both UserName/Passoword and SecurityKey are provided, SecurityKey will be used.
