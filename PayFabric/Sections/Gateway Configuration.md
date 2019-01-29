@@ -121,6 +121,8 @@ To use the Cybersource Gateway, it is necessary to obtain the secure CyberSource
 | IndustryType         | EC |
 | CurrencyCode         | Transaction currency, e.g. '840' for US Dollar, '124' for Canadian Dollar |
 | CurrencyExponent     | 2 |
+| DropLevel2Data       | This will prevent sending Level 2 data when value is set to true or 1 |
+| DropLevel3Data       | This will prevent sending Level 3 data when value is set to true or 1 |
 
 ## WorldPay
 

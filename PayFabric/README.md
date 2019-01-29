@@ -26,7 +26,7 @@ Below are key terms used throughout our documentation. Although you might alread
 Before programming with PayFabric, you need a PayFabric account to get started. We have [Steps](Sections/Configure%20Portal.md) to guide you through the preparations. 
 
 # Extended Reading
-* [Portal Guide](http://www.nodus.com/documentation/PayFabric-Portal-Guide.pdf)
+* [User Guide](http://www.nodus.com/documentation/PayFabric-User-Guide.pdf)
 * [APIs](https://github.com/PayFabric/PayFabric-APIs)
 * [Settings](Sections/PayFabric%20Settings.md)
 * [Gateway Configuration](Sections/Gateway%20Configuration.md)

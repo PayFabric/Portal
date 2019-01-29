@@ -8,19 +8,19 @@ For more information on how to configure your Device and Payment Gateway informa
 
 ### PayFabric Device
 
-**Settings** > **PayFabric Device**. PayLink leverage the PayFabric's hosted page to process transaction nand save wallet, set PayFabric Device to make PayLink have authentication to utilize PayFabric. The PayFabric Device will only list the device name of the PayFabric, which is in the same organization as the PayLink.
+**Settings** > **PayFabric Device**. PayLink leverages the PayFabric's hosted page to process transaction and save wallet. User needs to set PayFabric Device to enable proper authentication for PayLink to consume PayFabric service in the background for transaction processing. The PayFabric Device will only list the devices available from PayFabric within the same organization as PayLink service.
 
 ![PayLinkDevice](https://s3-us-west-1.amazonaws.com/github-screenshot-repository/V3/PayLinkDevice.png)
 
 ### Send a Test PayLink Notification
 
-**Settings** > **Send a Test PayLink Notification**. PayLink has included the ability to send test payment links, these allow you to test the notification templates, and payment page theme, and to also get a feel of how a PayLink will behave for your customers.  Please note these are for testing purposes only and **WILL NOT** process actual funds in any event.  There is a limit on these tests, if you happen to reach this limit and require more, please contact our support team at <support@payfabric.com>.
+**Settings** > **Send a Test PayLink Notification**. PayLink provides the ability to send test payment links, this enables merchant to test the notification templates, payment page theme, and to go through the experience of how a PayLink will work from end-customer’s perspective. Please note these are for testing purposes only and WILL NOT process actual funds. There is a limit on these tests, if you happen to reach this limit and require more, please contact our support team at <support@payfabric.com>.
 
 ![PayLinkTest](https://s3-us-west-1.amazonaws.com/github-screenshot-repository/V3/PayLinkTest.png)
 
 ### Configure ERP Connection
 
-**Settings** > **Configure ERP Connection**. PayLink is able to send payment information back to Microsoft Dynamics GP, Microsofot Dynamics SL and Salespad after payment get proceseed via setup ERP Connection.
+**Settings** > **Configure ERP Connection**. PayLink is able to send payment information back to Microsoft Dynamics GP, Microsoft Dynamics SL and Salespad after the payment is processed.
 
 |Field                          |Description  |
 |:------------------------------|:-------------|
@@ -34,7 +34,7 @@ For more information on how to configure your Device and Payment Gateway informa
 
 ### $ Configure Default Gateways
 
-**Settings** > **$ Configure Default Gateways**. PayLink allow to send the API request without CreditCardGateway and ECheckGateway, and use default gateway profile instead, default credit card/eCheck gateway profile is set against currency code.
+**Settings** > **$ Configure Default Gateways**. PayLink allows 3rd party application to send the API request without CreditCardGateway and ECheckGateway by using the default gateway profile settings. Default credit card/eCheck gateway profile can be set against each currency type and the associated gateway information will be used during transaction processing. 
 
 ![PayLinkDefaultGateway](https://s3-us-west-1.amazonaws.com/github-screenshot-repository/V3/PayLinkDefaultGateway.png)
 

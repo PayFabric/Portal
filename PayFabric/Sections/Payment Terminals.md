@@ -1,5 +1,5 @@
 # Payment Terminals
-PayFabric supports card-present transactions using EMV devices from PAX Technology. The 2 supported devices from PAX are: S300 and D210. 
+PayFabric supports card-present transactions using EMV devices from PAX Technology. The supported devices from PAX are: S300, D210 and PX7. 
 To configure terminal devices & settings, navigate to **Settings** > **Terminals** (under Payment Terminals). Please see the detailed description & instruction below.
 
 ## Terminals
@@ -58,4 +58,7 @@ This option is only available when **Both EMV and Web Entry option** of **Proces
 
 ### Require Credit Card Signature
 
-This option is only available when **Both EMV and Web Entry option** of **Processing Method** are selected. If check marked, customer will be required to provide signature for card-present transaction, as applicable
+This option is only available when **Both EMV and Web Entry option** of **Processing Method** are selected. If check marked, customer will be required to provide signature for card-present transaction, as applicable.
+
+###### Related Reading
+* [How to retrieve signature image](../../../../../../PayFabric/Hosted-Pages/blob/master/Sections/Payment%20Terminals%20Signature%20Page.md)
