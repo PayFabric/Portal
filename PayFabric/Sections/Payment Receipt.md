@@ -64,3 +64,9 @@ Following parameters are able to be embeded into email templates. At the moment 
 | \[\[Last4Digits\]\]   | The last four digits of credit card number used to process transaction|
 | \[\[ExpirationDate\]\]   | The expiration date of credit card number used to process transaction|
 | \[\[CompanyZip\]\]   | Merchant's zipcode in profile page|
+| \[\[TransactionStatus\]\]   | PayFabric Transaction Status|
+| \[\[TransactionMsg\]\]   | PayFabric Transaction Message|
+| \[\[AuthCode\]\]   | Gateway Authorization Code|
+| \[\[CVV2Response\]\]   | Gateway CVV2 Response Code|
+| \[\[AddressResponse\]\]   | Gateway Address Response Code|
+| \[\[ZipResponse\]\]   | Gateway Zip Response Code|
