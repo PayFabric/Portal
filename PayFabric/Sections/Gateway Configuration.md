@@ -222,4 +222,4 @@ To use the Cybersource Gateway, it is necessary to obtain the secure CyberSource
 | Password             | This is the password for the user name obtained from NMI |
 | SecurityKey             | This is the Security Key for the API service obtained from NMI|
 
-Note: Provide either UserName/Password or SecurityKey for creating NMI gateway profile, if both UserName/Passoword and SecurityKey are provided, SecurityKey will be used.
+Note: Provide either UserName/Password or SecurityKey for creating NMI gateway profile, if both UserName/Password and SecurityKey are provided, SecurityKey will be used.
