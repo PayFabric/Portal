@@ -916,12 +916,6 @@
 * **1912**:FirstDataGGe4-903.Invalid Expiration
 * **1913**:FirstDataGGe4-904.Invalid Effective
 * **1914**:FirstDataGGe4-997.Acquirer Error
-* **1915**:PayFuse-D.Declined. The authorizer has declined the purchase request.
-* **1916**:PayFuse-E.Error. A data entry error of some kind has occurred.
-* **1917**:PayFuse-F.Failure. A system failure of some kind has occurred.
-* **1918**:PayFuse-S.Same. The DTS has detected a possible duplicate transaction. You can treat this as a decline, or you can send the transaction again after adding the following special field with the AddSpecialField method: AddSpecialField("DUPEOK", "Y");.
-* **1919**:PayFuse-U.Unknown. An unknown processor or issuer error has occurred.
-* **1920**:PayFuse-X.Expired. The card has expired.
 * **1921**:Cybersource-DAVSNO.The credit card was accepted by the bank but refused by CyberSource because it did not.pass the AVS check. AVS result is N.
 * **1922**:Cybersource-DCALL.Indicates that you must call the issuing bank to proceed with the transaction.
 * **1923**:Cybersource-DCARDEXPIRED.CyberSource declined the request because the credit card has expired. 
