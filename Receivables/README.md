@@ -24,8 +24,9 @@ The Customer Portal is for end customers of the business to view invoices, accou
 pay invoices.  
 
 ### Receivables API
-All interaction with the PayFabric Receivables data is managed through the API. This includes
-the import of data such 
+All interaction with the PayFabric Receivables data is managed through the API. This includes the import of data such as invoices and customers as well as exporting the data such as completed payments.  
+
+Information on utilizing the Receivables API can be found on the [PayFabric Receivables GitHub page](https://github.com/PayFabric/APIs/tree/master/Receivables).  
 
 
 Extended Reading
