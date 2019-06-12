@@ -189,10 +189,8 @@ To use the Cybersource Gateway, it is necessary to obtain the secure CyberSource
 |Processor|Evo US|
 |Card Class|Credit|
 | MerchantProfile             | This is the Merchant ID for the API service obtained from EVO |
-| EmvMerchantProfile             | This is the EMV Merchant ID for the API service obtained from EVO |
 | ServiceId             | This is the Service ID for the API service obtained from EVO |
-| SvaMerchantProfile             | This is the SVA Merchant ID for the API service obtained from EVO |
-| SvaServiceId             | This is the SVA Service ID for the API service obtained from EVO |
+
 
 ## EziDebit
 
