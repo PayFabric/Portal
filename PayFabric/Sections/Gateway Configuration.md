@@ -188,11 +188,6 @@ To use the Cybersource Gateway, it is necessary to obtain the secure CyberSource
 |Connector|EVO|
 |Processor|Evo US|
 |Card Class|Credit|
-| Server.Url           | For Test Transactions: https://api.cipcert.goevo.com/2.1.29/REST |
-|| For Live Transactions: https://api.cip.goevo.com/2.1.29/REST, https://api1.cip.goevo.com/2.1.29/REST, or https://api2.cip.goevo.com/2.1.29/REST |
-| Server.Port             | 443 |
-| IdentityToken             | This is the Identity Token for the API service obtained from EVO |
-| ApplicationId             | This is the Application ID for the API service obtained from EVO |
 | MerchantProfile             | This is the Merchant ID for the API service obtained from EVO |
 | EmvMerchantProfile             | This is the EMV Merchant ID for the API service obtained from EVO |
 | ServiceId             | This is the Service ID for the API service obtained from EVO |
