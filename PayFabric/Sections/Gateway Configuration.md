@@ -6,7 +6,7 @@ And currently, PayFabric support below gateways.
 * [USAePaySOAP](#usaepaysoap)
 * [Authorize.Net](#authorizenet)
 * [Cybersource SOAP](#cybersource-soap)
-* [Cybersource](#cybersource)
+* [Cybersource (legacy)](#cybersource)
 * [Paymentech Orbital](#paymentech)
 * [WorldPay](#worldpay)
 * [Moneris (Canadian currency only)](#moneris)
@@ -89,7 +89,7 @@ To obtain most of this information, log into the gateway account, browse to ‘T
 | TRANSACTION_Key      | Generated from CyberSource Business Center > Account Management > Transaction Security Keys > Security Keys for the SOAP Toolkit API |
 | CurrencyCode         | Transaction currency, e.g. 'USD' |
 
-## Cybersource
+## Cybersource (legacy)
 
 | Field                | Value                   | 
 | -------------------- |:---------------------------- |
