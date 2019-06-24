@@ -137,7 +137,7 @@ To use the Cybersource Gateway, it is necessary to obtain the secure CyberSource
 | SubID                | This is the Sub Identifier for the account      |
 | MerchantPIN          | This is the Merchant Pin associated to the account     |
 
-## Moneris
+## Moneris (for Canadian currency only)
 
 | Field                | Value                   | 
 | -------------------- |:---------------------------- | 
