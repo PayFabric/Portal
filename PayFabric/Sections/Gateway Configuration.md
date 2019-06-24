@@ -7,7 +7,7 @@ And currently, PayFabric support below gateways.
 * [Authorize.Net](#authorizenet)
 * [Cybersource SOAP](#cybersource-soap)
 * [Cybersource](#cybersource)
-* [Paymentech](#paymentech)
+* [Paymentech Orbital](#paymentech)
 * [WorldPay](#worldpay)
 * [Moneris (Canadian currency only)](#moneris)
 * [Forte](#forte)
@@ -105,7 +105,7 @@ To use the Cybersource Gateway, it is necessary to obtain the secure CyberSource
 
 ![Cybersource](https://s3-us-west-1.amazonaws.com/github-screenshot-repository/V3/GatewayCyberSource.png)
 
-## Paymentech
+## Paymentech Orbital
 
 | Field                | Value                   | 
 | -------------------- |:---------------------------- | 
