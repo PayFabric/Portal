@@ -9,7 +9,7 @@ And currently, PayFabric support below gateways.
 * [Cybersource](#cybersource)
 * [Paymentech](#paymentech)
 * [WorldPay](#worldpay)
-* [Moneris](#moneris)
+* [Moneris (Canadian currency only)](#moneris)
 * [Forte](#forte)
 * [FrontStream Fundraising Pro](#frontstream-fundraising-pro)
 * [EVO](#evo)
