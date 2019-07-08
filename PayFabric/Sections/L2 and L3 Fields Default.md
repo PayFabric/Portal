@@ -1,12 +1,16 @@
-# Summary
+﻿# Summary
 
 Business, corporate, and purchasing cards are used just like personal credit and debit cards. However, these cards carry higher interchange rates because they offer employers high value (and costly) features such as enhanced reporting and statements. Many merchants can qualify for lower commercial rates by collecting the more in‑depth Level 2 and Level 3 data with each commercial card transaction.
 
 See [Level 2 and Level 3 Fields](https://github.com/PayFabric/APIs/blob/master/PayFabric/Sections/Level%202%20and%20Level%203%20Fields.md ) to understand what is level 2 and level 3 fields and how PayFabric support your business to integrate.
 
-PayFabric is helping merchants avoid incautious downgrading by supporting merchants setup default value for some of level 2 and level 3 fields. Navigate through **Settings** > **existing gateway account profile block** > L2/3 Fields Default, you will open below screen.
+PayFabric is helping merchants avoid incautious downgrading by supporting merchants setup default value for some of level 2 and level 3 fields. When the [Design Mode](PayFabric%20Settings.md#design-mode) is **Legacy Design**, Navigate through **Settings** > **Gateway Account Configuration** > **existing gateway account profile block** > L2/3 Fields Default, you will open below screen.
 
 ![l23default](https://s3-us-west-1.amazonaws.com/github-screenshot-repository/V3/L2%263+Fields+Default.png)
+
+When the [Design Mode](PayFabric%20Settings.md#design-mode) is **Modern Design**, Navigate through **Settings** > **Gateway Account Configuration** > **existing gateway account profile block** > L2/3 Fields Default, you will open below screen. Merchants are able to set up different Level 2 & Level 3 default values for VISA and Mastercard respectively. 
+
+![l23defaultbycardtypes](https://github-screenshot-repository.s3-us-west-1.amazonaws.com/V3/L2%263+Fields+Default+by+Card+Types.png)
 
 # Details
 
