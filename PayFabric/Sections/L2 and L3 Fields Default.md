@@ -4,7 +4,7 @@ Business, corporate, and purchasing cards are used just like personal credit and
 
 See [Level 2 and Level 3 Fields](https://github.com/PayFabric/APIs/blob/master/PayFabric/Sections/Level%202%20and%20Level%203%20Fields.md ) to understand what is level 2 and level 3 fields and how PayFabric support your business to integrate.
 
-PayFabric is helping merchants achieve better transaction rate by supporting merchants submitting level 2 and 3 data during transactio processing. In additions, PayFabric allows merchants to setup default value for supported level 2 and level 3 fields. 
+PayFabric is helping merchants achieve better transaction rate by supporting merchants submitting level 2 and 3 data during transaction processing. In additions, PayFabric allows merchants to setup default value for supported level 2 and level 3 fields. 
 
 When the [Design Mode](PayFabric%20Settings.md#design-mode) is **Legacy Design**, Navigate through **Settings** > **Gateway Account Configuration** > **existing gateway account profile block** > L2/3 Fields Default, you will open below screen.
 
