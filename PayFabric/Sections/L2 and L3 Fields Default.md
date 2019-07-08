@@ -6,7 +6,7 @@ See [Level 2 and Level 3 Fields](https://github.com/PayFabric/APIs/blob/master/P
 
 PayFabric is helping merchants avoid incautious downgrading by supporting merchants setup default value for some of level 2 and level 3 fields. When the [Design Mode](PayFabric%20Settings.md#design-mode) is **Legacy Design**, Navigate through **Settings** > **Gateway Account Configuration** > **existing gateway account profile block** > L2/3 Fields Default, you will open below screen.
 
-![l23default](https://s3-us-west-1.amazonaws.com/github-screenshot-repository/V3/L2%263+Fields+Default.png)
+![l23default](https://github-screenshot-repository.s3-us-west-1.amazonaws.com/V3/L2%263+Fields+Default.png)
 
 When the [Design Mode](PayFabric%20Settings.md#design-mode) is **Modern Design**, Navigate through **Settings** > **Gateway Account Configuration** > **existing gateway account profile block** > L2/3 Fields Default, you will open below screen. Merchants are able to set up different Level 2 & Level 3 default values for VISA and Mastercard respectively. 
 
