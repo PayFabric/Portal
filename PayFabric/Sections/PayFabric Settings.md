@@ -9,10 +9,10 @@ Navigate to Settings > DEV Central > PayFabric Settings.
 PayFabric Virtual Terminal have introduced two UI Modes for virtual terminal , `Legacy Design` and `Modern Design`
 
 * `Legacy Design`: Maintain the existing user interface and experience for virtual terminal where user can mimic the hosted API calls for PayFabric and also review the custom’s device theme directly on PayFabric portal. 
-![LegacyDesign](https://s3-us-west-1.amazonaws.com/github-screenshot-repository/V3/LegacyDesign.png)
+![LegacyDesign](https://raw.githubusercontent.com/PayFabric/Portal/master/PayFabric/Sections/Screenshots/LegacyDesign.png)
 
 * `Modern Design`: Introduce a new user friendly design for Virtual Terminal to allow merchant to process transactions against PayFabric web portal via web entry and/or terminal entry. 
-![ModernDesign](https://s3-us-west-1.amazonaws.com/github-screenshot-repository/V3/ModernDesign.png)
+![ModernDesign](https://raw.githubusercontent.com/PayFabric/Portal/master/PayFabric/Sections/Screenshots/ModernDesign.png)
 
 ## Device Name
 The drop-down consists all existing devices associated with the PayFabric account. PayFabric enable user to configure different transaction settings for every device. Choose the corresponding device from the drop-down list, then begin making changes to the settings.
@@ -57,7 +57,7 @@ These are settings relate to process a payment transaction.
 ## Unit Of Measure Mapping for Payeezy (First Data GGE4)
 For merchant using Payeezy gateway, item’s unit of measure needs to be mapped to the values supported by the gateway. See referenced URL for valid UOM from First Data. 
 
-![Payeezy UOM](https://s3-us-west-1.amazonaws.com/github-screenshot-repository/V3/UOMMapping.png)
+![Payeezy UOM](https://raw.githubusercontent.com/PayFabric/Portal/master/PayFabric/Sections/Screenshots/UOMMapping.png)
 
 Reference: https://support.payeezy.com/hc/en-us/articles/203732159-Units-of-Measure
 
@@ -67,7 +67,7 @@ Navigate to Settings > DEV Central > Default Gateway Settings.
 
 With `Modern Design`, PayFabric provides merchant the ability to specify default gateway profile based on currency types so their internal user does not need to select a gateway profile at the time of processing a transaction. This functionality is supported through PayFabric API calls for all PayFabric apps/devices.
 
-![DefaultGatewaySetings](https://s3-us-west-1.amazonaws.com/github-screenshot-repository/V3/DefaultGatewaySetings.png)
+![DefaultGatewaySetings](https://raw.githubusercontent.com/PayFabric/Portal/master/PayFabric/Sections/Screenshots/DefaultGatewaySetings.png)
 
 Each Device is allowed to setup a Credit card and a eCheck gateway profile against currency, prior to setup default gateway, gateway profile must be created from `Settings` > `Gateway Account Profiles`. `Virtual Terminal` option of Device Name is only available when Design Mode is `Modern Design` under `PayFabric Settings`.
 
