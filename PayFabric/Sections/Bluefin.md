@@ -8,7 +8,7 @@ Supported P2PE device: IDTech SRED.
 
 To configure Bluefin profile, navigate to **Settings** > **Bluefin Profile** (under **P2PE Decryptx Settings**).
 
-![Bluefin Profile](https://s3-us-west-1.amazonaws.com/github-screenshot-repository/V3/BluefinProfile.png)
+![Bluefin Profile](https://raw.githubusercontent.com/PayFabric/Portal/master/PayFabric/Sections/Screenshots/BluefinProfile.png)
 
 |Field                          |Description  | 
 |------------------------------|-------------| 
