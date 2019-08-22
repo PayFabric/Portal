@@ -6,18 +6,18 @@ The "Themes" page can be displayed by navigating **Settings** > **Themes** (unde
 2.	Click the **Create New +** button and enter a name that would be relevant to the application 
 3.	Click the **Save** button to save the changes to the theme.
 
-![Theme](https://s3-us-west-1.amazonaws.com/github-screenshot-repository/V3/Themes.png)
+![Theme](https://raw.githubusercontent.com/PayFabric/Portal/master/PayFabric/Sections/Screenshots/Themes.png)
 
 Also you can choose to show/hide the related fields on hosted payment page by check/uncheck the parameters of the theme.
 
-![ThemeParams](https://s3-us-west-1.amazonaws.com/github-screenshot-repository/V3/ParamsofTheme.png)
+![ThemeParams](https://raw.githubusercontent.com/PayFabric/Portal/master/PayFabric/Sections/Screenshots/ParamsofTheme.png)
 
 ## Assigning Theme to a Device
 
 Go back to **Devices** page and click on the icon of **Default Theme** and select the desired theme to associate to the chosen device. 
 Besides configuring theme for device, you can also "Change" device name, "Reset" device password, "Revoke" the device, or "Delete" this device. "Revoke" device will regenerate the GUID.
 
-![Default theme](https://s3-us-west-1.amazonaws.com/github-screenshot-repository/V3/DefaultTheme.png)
+![Default theme](https://raw.githubusercontent.com/PayFabric/Portal/master/PayFabric/Sections/Screenshots/DefaultTheme.png)
 
 # Field IDs
 
