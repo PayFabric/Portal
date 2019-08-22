@@ -6,7 +6,7 @@ Access PayLink Service
 
 Select **PayLink** from the upper and left corner drop down after Sign in, and then select **Sandbox** or **Live** mode to access PayLink.
 
-![ServicesSelection](https://s3-us-west-1.amazonaws.com/github-screenshot-repository/V3/ServicesSelection.png)
+![ServicesSelection](https://raw.githubusercontent.com/PayFabric/Portal/master/PayFabric/Sections/Screenshots/ServicesSelection.png)
 
 PayFabric Device
 ----------------
@@ -19,7 +19,7 @@ Send a Test PayLink Notification
 
 Go to **Settings** > **Send a Test PayLink Notification** (under DEV Central section), You can either send a dummy paylink with Email, SMS or both. you can open the PayLink from the email address or phone number, and make a payment (Please note these are for testing purposes only and WILL NOT process actual funds in any event.)
 
-![SendTestPayLinkNotification](https://s3-us-west-1.amazonaws.com/github-screenshot-repository/V3/SendTestPayLinkNotification.png)
+![SendTestPayLinkNotification](https://raw.githubusercontent.com/PayFabric/Portal/master/PayFabric/Sections/Screenshots/SendTestPayLinkNotification.png)
 
 Extended Reading
 ----------------
