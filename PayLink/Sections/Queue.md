@@ -12,7 +12,7 @@ User is able to search for all existing PayLinks from Document Queue and export 
 * View Transaction Details
 * View and Modify ERP Posting Payloads
 
-![PayLinkQueue](https://s3-us-west-1.amazonaws.com/github-screenshot-repository/V3/PayLinkQueue.png)
+![PayLinkQueue](https://raw.githubusercontent.com/PayFabric/Portal/master/PayFabric/Sections/Screenshots/PayLinkQueue.png)
 
 Note: Cancelled PayLinks are not displayed by default, user needs to mark **Include Cancelled Document** under **Search** Tab to display them.
 
@@ -24,7 +24,7 @@ User is able to search for all existing WalletLinks in Wallet Queue and export t
 * Cancel Incomplete WalletLinks
 * Resend Notifications for WalletLinks
 
-![WalletLinkQueue](https://s3-us-west-1.amazonaws.com/github-screenshot-repository/V3/WalletLinkQueue.png)
+![WalletLinkQueue](https://raw.githubusercontent.com/PayFabric/Portal/master/PayFabric/Sections/Screenshots/WalletLinkQueue.png)
 
 Note: Cancelled Wallet Links are not displayed by default, user needs to mark **Include Cancelled Document** under **Search** Tab to display them.
 
