@@ -103,7 +103,7 @@ To obtain most of this information, log into the gateway account, browse to ‘T
 
 To use the Cybersource Gateway, it is necessary to obtain the secure CyberSource Keys from the Cybersource eCert Application. Contact the CyberSource partner for more information on obtaining these keys. Upload the keys on PayFabric like below:
 
-![Cybersource](https://s3-us-west-1.amazonaws.com/github-screenshot-repository/V3/GatewayCyberSource.png)
+![Cybersource](https://raw.githubusercontent.com/PayFabric/Portal/master/PayFabric/Sections/Screenshots/GatewayCyberSource.png)
 
 ## Paymentech Orbital
 
