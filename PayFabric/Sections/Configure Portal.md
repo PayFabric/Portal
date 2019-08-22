@@ -10,11 +10,11 @@ By default, the account is set to sandbox mode when the account is first created
 
 **Sandbox:**
 
-![Sandbox](https://s3-us-west-1.amazonaws.com/github-screenshot-repository/V3/Sandbox.png)
+![Sandbox](https://raw.githubusercontent.com/PayFabric/Portal/master/PayFabric/Sections/Screenshots/Sandbox.png)
 
 **Live:**
 
-![Live](https://s3-us-west-1.amazonaws.com/github-screenshot-repository/V3/Live.png)
+![Live](https://raw.githubusercontent.com/PayFabric/Portal/master/PayFabric/Sections/Screenshots/Live.png)
 
 ## Devices
 
@@ -28,7 +28,7 @@ Any application that utilizes PayFabric in the backend for payment processing re
 Every merchant will get a **Virtual Terminal** device by default when they were creating a PayFabric account. Virtaul Terminal device is generally the device that is used if user creates wallet entry or process a transaction directly from the PayFabric portal.
 To generate a new set of device and corresponding password, navigate through Settings. From **Settings** > **Dev Central** section > **Device Management** tab > click **Generate** button and populate fields "Device Name", "Password", "Confirm Password", and click "Confirm". 
 
-![Device](https://s3-us-west-1.amazonaws.com/github-screenshot-repository/V3/DeviceManagement.png)
+![Device](https://raw.githubusercontent.com/PayFabric/Portal/master/PayFabric/Sections/Screenshots/DeviceManagement.png)
 
 You can keep on adding multiple devices based on your business needs. A single device is corresponding to an application. 
 
