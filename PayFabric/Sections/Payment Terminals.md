@@ -24,23 +24,23 @@ Steps:
 
 The drop-down consists all existing devices associated with the PayFabric account. PayFabric enable user to configure different terminal options for every PayFabric device/application. Choose the corresponding PayFabric device from the drop-down list, then begin making changes to the terminal settings.
 
-![Terminal Device Name](https://s3-us-west-1.amazonaws.com/github-screenshot-repository/V3/TerminalsDeviceName.png)
+![Terminal Device Name](https://raw.githubusercontent.com/PayFabric/Portal/master/PayFabric/Sections/Screenshots/TerminalsDeviceName.png)
 
 ### Available Terminals
 
 Specify the terminals available for each PayFabric device/application by tick the box next to each terminal device.
 
-![Terminal Available Terminals](https://s3-us-west-1.amazonaws.com/github-screenshot-repository/V3/TerminalsAvailableTerminals.png)
+![Terminal Available Terminals](https://raw.githubusercontent.com/PayFabric/Portal/master/PayFabric/Sections/Screenshots/TerminalsAvailableTerminals.png)
 
 ### Default Payment Terminal
 
 Specify a terminal device under this option so the selected device is always the default terminal device to be used for the application. 
 
-![Terminal Default Terminal](https://s3-us-west-1.amazonaws.com/github-screenshot-repository/V3/TerminalsDefaultTerminal.png)
+![Terminal Default Terminal](https://raw.githubusercontent.com/PayFabric/Portal/master/PayFabric/Sections/Screenshots/TerminalsDefaultTerminal.png)
 
 ### Processing Method
 
-![Terminal Processing Method](https://s3-us-west-1.amazonaws.com/github-screenshot-repository/V3/TerminalsProcessingMethod.png)
+![Terminal Processing Method](https://raw.githubusercontent.com/PayFabric/Portal/master/PayFabric/Sections/Screenshots/TerminalsProcessingMethod.png)
 
 |Field                          |Description  | 
 |------------------------------|-------------| 
