@@ -17,7 +17,7 @@ To configure Bluefin profile, navigate to **Settings** > **Bluefin Profile** (un
 |**Partner Key**| Populate Bluefin Partner Key |
 |**Client ID**| Populate Bluefin Client ID |
 |**Web Service URL**| **Sandbox**: https://secure-cert.decryptx.com|
-||**Production**: https://secure-prod.Decryptx.com|
+||**Production**: https://secure-prod.decryptx.com|
 |**Raw Data**| Enter sample raw data to ensure connection is successfully established to test the Bluefin account credentials. |
 
 ## Entry Options
