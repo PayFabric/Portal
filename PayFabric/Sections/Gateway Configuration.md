@@ -144,8 +144,8 @@ To use the Cybersource Gateway, it is necessary to obtain the secure CyberSource
 |Connector|Moneris|
 |Processor|Moneris|
 |Card Class|Credit|
-| Server.Address       | For Test Transactions: https://esqa.moneris.com:43924/gateway2/servlet/MpgRequest |
-|| For Live Transactions: https://www3.moneris.com:43924/gateway2/servlet/MpgRequest | 
+| Server.Address       | For Test Transactions: https://esqa.moneris.com/gateway2/servlet/MpgRequest |
+|| For Live Transactions: https://www3.moneris.com/gateway2/servlet/MpgRequest | 
 | Server.Port          |43924          |
 | StoreID              | This is the Store identifier obtained from Moneris |
 | APIToken             | This is the API Token value obtained from Moneris |
