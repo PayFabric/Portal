@@ -149,6 +149,7 @@ To use the Cybersource Gateway, it is necessary to obtain the secure CyberSource
 | Server.Port          |43924          |
 | StoreID              | This is the Store identifier obtained from Moneris |
 | APIToken             | This is the API Token value obtained from Moneris |
+
 Note: for Canadian currency only.
 
 ## Forte
