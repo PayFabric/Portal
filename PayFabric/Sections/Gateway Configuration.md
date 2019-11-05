@@ -6,7 +6,7 @@ And currently, PayFabric support below gateways.
 * [USAePaySOAP](#usaepaysoap)
 * [Authorize.Net](#authorizenet)
 * [Cybersource SOAP](#cybersource-soap)
-* [Cybersource (legacy)](#cybersource)
+* [Cybersource](#cybersource)
 * [Paymentech Orbital](#paymentech)
 * [WorldPay](#worldpay)
 * [Moneris (Canadian currency only)](#moneris)
@@ -89,7 +89,7 @@ To obtain most of this information, log into the gateway account, browse to ‘T
 | TRANSACTION_Key      | Generated from CyberSource Business Center > Account Management > Transaction Security Keys > Security Keys for the SOAP Toolkit API |
 | CurrencyCode         | Transaction currency, e.g. 'USD' |
 
-## Cybersource (legacy)
+## Cybersource
 
 | Field                | Value                   | 
 | -------------------- |:---------------------------- |
@@ -137,7 +137,7 @@ To use the Cybersource Gateway, it is necessary to obtain the secure CyberSource
 | SubID                | This is the Sub Identifier for the account      |
 | MerchantPIN          | This is the Merchant Pin associated to the account     |
 
-## Moneris (for Canadian currency only)
+## Moneris 
 
 | Field                | Value                   | 
 | -------------------- |:---------------------------- | 
@@ -149,6 +149,7 @@ To use the Cybersource Gateway, it is necessary to obtain the secure CyberSource
 | Server.Port          |43924          |
 | StoreID              | This is the Store identifier obtained from Moneris |
 | APIToken             | This is the API Token value obtained from Moneris |
+Note: for Canadian currency only.
 
 ## Forte
 
