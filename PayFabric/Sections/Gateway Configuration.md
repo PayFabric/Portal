@@ -48,6 +48,8 @@ To obtain most of this information, log into the gateway account, browse to ‘T
 | GatewayID       |‘Gateway ID’ associated to the Terminal for the Payeezy account. This value is located under the ‘Details’ tab after selecting the terminal.     |
 | GatewayPassword | ‘Password’ associated to the Terminal for the Payeezy account. This value is generated under the ‘Details’ tab after selecting the terminal.    |
 
+Note: Support multiple captures against one authorized transaction.
+
 ## USAePaySOAP
 | Field                | Value                   | 
 | -------------------- |:---------------------------- | 
@@ -62,6 +64,8 @@ To obtain most of this information, log into the gateway account, browse to ‘T
 | SourceKey           | This is the Source Key that is obtained from the settings of the USAePay gateway    |
 | Pin            | This is the Pin of the Source Key that is obtained from the settings of the USAePay gateway   |
 
+Note: Support multiple captures against one authorized transaction.
+
 ## Authorize.Net
 | Field                | Value                   | 
 | -------------------- |:---------------------------- | 
@@ -74,6 +78,8 @@ To obtain most of this information, log into the gateway account, browse to ‘T
 | Server.Port         | 443 |
 | LoginID             | This is the login id used for the Authorize.net account  |
 | TransactionKey      | This key can be obtained from the Authorize.Net Gateway. Contact the Authorize.net gateway provider for more details.      |
+
+Note: Support multiple captures against one authorized transaction.
 
 ## Cybersource SOAP
 
