@@ -5,7 +5,7 @@ And currently, PayFabric support below gateways.
 * [Payeezy (First Data GGe4)](#payeezy-first-data-gge4)
 * [USAePaySOAP](#usaepaysoap)
 * [Authorize.Net](#authorizenet)
-* [Cybersource SOAP](#cybersource-soap)
+* [CybersourceSOAP](#cybersourcesoap)
 * [Cybersource](#cybersource)
 * [Paymentech Orbital](#paymentech)
 * [WorldPay](#worldpay)
@@ -81,7 +81,7 @@ Note: Support multiple captures against one authorized transaction.
 
 Note: Support multiple captures against one authorized transaction.
 
-## Cybersource SOAP
+## CybersourceSOAP
 
 | Field                | Value                   | 
 | -------------------- |:---------------------------- |
