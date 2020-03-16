@@ -24,7 +24,7 @@ PayFabric Virtual Terminal have introduced two UI Modes for virtual terminal , `
 The drop-down consists all existing devices associated with the PayFabric account. PayFabric enable user to configure different transaction settings for every device. Choose the corresponding device from the drop-down list, then begin making changes to the settings.
 
 ## Form settings
-Define the field(s) that will be available on `Process a Transaction` page by tick or untick the field name from the list, to control the additional values for transaction processing. 
+Define the field(s) that will be Hide/Optional/Required on `Process a Transaction` page by tick or untick the field name from the list, to control the additional values for transaction processing. This setting is only for ``Modern VT``
 
 ## Accept Card Types
 Define the supported card type(s) by tick or untick the card type from the list. 
