@@ -89,7 +89,7 @@ Each Device is allowed to setup a Credit card and a eCheck gateway profile again
 Navigate to Settings > P2PE Decryptx Settings
 
 From P2PE Bluefin Decryptx configuration page, user can configure settings specific to Bluefin Decryptx service 
-![Bluefin](https://github.com/PayFabric/Portal/blob/PayFabric-Release-11-features/PayFabric/Sections/Screenshots/Bluefin.png)
+![BluefinProfile](https://github.com/PayFabric/Portal/blob/PayFabric-Release-11-features/PayFabric/Sections/Screenshots/BluefinProfile.png)
 
 # Bluefin Entry Options
 | - Use Non-Encrypted key Entry - | Default option. This option allow user to enter credit card information using PayFabric’s regular hosted page via regular keyboard, without using PTS device.  |
