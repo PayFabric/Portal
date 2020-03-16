@@ -46,8 +46,8 @@ These are settings relate to process a payment transaction.
 |Popup Message|If this option is check marked, system will display response or error message to end-user using popup message instead of inline within PayFabric’s hosted payment page and hosted wallet page.|
 |IP Address Validation for Security Token|If enabled, PayFabric will validate the security token’s IP address. If the IP address associated with the security token at the time of token creation does not match the security token at the time of token consumption, PayFabric will return the ‘failed authentication’ error during API calls. If disabled, PayFabric will not validate the security’s token IP address during API calls. By default, this setting is enabled.|
 |Partial Refund|If enabled, PayFabric will allow to process partial referenced credit/refund transaction for their customers from `Manage Transactions`. Note: This options is only available for Virtual Terminal. |
-|Credit Card Validation Required |If enabled, PayFabric will require to choose a credit card validation gateway profile, then PayFabric will send the card number to gateway to validate if it is available when save the wallet, only when validate pass, the wallet can be saved successfully in PayFabric.|
-|Enable Bin Range Validation |If enabled, PayFabric will drop the leval2 and leval3 data when process transaction while using a Non-Commercial card, the card type will be show on the Transaction details page.|
+|Credit Card Validation Required |If Enable, Payfabric will validate credit card before storing for later use.|
+|Enable Bin Range Validation |If enabled, PayFabric will do BIN Range validation on all credit card data to determine the card type. If card type is a non-purchasing card, PayFabric will exclude L2/L3 data when submitting to gateway/processing.|
 
 
 ## General Settings
@@ -63,9 +63,9 @@ These are settings relate to process a payment transaction.
 |Enable Security Token|For APIs and Hosted Pages: this is the default option where security token will be allow to use as the authentication method in both hosted pages and APIs. For Hosted Pages Only: with this option, security token will ONLY be allow to use as the authentication method in hosted pages. The API service response will fail authentication if any API calls was authenticated using security token.|
 | Default Transaction Type|PayFabric offers the ability for merchant to specify the default transaction type on PayFabric’s Virtual Terminal.. Note: this options is only available for `Modern Design`|
 | Credit card validation gateway profile| This is a sub setting for ``Credit Card Validation Required``, now support validate credit card from EVO,CybersourceSOAP,Paymentech|
-| Authorization Type | This is a required field when enable ``Credit Card Validation Required`` setting, valid value is ``Incremental``,``Reauthorization``,``Resubmission``,``NotSet`` |
-| Transaction Schedule | This is a required field when enable ``Credit Card Validation Required`` setting, valid value is ``Scheduled``,``ScheduledInstallment``,``ScheduledRecurring``,``NotSet`` |
-| Transaction Initiation | This is a required field when enable ``Credit Card Validation Required`` setting, valid value is ``Customer``,``Merchant``,``NotSet``  |
+| Authorization Type | Default indicator if API or Hosted page does not send in Authorization Type's option. |
+| Transaction Schedule | Default indicator if API or Hosted page does not send in Transaction Schedule's option. |
+| Transaction Initiation | Default indicator if API or Hosted page does not send in Transaction Initiation's option.  |
 
 ## Unit Of Measure Mapping for Payeezy (First Data GGE4)
 For merchant using Payeezy gateway, item’s unit of measure needs to be mapped to the values supported by the gateway. See referenced URL for valid UOM from First Data. 
