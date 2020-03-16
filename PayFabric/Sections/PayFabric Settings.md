@@ -84,18 +84,6 @@ With `Modern Design`, PayFabric provides merchant the ability to specify default
 
 Each Device is allowed to setup a Credit card and a eCheck gateway profile against currency, prior to setup default gateway, gateway profile must be created from `Settings` > `Gateway Account Profiles`. `Virtual Terminal` option of Device Name is only available when Design Mode is `Modern Design` under `PayFabric Settings`.
 
-# P2PE Decryptx Settings
-
-Navigate to Settings > P2PE Decryptx Settings
-
-From P2PE Bluefin Decryptx configuration page, user can configure settings specific to Bluefin Decryptx service 
-![BluefinProfile](https://github.com/PayFabric/Portal/blob/PayFabric-Release-11-features/PayFabric/Sections/Screenshots/BluefinProfile.png)
-
-# Bluefin Entry Options
-| - Use Non-Encrypted key Entry - | Default option. This option allow user to enter credit card information using PayFabric’s regular hosted page via regular keyboard, without using PTS device.  |
-| - Use Encrypted key Entry - | All the basic functionality from PayFabric’s hosted pages to allow user to enter credit card information into the hosted pages will be disabled. User can only enter card data via PTS Device. |
-| - Use Both -| Provide both entry options on the hosted page(s) so the user is able to choose their preferred option.  |
-
 # Discretionary Data
 
 Navigate to Settings > Discretionary Data.
