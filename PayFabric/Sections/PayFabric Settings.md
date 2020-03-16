@@ -63,6 +63,9 @@ These are settings relate to process a payment transaction.
 |Enable Security Token|For APIs and Hosted Pages: this is the default option where security token will be allow to use as the authentication method in both hosted pages and APIs. For Hosted Pages Only: with this option, security token will ONLY be allow to use as the authentication method in hosted pages. The API service response will fail authentication if any API calls was authenticated using security token.|
 | Default Transaction Type|PayFabric offers the ability for merchant to specify the default transaction type on PayFabric’s Virtual Terminal.. Note: this options is only available for `Modern Design`|
 | Credit card validation gateway profile| This is a sub setting for ``Credit Card Validation Required``, now support validate credit card from EVO,CybersourceSOAP,Paymentech|
+| Authorization Type | This is a required field when enable ``Credit Card Validation Required`` setting, valid value is ``Incremental``,``Reauthorization``,``Resubmission``,``NotSet`` |
+| Transaction Schedule | This is a required field when enable ``Credit Card Validation Required`` setting, valid value is ``Scheduled``,``ScheduledInstallment``,``ScheduledRecurring``,``NotSet`` |
+| Transaction Initiation | This is a required field when enable ``Credit Card Validation Required`` setting, valid value is ``Customer``,``Merchant``,``NotSet``  |
 
 ## Unit Of Measure Mapping for Payeezy (First Data GGE4)
 For merchant using Payeezy gateway, item’s unit of measure needs to be mapped to the values supported by the gateway. See referenced URL for valid UOM from First Data. 
