@@ -9,16 +9,22 @@ Navigate to Settings > DEV Central > PayFabric Settings.
 PayFabric Virtual Terminal have introduced two UI Modes for virtual terminal , `Legacy Design` and `Modern Design`
 
 * `Legacy Design`: Maintain the existing user interface and experience for virtual terminal where user can mimic the hosted API calls for PayFabric and also review the custom’s device theme directly on PayFabric portal. 
-![LegacyDesign](https://raw.githubusercontent.com/PayFabric/Portal/master/PayFabric/Sections/Screenshots/LegacyDesign.png)
+![Legacy VT_General](https://github.com/PayFabric/Portal/blob/PayFabric-Release-11-features/PayFabric/Sections/Screenshots/Legacy%20VT_General.png)
+![Legacy VT_TransactionOptions](https://github.com/PayFabric/Portal/blob/PayFabric-Release-11-features/PayFabric/Sections/Screenshots/Legacy%20VT_TransactionOptions.png)
+
 
 * `Modern Design`: Introduce a new user friendly design for Virtual Terminal to allow merchant to process transactions against PayFabric web portal via web entry and/or terminal entry. 
-![ModernDesign](https://raw.githubusercontent.com/PayFabric/Portal/master/PayFabric/Sections/Screenshots/ModernDesign.png)
+![Modern VT_TransactionOptions](https://github.com/PayFabric/Portal/blob/PayFabric-Release-11-features/PayFabric/Sections/Screenshots/Modern%20VT_TransactionOptions.png)
+![Modern VT_PaymentDetails](https://github.com/PayFabric/Portal/blob/PayFabric-Release-11-features/PayFabric/Sections/Screenshots/Modern%20VT_FormSettings_PaymentDetails.png)
+![Modern VT_TransactionDetails](https://github.com/PayFabric/Portal/blob/PayFabric-Release-11-features/PayFabric/Sections/Screenshots/Modern%20VT_FormSettings_TransactionDetails.png)
+![Modern VT_Addresses](https://github.com/PayFabric/Portal/blob/PayFabric-Release-11-features/PayFabric/Sections/Screenshots/Modern%20VT_FormSettings_Address.png)
+![Modern VT_ItemDetails](https://github.com/PayFabric/Portal/blob/PayFabric-Release-11-features/PayFabric/Sections/Screenshots/Modern%20VT_FormSettings_ItemDetails.png)
 
 ## Device Name
 The drop-down consists all existing devices associated with the PayFabric account. PayFabric enable user to configure different transaction settings for every device. Choose the corresponding device from the drop-down list, then begin making changes to the settings.
 
-## Web Entry Transaction Fields
-Define the field(s) that will be available on `Process a Transaction` page by tick or untick the field name from the list, to control the additional values for transaction processing. 
+## Form settings
+Define the field(s) that will be Hide/Optional/Required on `Process a Transaction` page by tick or untick the field name from the list, to control the additional values for transaction processing. This setting is only for ``Modern VT``
 
 ## Accept Card Types
 Define the supported card type(s) by tick or untick the card type from the list. 
@@ -33,13 +39,16 @@ These are settings relate to process a payment transaction.
 | Lock Gateway Account           | If this option is check marked, system will prevent user from changing the gateway account profile on PayFabric’s hosted payment page. |
 | Fail On CVV2 Mismatch          | Payment gateway verifies the CSC (Card Security Code). By checking this option, PayFabric will automatically void any approved payment if the CSC verification failed by the gateway/processor. |
 | Shipping Address Required | By default, shipping address is not required as processing transactions. Checking this option to enable this logic. |
-| Partial Shipping | This option is for capturing a pre-authorized transaction. By default (uncheck), the capturing amount must be same with pre-authorization. By checking this option, merchant allow the capturing amount less/more than the original pre-authorization transaction.|
+| Partial Capture | This option is for capturing a pre-authorized transaction. By default (uncheck), the capturing amount must be same with pre-authorization. By checking this option, merchant allow the capturing amount less/more than the original pre-authorization transaction.|
 | Lock Transaction Type| If this option is check marked, system will prevent user from changing the transaction type on PayFabric’s hosted payment page.|
 |Fail On Address Mismatch | Payment gateway verifies the billing address. By checking this option, PayFabric will automatically void any approved payment if the address verification failed by the gateway/processor.|
 |Lock Currency| If this option is check marked, system will prevent user from changing the currency type on PayFabric’s hosted payment page.|
 |Popup Message|If this option is check marked, system will display response or error message to end-user using popup message instead of inline within PayFabric’s hosted payment page and hosted wallet page.|
 |IP Address Validation for Security Token|If enabled, PayFabric will validate the security token’s IP address. If the IP address associated with the security token at the time of token creation does not match the security token at the time of token consumption, PayFabric will return the ‘failed authentication’ error during API calls. If disabled, PayFabric will not validate the security’s token IP address during API calls. By default, this setting is enabled.|
-|Partial Referenced Credit|If enabled, PayFabric will allow to process partial referenced credit/refund transaction for their customers from `Manage Transactions`. Note: This options is only available for Virtual Terminal. |
+|Partial Refund|If enabled, PayFabric will allow to process partial referenced credit/refund transaction for their customers from `Manage Transactions`. Note: This options is only available for Virtual Terminal. |
+|Credit Card Validation Required |If Enable, Payfabric will validate credit card before storing for later use.|
+|Enable Bin Range Validation |If enabled, PayFabric will do BIN Range validation on all credit card data to determine the card type. If card type is a non-purchasing card, PayFabric will exclude L2/L3 data when submitting to gateway/processing.|
+
 
 ## General Settings
 |Field                          |Description  | 
@@ -53,6 +62,10 @@ These are settings relate to process a payment transaction.
 |Maximum Amount Per Transaction|Specify a maximum amount for each transaction.|
 |Enable Security Token|For APIs and Hosted Pages: this is the default option where security token will be allow to use as the authentication method in both hosted pages and APIs. For Hosted Pages Only: with this option, security token will ONLY be allow to use as the authentication method in hosted pages. The API service response will fail authentication if any API calls was authenticated using security token.|
 | Default Transaction Type|PayFabric offers the ability for merchant to specify the default transaction type on PayFabric’s Virtual Terminal.. Note: this options is only available for `Modern Design`|
+| Credit card validation gateway profile| This is a sub setting for ``Credit Card Validation Required``, now support validate credit card from EVO,CybersourceSOAP,Paymentech|
+| Authorization Type | Default indicator if API or Hosted page does not send in Authorization Type's option. |
+| Transaction Schedule | Default indicator if API or Hosted page does not send in Transaction Schedule's option. |
+| Transaction Initiation | Default indicator if API or Hosted page does not send in Transaction Initiation's option.  |
 
 ## Unit Of Measure Mapping for Payeezy (First Data GGE4)
 For merchant using Payeezy gateway, item’s unit of measure needs to be mapped to the values supported by the gateway. See referenced URL for valid UOM from First Data. 
