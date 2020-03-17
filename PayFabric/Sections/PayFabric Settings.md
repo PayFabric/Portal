@@ -24,7 +24,7 @@ PayFabric Virtual Terminal have introduced two UI Modes for virtual terminal , `
 The drop-down consists all existing devices associated with the PayFabric account. PayFabric enable user to configure different transaction settings for every device. Choose the corresponding device from the drop-down list, then begin making changes to the settings.
 
 ## Form settings
-Define the field(s) that will be Hide/Optional/Required on `Process a Transaction` page by tick or untick the field name from the list, to control the additional values for transaction processing. This setting is only for ``Modern VT``
+With `Modern Design` mode for Virtual Terminal, the defined field(s) that will be Hide/Optional/Required on `Process a Transaction` page by tick or untick the field name from the list, to control the additional values for transaction processing.
 
 ## Accept Card Types
 Define the supported card type(s) by tick or untick the card type from the list. 
@@ -46,7 +46,7 @@ These are settings relate to process a payment transaction.
 |Popup Message|If this option is check marked, system will display response or error message to end-user using popup message instead of inline within PayFabric’s hosted payment page and hosted wallet page.|
 |IP Address Validation for Security Token|If enabled, PayFabric will validate the security token’s IP address. If the IP address associated with the security token at the time of token creation does not match the security token at the time of token consumption, PayFabric will return the ‘failed authentication’ error during API calls. If disabled, PayFabric will not validate the security’s token IP address during API calls. By default, this setting is enabled.|
 |Partial Refund|If enabled, PayFabric will allow to process partial referenced credit/refund transaction for their customers from `Manage Transactions`. Note: This options is only available for Virtual Terminal. |
-|Credit Card Validation Required |If Enable, Payfabric will validate credit card before storing for later use.|
+|Credit Card Validation Required |If enabled, Payfabric will validate credit card before storing for later use.|
 |Enable Bin Range Validation |If enabled, PayFabric will do BIN Range validation on all credit card data to determine the card type. If card type is a non-purchasing card, PayFabric will exclude L2/L3 data when submitting to gateway/processing.|
 
 
@@ -78,7 +78,7 @@ Reference: https://support.payeezy.com/hc/en-us/articles/203732159-Units-of-Meas
 
 Navigate to Settings > Gateway Account Configuration > Default Gateway Settings.
 
-With `Modern Design`, PayFabric provides merchant the ability to specify default gateway profile based on currency types so their internal user does not need to select a gateway profile at the time of processing a transaction. This functionality is supported through PayFabric API calls for all PayFabric apps/devices.
+With `Modern Design` mode for Virtual Terminal, PayFabric provides merchant the ability to specify default gateway profile based on currency types so their internal user does not need to select a gateway profile at the time of processing a transaction. This functionality is supported through PayFabric API calls for all PayFabric apps/devices.
 
 ![DefaultGatewaySetings](https://raw.githubusercontent.com/PayFabric/Portal/master/PayFabric/Sections/Screenshots/DefaultGatewaySetings.png)
 
@@ -94,4 +94,4 @@ With `Modern Design` mode for Virtual Terminal, merchant will have the ability t
 
 Navigate to Settings > Products.
 
-PayFabric provide the ability to manage the products. The uploaded products can be added to the transactions when processing transaction on ``Modern Design``
+With `Modern Design` mode for Virtual Terminal, PayFabric provide the ability to manage the products. The uploaded products can be added to the transactions when processing transaction.
