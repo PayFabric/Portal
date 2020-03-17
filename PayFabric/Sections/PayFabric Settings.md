@@ -76,13 +76,20 @@ Reference: https://support.payeezy.com/hc/en-us/articles/203732159-Units-of-Meas
 
 # Default Gateway Settings
 
-Navigate to Settings > DEV Central > Default Gateway Settings.
+Navigate to Settings > Gateway Account Configuration > Default Gateway Settings.
 
 With `Modern Design`, PayFabric provides merchant the ability to specify default gateway profile based on currency types so their internal user does not need to select a gateway profile at the time of processing a transaction. This functionality is supported through PayFabric API calls for all PayFabric apps/devices.
 
 ![DefaultGatewaySetings](https://raw.githubusercontent.com/PayFabric/Portal/master/PayFabric/Sections/Screenshots/DefaultGatewaySetings.png)
 
 Each Device is allowed to setup a Credit card and a eCheck gateway profile against currency, prior to setup default gateway, gateway profile must be created from `Settings` > `Gateway Account Profiles`. `Virtual Terminal` option of Device Name is only available when Design Mode is `Modern Design` under `PayFabric Settings`.
+
+# Batch Close
+Navigate to Settings > Gateway Account Configuration > Click Batch Close button on an existing gateway
+
+PayFabric provide merchant the ability to specify their automatic batch close time at the gateway profile level based on hour, minute, am/pm with the interval of 30 minutes.
+![BatchClose](https://github.com/PayFabric/Portal/blob/PayFabric-Release-11-features/PayFabric/Sections/Screenshots/BatchClose.png)
+
 
 # Discretionary Data
 
