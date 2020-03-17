@@ -32,7 +32,7 @@ For more information on how to configure your Device and Payment Gateway informa
 
 ![PayLinkERPConfiguration](https://raw.githubusercontent.com/PayFabric/Portal/master/PayFabric/Sections/Screenshots/PayLinkERPConfiguration.png)
 
-### $ Configure Default Gateways
+### Configure Default Gateways
 
 **Settings** > **$ Configure Default Gateways**. PayLink allows 3rd party application to send the API request without CreditCardGateway and ECheckGateway by using the default gateway profile settings. Default credit card/eCheck gateway profile can be set against each currency type and the associated gateway information will be used during transaction processing. 
 
