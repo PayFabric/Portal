@@ -224,3 +224,11 @@ Note: For Canadian currency only.
 | SecurityKey             | This is the Security Key for the API service obtained from NMI|
 
 Note: Provide either UserName/Password or SecurityKey for creating NMI gateway profile, if both UserName/Password and SecurityKey are provided, SecurityKey will be used.
+
+# Batch Close
+Navigate to Settings > Gateway Account Configuration > Click Batch Close button on an existing gateway
+
+PayFabric provide merchant the ability to specify their automatic batch close time at the gateway profile level based on hour, minute, am/pm with the interval of 30 minutes.
+![BatchClose](https://github.com/PayFabric/Portal/blob/PayFabric-Release-11-features/PayFabric/Sections/Screenshots/BatchClose.png)
+
+
