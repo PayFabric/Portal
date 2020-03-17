@@ -84,13 +84,6 @@ With `Modern Design`, PayFabric provides merchant the ability to specify default
 
 Each Device is allowed to setup a Credit card and a eCheck gateway profile against currency, prior to setup default gateway, gateway profile must be created from `Settings` > `Gateway Account Profiles`. `Virtual Terminal` option of Device Name is only available when Design Mode is `Modern Design` under `PayFabric Settings`.
 
-# Batch Close
-Navigate to Settings > Gateway Account Configuration > Click Batch Close button on an existing gateway
-
-PayFabric provide merchant the ability to specify their automatic batch close time at the gateway profile level based on hour, minute, am/pm with the interval of 30 minutes.
-![BatchClose](https://github.com/PayFabric/Portal/blob/PayFabric-Release-11-features/PayFabric/Sections/Screenshots/BatchClose.png)
-
-
 # Discretionary Data
 
 Navigate to Settings > Discretionary Data.
