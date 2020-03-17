@@ -1,3 +1,4 @@
+# Gateway Account Profiles
 PayFabric support multiple and growing payment gateways. Each gateway will have their own setup information , therefore PayFabric support these setup with a flexible way. As you are switching the "Connector" field on the Gateway Account Profiles page, the "Gateway Fields" section will be refreshed in accordance with your selection.
 
 And currently, PayFabric support below gateways.
@@ -226,9 +227,9 @@ Note: For Canadian currency only.
 Note: Provide either UserName/Password or SecurityKey for creating NMI gateway profile, if both UserName/Password and SecurityKey are provided, SecurityKey will be used.
 
 # Batch Close
-Navigate to Settings > Gateway Account Configuration > Click Batch Close button on an existing gateway
+Navigate to Settings > Gateway Account Configuration > Click Batch Close button on an existing gateway.
 
-PayFabric provide merchant the ability to specify their automatic batch close time at the gateway profile level based on hour, minute, am/pm with the interval of 30 minutes.
+With EVO gateway profiles, PayFabric provide merchant the ability to specify their automatic batch close time at the gateway profile level based on hour, minute, am/pm with the interval of 30 minutes. By default, the batch close time is 8pm PT. When automatic batch closes occurs, PayFabric will gather all transactions that were processed from the last 24-hours from the cut-off time and will send it through to EVO Snap for batch capture.
 ![BatchClose](https://github.com/PayFabric/Portal/blob/PayFabric-Release-11-features/PayFabric/Sections/Screenshots/BatchClose.png)
 
 
