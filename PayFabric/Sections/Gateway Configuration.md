@@ -164,7 +164,8 @@ Note: For Canadian currency only.
 | -------------------- |:---------------------------- |
 |Connector|Forte|
 |Processor|Forte|
-|Card Class|ECheck|
+|Card Class|Choose ‘Credit’ for Credit Card Transactions|
+||Choose ‘ECheck’ for eCheck Transactions|
 | Server.Address       | For Test Transactions: https://sandbox.forte.net/api/v3 |
 || For Live Transactions: must contact Forte Technical Support at go Live. | 
 | OrganizationID       | This is the organization identifier obtained from Forte|
