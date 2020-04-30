@@ -3,19 +3,6 @@
 ## PayFabric Portal URL:
 https://www.payfabric.com/portal
 
-## Service Mode
-
-Under a single account login, user can toggle the service mode between Sandbox & Live using the toggle button on the top navigation bar.
-By default, the account is set to sandbox mode when the account is first created. Merchant can promote it to live mode in order to process live transactions by toggle the button.
-
-**Sandbox:**
-
-![Sandbox](https://raw.githubusercontent.com/PayFabric/Portal/master/PayFabric/Sections/Screenshots/Sandbox.png)
-
-**Live:**
-
-![Live](https://raw.githubusercontent.com/PayFabric/Portal/master/PayFabric/Sections/Screenshots/Live.png)
-
 ## Devices
 
 Any application that utilizes PayFabric in the backend for payment processing requires a set of device & password.
