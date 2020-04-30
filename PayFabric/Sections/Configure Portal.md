@@ -2,7 +2,8 @@
 
 ## PayFabric Portal URL:
 Live: https://www.payfabric.com/portal
-https://sandbox.payfabric.com/portal
+
+Sandbox: https://sandbox.payfabric.com/portal
 
 ## Devices
 
