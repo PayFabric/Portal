@@ -2,7 +2,7 @@
 
 ## DEV Central
 
-The **Settings** page is used to configure your Device, define your ERP connection information and Gateway information and setting default gateways per currency in the event that you do not specify a particular gateway via the API.  If you need help configuration your ERP connection please contact our support team at <support@payfabric.com>.
+The **Settings** page is used to configure your Device, define your ERP connection information and Gateway information and setting default gateways per currency in the event that you do not specify a particular gateway via the API. If you need help configuration your ERP connection please contact our support team at <support@payfabric.com>.
 
 For more information on how to configure your Device and Payment Gateway information please see our [Configure Portal](Configure%20Portal.md).
 
@@ -40,9 +40,9 @@ For more information on how to configure your Device and Payment Gateway informa
 
 ## Templates
 
-**Settings** > **Templates**.The user is able to customize all of the notification templates that are distributed, either by email or SMS.  We have provided you with a default set of templates which you can copy and make changes to, or start from scratch.
+**Settings** > **Templates**. The user is able to customize all of the notification templates that are distributed, either by email or SMS. We have provided you with a default set of templates which you can copy and make changes to, or start from scratch.
 
-All of our templates have ability of inserting parameters.  Parameters are active areas of the text that will be dynamically replaced by unique document information prior to the message being sent.  Each template may have different available parameters, please click on the **Insert Parameter** link when creating or modifying the templates to see available parameters.
+All of our templates have ability of inserting parameters. Parameters are active areas of the text that will be dynamically replaced by unique document information prior to the message being sent. Each template may have different available parameters, please click on the **Insert Parameter** link when creating or modifying the templates to see available parameters.
 
 ![PayLinkEmailNotificationTemplates](https://raw.githubusercontent.com/PayFabric/Portal/master/PayFabric/Sections/Screenshots/PayLinkEmailNotificationTemplates.png)
 
