@@ -23,7 +23,7 @@ PayFabric Virtual Terminal have introduced two UI Modes for virtual terminal , `
 ## Device Name
 The drop-down consists all existing devices associated with the PayFabric account. PayFabric enable user to configure different transaction settings for every device. Choose the corresponding device from the drop-down list, then begin making changes to the settings.
 
-## Form settings
+## Form Settings
 With `Modern Design` mode for Virtual Terminal, the defined field(s) that will be Hide/Optional/Required on `Process a Transaction` page by tick or untick the field name from the list, to control the additional values for transaction processing.
 
 ## Accept Card Types
@@ -46,6 +46,7 @@ These are settings relate to process a payment transaction.
 |Popup Message|If this option is check marked, system will display response or error message to end-user using popup message instead of inline within PayFabric’s hosted payment page and hosted wallet page.|
 |IP Address Validation for Security Token|If enabled, PayFabric will validate the security token’s IP address. If the IP address associated with the security token at the time of token creation does not match the security token at the time of token consumption, PayFabric will return the ‘failed authentication’ error during API calls. If disabled, PayFabric will not validate the security’s token IP address during API calls. By default, this setting is enabled.|
 |Partial Refund|If enabled, PayFabric will allow to process partial referenced credit/refund transaction for their customers from `Manage Transactions`. Note: This options is only available for Virtual Terminal. |
+|Return Legacy Transaction Types |If enabled, when retrieving transactions through the use of the API, the transaction types returned will be those of the legacy Book, Ship and Credit instead of the new Authorization, Capture and Refund.|
 |Credit Card Validation Required |If enabled, Payfabric will validate credit card before storing for later use.|
 |Enable Bin Range Validation |If enabled, PayFabric will do BIN Range validation on all credit card data to determine the card type. If card type is a non-purchasing card, PayFabric will exclude L2/L3 data when submitting to gateway/processing.|
 
