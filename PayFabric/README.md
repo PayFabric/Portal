@@ -35,6 +35,6 @@ Before programming with PayFabric, you need a PayFabric account to get started. 
 * [Level 2 and Level 3 Fields Default](Sections/L2%20and%20L3%20Fields%20Default.md)
 * [Payment Terminals](Sections/Payment%20Terminals.md)
 * [Bluefin](Sections/Bluefin.md)
-* [Transaction Types](Sections/Transaction%20Types.md)
+* [Transaction Types](https://github.com/PayFabric/APIs/blob/master/PayFabric/Sections/Transaction%20Types.md)
 * [Error Codes](Sections/PayFabric%20Error%20Codes.md)
 * [eCommerce with PayFabric & GP](Sections/eCommerce%20with%20PayFabric%20%26%20GP.pdf)
