@@ -52,7 +52,7 @@ These are settings relate to process a payment transaction.
 |Maximum Limit for Sale Transaction(Credit)|Specify a maximum amount for Sale/Authorization/Force transaction when process transaction with credit card.|
 |Maximum Limit for Sale Transaction(eCheck)|Specify a maximum amount for Sale transaction when process transaction with eCheck.|
 |Maximum Limit for Refund Transaction(Credit)|Specify a maximum amount for refund transaction when process transaction with credit card.|
-|Maximum Limit for Refund Transaction(eCheck)|Specify a maximum amount for refund transaction when process transaction with credit card.|
+|Maximum Limit for Refund Transaction(eCheck)|Specify a maximum amount for refund transaction when process transaction with eCheck.|
 
 
 ## General Settings
