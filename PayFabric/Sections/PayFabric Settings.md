@@ -10,11 +10,11 @@ PayFabric Virtual Terminal have introduced two UI Modes for virtual terminal , `
 
 * `Legacy Design`: Maintain the existing user interface and experience for virtual terminal where user can mimic the hosted API calls for PayFabric and also review the custom’s device theme directly on PayFabric portal. 
 ![Legacy VT_General](https://raw.githubusercontent.com/PayFabric/Portal/master/PayFabric/Sections/Screenshots/Legacy%20VT_General.png)
-![Legacy VT_TransactionOptions](https://raw.githubusercontent.com/PayFabric/Portal/master/PayFabric/Sections/Screenshots/Legacy%20VT_TransactionOptions.png)
+![TrxOptionR13](https://raw.githubusercontent.com/PayFabric/Portal/master/PayFabric/Sections/Screenshots/TrxOptionR13.png)
 
 
 * `Modern Design`: Introduce a new user friendly design for Virtual Terminal to allow merchant to process transactions against PayFabric web portal via web entry and/or terminal entry. 
-![Modern VT_TransactionOptions](https://raw.githubusercontent.com/PayFabric/Portal/master/PayFabric/Sections/Screenshots/Modern%20VT_TransactionOptions.png)
+![ModernTrxOptionR13](https://raw.githubusercontent.com/PayFabric/Portal/master/PayFabric/Sections/Screenshots/ModernTrxOptionR13.png)
 ![Modern VT_PaymentDetails](https://raw.githubusercontent.com/PayFabric/Portal/master/PayFabric/Sections/Screenshots/Modern%20VT_FormSettings_PaymentDetails.png)
 ![Modern VT_TransactionDetails](https://raw.githubusercontent.com/PayFabric/Portal/master/PayFabric/Sections/Screenshots/Modern%20VT_FormSettings_TransactionDetails.png)
 ![Modern VT_Addresses](https://raw.githubusercontent.com/PayFabric/Portal/master/PayFabric/Sections/Screenshots/Modern%20VT_FormSettings_Address.png)
@@ -49,6 +49,10 @@ These are settings relate to process a payment transaction.
 |Return Legacy Transaction Types |If enabled, when retrieving transactions through the use of the API, the transaction types returned will be those of the legacy Book, Ship and Credit instead of the new Authorization, Capture and Refund.|
 |Credit Card Validation Required |If enabled, Payfabric will validate credit card before storing for later use.|
 |Enable Bin Range Validation |If enabled, PayFabric will do BIN Range validation on all credit card data to determine the card type. If card type is a non-purchasing card, PayFabric will exclude L2/L3 data when submitting to gateway/processing.|
+|Maximum Limit for Sale Transaction(Credit)|Specify a maximum amount for Sale/Authorization/Force transaction when process transaction with credit card.|
+|Maximum Limit for Sale Transaction(eCheck)|Specify a maximum amount for Sale transaction when process transaction with eCheck.|
+|Maximum Limit for Refund Transaction(Credit)|Specify a maximum amount for refund transaction when process transaction with credit card.|
+|Maximum Limit for Refund Transaction(eCheck)|Specify a maximum amount for refund transaction when process transaction with credit card.|
 
 
 ## General Settings
@@ -60,7 +64,6 @@ These are settings relate to process a payment transaction.
 | Return URL|A URL address that PayFabric can redirect to once a transaction is processed. The response fields will be encoded and attached into query string.|
 | Maximum Shipping Address| Limit the number of shipping address(s) loaded on PayFabric hosted payment page by specify the number of saved card. The default value is 10. Note: this options is only available for `Legacy Design`|
 | Batch Number Prefix|User defined prefix for batch number. Note: this options is only available for `Legacy Design`|
-|Maximum Amount Per Transaction|Specify a maximum amount for each transaction.|
 |Enable Security Token|For APIs and Hosted Pages: this is the default option where security token will be allow to use as the authentication method in both hosted pages and APIs. For Hosted Pages Only: with this option, security token will ONLY be allow to use as the authentication method in hosted pages. The API service response will fail authentication if any API calls was authenticated using security token.|
 | Default Transaction Type|PayFabric offers the ability for merchant to specify the default transaction type on PayFabric’s Virtual Terminal.. Note: this options is only available for `Modern Design`|
 | Credit card validation gateway profile| This is a sub setting for ``Credit Card Validation Required``, now support validate credit card from EVO,CybersourceSOAP,Paymentech|
