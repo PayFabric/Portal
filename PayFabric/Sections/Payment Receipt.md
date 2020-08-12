@@ -9,6 +9,8 @@ Once checked, PayFabric will send receipt to customer once a transaction is proc
 ### Send to
 The purpose of this field is to setup the addtional email addresses which are able to receive the copy of receipt. Normally, it's a staff in merchant's company.
 
+*Note: There is an option to disable email receipt per transaction via API. Adding `DisableEmailReceipt` node in transaction request body, see [Document](https://github.com/PayFabric/APIs/blob/master/PayFabric/Sections/Objects.md#document) for more details. 
+
 ### Subject
 Setup email subject.
 
