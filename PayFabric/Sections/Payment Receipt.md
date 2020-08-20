@@ -72,3 +72,5 @@ Following parameters are able to be embeded into email templates. At the moment 
 | \[\[CVV2Response\]\]   | Gateway CVV2 Response Code|
 | \[\[AddressResponse\]\]   | Gateway Address Response Code|
 | \[\[ZipResponse\]\]   | Gateway Zip Response Code|
+| \[\[SurchargePercentage\]\]   | Surcharge Percentage|
+| \[\[SurchargeAmount\]\]   | Surcharge amount (Original amount * SurchargeRate)|
