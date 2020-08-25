@@ -182,7 +182,7 @@ Note: For Canadian currency only.
 |Processor|FrontStreamFundraisingPro|
 |Card Class|Credit|
 | Server.Url           | For Test Transactions: https://secureuat.artezhq.com/api/ |
-|| For Live Transactions: https://secure.e2rm.com/api/Donations | 
+|| For Live Transactions: https://secure.e2rm.com/api/ | 
 | UserName             | This is the user name for the API service obtained from FrontStream Fundraising Pro|
 | Password             | This is the password for the user name obtained from FrontStream Fundraising Pro |
 | EventID              | This is the event identifier obtained from FrontStream Fundraising Pro |
