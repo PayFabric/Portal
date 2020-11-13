@@ -6,7 +6,7 @@ With P2PE, it helps with reduce PCI Scope and protects against malware in regard
 
 Supported P2PE device: IDTech SRED.
 
-To configure Bluefin profile, navigate to **Settings** > **Bluefin Profile** (under **P2PE Decryptx Settings**).
+To configure Bluefin profile, navigate to **Settings** >**Integrations** > **Bluefin Decryptx** 
 
 ![Bluefin Profile](https://raw.githubusercontent.com/PayFabric/Portal/master/PayFabric/Sections/Screenshots/BluefinProfile.png)
 
