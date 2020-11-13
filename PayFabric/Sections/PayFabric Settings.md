@@ -24,7 +24,13 @@ PayFabric Virtual Terminal have introduced two UI Modes for virtual terminal , `
 The drop-down consists all existing devices associated with the PayFabric account. PayFabric enable user to configure different transaction settings for every device. Choose the corresponding device from the drop-down list, then begin making changes to the settings.
 
 ## Form Settings
-With `Modern Design` mode for Virtual Terminal, the defined field(s) that will be Hide/Optional/Required on `Process a Transaction` page by tick or untick the field name from the list, to control the additional values for transaction processing.
+With `Modern Design` mode for Virtual Terminal, the defined field(s) that will be Hide/Optional/Required/Data Level Qualification on `Process a Transaction` page by tick or untick the field name from the list, to control the additional values for transaction processing.
+|Field                          |Description  | 
+|:------------------------------|:-------------| 
+| Hide                          | Upon selected, this option will hide this field to user on modern VT.  |
+| Optional                      | Upon selected, this option will show but optional this field to user on modern VT. |
+| Required                      | Upon selected, this option will show and require this field to user on modern VT. |
+| Data Level Qualification      | Upon selected, this option will dynamically display this field to user as required ONLY if the card level type through BIN Range validation is purchasing card/business/corporate/commercial card for L2/L3 qualification. |
 
 ## Accept Card Types
 Define the supported card type(s) by tick or untick the card type from the list. 
