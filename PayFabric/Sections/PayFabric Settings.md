@@ -30,7 +30,7 @@ With `Modern Design` mode for Virtual Terminal, the defined field(s) that will b
 | Hide                          | Upon selected, this option will hide this field to user on modern VT.  |
 | Optional                      | Upon selected, this option will show but optional this field to user on modern VT. |
 | Required                      | Upon selected, this option will show and require this field to user on modern VT. |
-| Data Level Qualification      | Upon selected, this option will dynamically display this field to user as required ONLY if the card level type through BIN Range validation is purchasing card/business/corporate/commercial card for L2/L3 qualification. |
+| Data Level Qualification      | Upon selected, this option will dynamically display this field to user as required ONLY IF the card level type is purchasing card/business/corporate/commercial card for Level 2 & Level 3 qualification. |
 
 ## Accept Card Types
 Define the supported card type(s) by tick or untick the card type from the list. 
