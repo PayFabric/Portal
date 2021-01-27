@@ -28,4 +28,4 @@ There're two ways to apply the default fields:
 
 2. **At All times**. By choosing this option, default values will be submitted to gateway at all times.
 
-**Note**: Level 2/3 defaults will not be applicable to Verify transaction for both apply methods.
+**Note**: **Level 2/3 Feilds Default** will not be applicable to _Verify_ transaction.
