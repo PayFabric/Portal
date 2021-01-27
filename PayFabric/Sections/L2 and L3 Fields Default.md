@@ -24,6 +24,9 @@ When the [Design Mode](PayFabric%20Settings.md#design-mode) is **Modern Design**
 
 There're two ways to apply the default fields:
 
-1. **Apply PayFabric's default values to all fields with missing Level 2/3 data**. By choosing this option, default values will be submitted to gateway when application doesn't send any level 2/3 data to PayFabric.
+1. **For Missing Data**. By choosing this option, default values will be submitted to gateway when application doesn't send any level 2/3 data to PayFabric.
 
-2. **Apply PayFabric's default values at all times**. By choosing this option, default values will be submitted to gateway at all times.
+2. **At All times**. By choosing this option, default values will be submitted to gateway at all times.
+
+## Note
+1. Level 2/3 defaults will not be applicable to Verify transaction for both apply methods.
