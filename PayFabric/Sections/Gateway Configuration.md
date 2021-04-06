@@ -16,6 +16,7 @@ And currently, PayFabric support below gateways.
 * [EVO](#evo)
 * [EziDebit](#ezidebit)
 * [NMI](#nmi)
+* [EVOACH](#EVOACH)
 
 Configure the Gateway Account Profile using the following information. Fields not mentioned here are not required for the minimum configuration.
 
@@ -228,6 +229,16 @@ Note: For Canadian currency only.
 | SecurityKey             | This is the Security Key for the API service obtained from NMI|
 
 Note: Provide either UserName/Password or SecurityKey for creating NMI gateway profile, if both UserName/Password and SecurityKey are provided, SecurityKey will be used.
+
+## EVOACH
+
+| Field                | Value                   | 
+| -------------------- |:---------------------------- | 
+|Connector|EVOACH|
+|Processor|EVO ACH|
+|Card Class|ECheck|
+| Server.Address           | For both Test Transactions: https://achcert.goevo.com |
+| MerchantID             |Only B2B partner has ability to configure this field, so if merchants want to use EVOACH gateway, please contact with your partner.|
 
 # Batch Close
 Navigate to Settings > Gateway Account Configuration > Click Batch Close button on an existing gateway.
