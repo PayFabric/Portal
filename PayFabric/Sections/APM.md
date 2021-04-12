@@ -1,5 +1,5 @@
 # Alternative Payment Methods
-Provide PayPal as a new form of alternative payment method (APM) on PayFabric. Before the PayPal available, please active PayPal first, navigate to **Settings** > **Alternative Payment Methods**. Please see the detailed description & instruction below.
+Provide PayPal as a new form of alternative payment method (APM) on PayFabric. Before the PayPal be available, you need to activiate PayPal first, navigate to **Settings** > **Alternative Payment Methods**. Please see the detailed description & instruction below.
 
 ## Active PayPal
 Steps:
