@@ -237,7 +237,8 @@ Note: Provide either UserName/Password or SecurityKey for creating NMI gateway p
 |Connector|EVOACH|
 |Processor|EVO ACH|
 |Card Class|ECheck|
-| Server.Address           | For both Test Transactions: https://achcert.goevo.com |
+| Server.Url           | For Test Transactions: https://achcert.goevo.com |
+|| For Live Transactions: https://ach.goevo.com |
 | MerchantID             |Only B2B partner has ability to configure this field, so if merchants want to use EVOACH gateway, please contact with your partner.|
 
 # Batch Close
