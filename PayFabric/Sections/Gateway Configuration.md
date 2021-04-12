@@ -241,6 +241,8 @@ Note: Provide either UserName/Password or SecurityKey for creating NMI gateway p
 || For Live Transactions: https://ach.goevo.com |
 | MerchantID             |Only B2B partner has ability to configure this field, so if merchants want to use EVOACH gateway, please contact with your partner.|
 
+Note: EVOACH gateway supports Sale, Void and Refund transaction types.
+
 # Batch Close
 Navigate to Settings > Gateway Account Configuration > Click Batch Close button on an existing gateway.
 
