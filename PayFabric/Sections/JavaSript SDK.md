@@ -17,7 +17,7 @@ Want to get started with our PayFabric JavaScript SDK integration?  Here's a qui
 
 1. Read up on our [guides and information](https://github.com/PayFabric/APIs/tree/master/PayFabric) for our APIs
 2. Read up on how to [Create a new Transaction](https://github.com/PayFabric/APIs/blob/master/PayFabric/Sections/Transactions.md#create-a-transaction) with our APIs.
-3. Read up on how to [Generate a JWT Token](https://github.com/PayFabric/APIs/blob/master/PayFabric/Sections/JWTToken.md) with our APIs. 
+3. Read up on how to [Create a JWT Token](https://github.com/PayFabric/APIs/blob/master/PayFabric/Sections/JWTToken.md) with our APIs. 
 4. Have a question or need help? Contact <support@payfabric.com>.
 
 # Ready to Go?
@@ -28,7 +28,7 @@ Once you have followed our guides and information, you are ready to go.  Our Jav
 
 ## Initiating a new Transaction and Payment Intent
 
-Using our Create a new Transaction and Generate a JWT Token API's you will receive a JWT Token, this token value is all you need to use to populate our new JavaScript Library.
+Using our Create a new Transaction and Create a JWT Token API's you will receive a JWT Token, this token value is all you need to use to populate our new JavaScript Library.
 
 ```HTML
 <html>
@@ -62,3 +62,21 @@ function loadPaymentsSDK() {
 }
 ```
 
+# JavaScript SDK Options
+
+| Option | Required | Description | 
+| :-------------  | :-------------  | :------------- |  
+| environment | Required | The PayFabric environment that you will be targeting.  Values values are LIVE and SANDBOX. |
+| target | Required | The target DIV that will be responsible for displaying the payment box. |
+| session | Required | The JWT Token value obtained from our Create JWT Token API. |
+| successUrl | Conditional | A local URL from your website which will handle the redirect from the SDK in the event of an approved transaction.  Query parameters will be appended to the URL to indicate transaction status and information. |
+| failureUrl | Conditional | A local URL from your website which will handle the redirect from the SDK in the event of a declined or failed transaction.  Query parameters will be appended to the URL to indicate transaction status and information. |
+| cancelUrl | Conditional | A local URL from your website which will handle the redirect from the SDK in the event of a customer cancelling the payment box. <br/><br/> To support retry we suggest using the cancelCallback option instead. |
+| successCallback | Optional | A local javascript function on your checkout page which will handle the call from the SDK in the event of an approved transaction.  A JavaScript object containing the transaction status and information will be provided. |
+| failureCallback | Optional | A local javascript function on your checkout page which will handle the call from the SDK in the event of an declined or failed transaction.  A JavaScript object containing the transaction status and information will be provided. |
+| cancelCallback | Optional | A local javascript function on your checkout page which will handle the call from the SDK in the event of a customer cancelling the payment box.   |
+| displayMethod | Optional | |
+| width | Optional | |
+| requireShippingAddress | Optional | |
+| acceptedPaymentMethods | Optional | |
+| disableCancel | Optional | | 
