@@ -89,4 +89,4 @@ function payFabricSDKLoaded() {
 | width | Optional | number | A parameter to resize the dialog's width, by default will use SDK default size of 600px.<br/><br/>Used only by the **DIALOG** display method. |
 | requireShippingAddress | Optional | boolean | A parameter to determine whether the PayPal payment options flow requires a shipping address.<br/><br/>This method is currently only used by **PayPal** payment method.  It will inform PayPal to ask for shipping address information during the PayPal payment flow. |
 | acceptedPaymentMethods | Optional | array of string | The list of available payment methods you wish to offer, available list of methods are:	`CreditCard`, `ECheck` and `PayPal`. By default it will use all the available configured payment methods. |
-| disableCancel | Optional | boolean | A parameter to determine whether the cancel link is available for customer.<br/><br/>**True** indicates that the cancelUrl|cancalCallback will not fire. | 
+| disableCancel | Optional | boolean | A parameter to determine whether the cancel link is available for customer.<br/><br/>**True** indicates that the cancelUrl and cancalCallback will not fire. | 
