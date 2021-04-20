@@ -8,6 +8,7 @@ PayFabric is a payment service for developers which includes **Payment APIs** , 
 * PCI Compliance right way with Hosted Payment Page
 * Support customer wallet
 * Fully customizable hosted pages
+* JavaScript SDK to make using our Hosted Page easy
 
 
 # Glossary
@@ -28,6 +29,7 @@ Before programming with PayFabric, you need a PayFabric account to get started. 
 # Extended Reading
 * [User Guide](http://www.nodus.com/documentation/PayFabric-User-Guide.pdf)
 * [APIs](https://github.com/PayFabric/PayFabric-APIs)
+* [JavaScript SDK](Sections/JavaSript%20SDK.md)
 * [Settings](Sections/PayFabric%20Settings.md)
 * [Gateway Configuration](Sections/Gateway%20Configuration.md)
 * [Themes](Sections/Themes.md)
