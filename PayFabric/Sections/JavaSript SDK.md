@@ -28,7 +28,7 @@ Once you have followed our guides and information, you are ready to go.  Our Jav
 
 ## Initiating a new Transaction and Payment Intent
 
-Using our Create a new Transaction and Create a JWT Token API's you will receive a JWT Token, this token value is all you need to use to populate our new JavaScript Library.
+Using our [Create a new Transaction](https://github.com/PayFabric/APIs/blob/master/PayFabric/Sections/Transactions.md#create-a-transaction) and [Create a JWT Token](https://github.com/PayFabric/APIs/blob/master/PayFabric/Sections/JWTToken.md#json-web-tokens) API's you will receive a JWT Token, this token value is all you need to use to populate our new JavaScript Library.
 
 ```HTML
 <html>
