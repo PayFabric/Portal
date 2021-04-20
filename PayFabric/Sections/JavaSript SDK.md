@@ -66,7 +66,7 @@ function loadPaymentsSDK() {
 
 | Option | Required | Description |
 | :-------------  | :-------------  | :------------- | 
-| environment | Required | The PayFabric environment that you will be targeting.  Values values are LIVE and SANDBOX. |
+| environment | Required | The PayFabric environment that you will be targeting.  Values are LIVE and SANDBOX. |
 | target | Required | The target DIV that will be responsible for displaying the payment box. |
 | session | Required | The JWT Token value obtained from our Create JWT Token API. |
 | successUrl | Conditional | A local URL from your website which will handle the redirect from the SDK in the event of an approved transaction.  Query parameters will be appended to the URL to indicate transaction status and information.<br/><br/>This field is **required** if successCallback is not populated. |
@@ -75,8 +75,8 @@ function loadPaymentsSDK() {
 | successCallback | Optional | A local javascript function on your checkout page which will handle the call from the SDK in the event of an approved transaction.  A JavaScript object containing the transaction status and information will be provided. |
 | failureCallback | Optional | A local javascript function on your checkout page which will handle the call from the SDK in the event of an declined or failed transaction.  A JavaScript object containing the transaction status and information will be provided. |
 | cancelCallback | Optional | A local javascript function on your checkout page which will handle the call from the SDK in the event of a customer cancelling the payment box. |
-| displayMethod | Optional |The method in which PayFabric should display the payment options, list of methods is:**DIALOG** – Will pop up a new dialog box with a grayed-out background displaying payment information. **IN_PLACE** – Will just populate the HTML elements for payment processing within the placeholder DIV provided by the target option. |
-| width | Optional | A parameter to resize the dialog width, by default will use SDK default size. |
-| requireShippingAddress | Optional |A bool parameter to determin whether the PayPal payment options flow should require a shipping address to be obtained. |
-| acceptedPaymentMethods | Optional |The list of available payment methods you wish to offer, list of methods is:	CreditCard, ECheck and PayPal, if accept multiple payment methods, then seperate the methods with ','. By default it will use all the available payment methods. |
-| disableCancel | Optional | A bool parameter to determin whether the cancel link available for customer. | 
+| displayMethod | Optional |The method in which PayFabric should display the payment options, list of methods is: **DIALOG** – Will pop up a new dialog box with a grayed-out background displaying payment information. **IN_PLACE** – Will just populate the HTML elements for payment processing within the placeholder DIV provided by the target option. |
+| width | Optional | A parameter to resize the dialog's width, by default will use SDK default size. |
+| requireShippingAddress | Optional |A bool parameter to determine whether the PayPal payment options flow requires a shipping addres. |
+| acceptedPaymentMethods | Optional |The list of available payment methods you wish to offer, list of methods is:	`CreditCard`, `ECheck` and `PayPal`, if accept multiple payment methods, then seperate the methods with ','. By default it will use all the available payment methods. |
+| disableCancel | Optional | A bool parameter to determine whether the cancel link is available for customer. | 
