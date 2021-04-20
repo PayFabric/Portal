@@ -28,13 +28,18 @@ Once you have followed our guides and information, you are ready to go.  Our Jav
 
 ## Initiating a new Transaction and Payment Intent
 
-Using our [Create a new Transaction](https://github.com/PayFabric/APIs/blob/master/PayFabric/Sections/Transactions.md#create-a-transaction) and [Create a JWT Token](https://github.com/PayFabric/APIs/blob/master/PayFabric/Sections/JWTToken.md#json-web-tokens) API's you will receive a JWT Token, this token value is all you need to use to populate our new JavaScript Library.
+Using our [Create a new Transaction](https://github.com/PayFabric/APIs/blob/master/PayFabric/Sections/Transactions.md#create-a-transaction) and [Create a JWT Token](https://github.com/PayFabric/APIs/blob/master/PayFabric/Sections/JWTToken.md#json-web-tokens) API's you will receive a JWT Token which is used to indicate your payment intent, this token value is all you need to use to populate our new JavaScript Library.
 
+Once you have obtained your JWT Token, you have all the data you need to initiate our payment flow using our JavaScript SDK library.
+
+## Using our Hosted JavaScript SDK library to start the payment flow
+
+Firstly, configure your checkout page to reference our JavaScript SDK and create an **Empty** DIV element with an id.
 ```HTML
 <html>
   <head>
     <script src="https://www.payfabric.com/Payment/WebGate/Content/bundles/payfabricpayments.bundle.min.js" 
-            type="text/javascript"></script>
+            type="text/javascript" onload="payFabricSDKLoaded()"></script>
   </head>
   <body>
     <div id='uniquePaymentsDivId'></div>
@@ -42,6 +47,7 @@ Using our [Create a new Transaction](https://github.com/PayFabric/APIs/blob/mast
 </html>
 ```
 
+Secondly, create a new function to load our payments SDK.  We will immediately display the payment box as soon as it is ready.  We recommend that you do this either on our script load, or through a button click.
 ```javascript
 var jwtToken = '<JWT Token obtained from Generate a JWT Token API>';
 var payfabricpaymentssdk;
@@ -60,23 +66,27 @@ function loadPaymentsSDK() {
     // Handle unexpected SDK initialization errors
   }
 }
+
+function payFabricSDKLoaded() {
+  // PayFabric SDK has loaded, you can call loadPaymentsSDK function directly from here for immediately presentment of the payment box.
+}
 ```
 
 # JavaScript SDK Options
 
-| Option | Required | Description |
-| :-------------  | :-------------  | :------------- | 
-| environment | Required | The PayFabric environment that you will be targeting.  Values are LIVE and SANDBOX. |
-| target | Required | The target DIV that will be responsible for displaying the payment box. |
-| session | Required | The JWT Token value obtained from our Create JWT Token API. |
-| successUrl | Conditional | A local URL from your website which will handle the redirect from the SDK in the event of an approved transaction.  Query parameters will be appended to the URL to indicate transaction status and information.<br/><br/>This field is **required** if successCallback is not populated. |
-| failureUrl | Conditional | A local URL from your website which will handle the redirect from the SDK in the event of a declined or failed transaction.  Query parameters will be appended to the URL to indicate transaction status and information.<br/><br/>This field is **required** if failureCallback is not populated. |
-| cancelUrl | Conditional | A local URL from your website which will handle the redirect from the SDK in the event of a customer cancelling the payment box. <br/><br/> To support retry we suggest using the cancelCallback option instead.<br/><br/>This field is **required** if cancelCallback is not populated and disableCancel is set to false or not provided. |
-| successCallback | Optional | A local javascript function on your checkout page which will handle the call from the SDK in the event of an approved transaction.  A JavaScript object containing the transaction status and information will be provided. |
-| failureCallback | Optional | A local javascript function on your checkout page which will handle the call from the SDK in the event of an declined or failed transaction.  A JavaScript object containing the transaction status and information will be provided. |
-| cancelCallback | Optional | A local javascript function on your checkout page which will handle the call from the SDK in the event of a customer cancelling the payment box. |
-| displayMethod | Optional |The method in which PayFabric should display the payment options, list of methods is: **DIALOG** – Will pop up a new dialog box with a grayed-out background displaying payment information. **IN_PLACE** – Will just populate the HTML elements for payment processing within the placeholder DIV provided by the target option. |
-| width | Optional | A parameter to resize the dialog's width, by default will use SDK default size. |
-| requireShippingAddress | Optional |A bool parameter to determine whether the PayPal payment options flow requires a shipping addres. |
-| acceptedPaymentMethods | Optional |The list of available payment methods you wish to offer, list of methods is:	`CreditCard`, `ECheck` and `PayPal`, if accept multiple payment methods, then seperate the methods with ','. By default it will use all the available payment methods. |
-| disableCancel | Optional | A bool parameter to determine whether the cancel link is available for customer. | 
+| Option | Required | Data Type | Description |
+| :-------------  | :------------- | :------------- | :------------- | 
+| environment | Required | string | The PayFabric environment that you will be targeting.  Values are LIVE and SANDBOX. |
+| target | Required | string | The target DIV that will be responsible for displaying the payment box. |
+| session | Required | string | The JWT Token value obtained from our Create JWT Token API. |
+| successUrl | Conditional | string | A local URL from your website which will handle the redirect from the SDK in the event of an approved transaction.  Query parameters will be appended to the URL to indicate transaction status and information.<br/><br/>This field is **required** if successCallback is not populated. |
+| failureUrl | Conditional | string | A local URL from your website which will handle the redirect from the SDK in the event of a declined or failed transaction.  Query parameters will be appended to the URL to indicate transaction status and information.<br/><br/>This field is **required** if failureCallback is not populated. |
+| cancelUrl | Conditional | string | A local URL from your website which will handle the redirect from the SDK in the event of a customer cancelling the payment box. <br/><br/> To support retry we suggest using the cancelCallback option instead.<br/><br/>This field is **required** if cancelCallback is not populated and disableCancel is set to false or not provided. |
+| successCallback | Optional | function | A local javascript function on your checkout page which will handle the call from the SDK in the event of an approved transaction.  A JavaScript object containing the transaction status and information will be provided. |
+| failureCallback | Optional | function | A local javascript function on your checkout page which will handle the call from the SDK in the event of an declined or failed transaction.  A JavaScript object containing the transaction status and information will be provided. |
+| cancelCallback | Optional | function | A local javascript function on your checkout page which will handle the call from the SDK in the event of a customer cancelling the payment box. |
+| displayMethod | Optional | string | The method in which PayFabric should display the payment box, list of methods are: <br/><br/>**DIALOG** – Will pop up a new dialog box with a grayed-out background displaying payment information. <br/><br/>**IN_PLACE** – Will just populate the HTML elements for payment processing within the placeholder DIV provided by the target option. |
+| width | Optional | number | A parameter to resize the dialog's width, by default will use SDK default size of 600px.<br/><br/>Used only by the **DIALOG** display method. |
+| requireShippingAddress | Optional | boolean | A parameter to determine whether the PayPal payment options flow requires a shipping address.<br/><br/>This method is currently only used by **PayPal** payment method.  It will inform PayPal to ask for shipping address information during the PayPal payment flow. |
+| acceptedPaymentMethods | Optional | array of string | The list of available payment methods you wish to offer, available list of methods are:	`CreditCard`, `ECheck` and `PayPal`. By default it will use all the available configured payment methods. |
+| disableCancel | Optional | boolean | A parameter to determine whether the cancel link is available for customer.<br/><br/>**True** indicates that the cancelUrl|cancalCallback will not fire. | 
