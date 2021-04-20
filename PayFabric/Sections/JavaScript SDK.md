@@ -7,7 +7,7 @@ PayFabric provides a JavaScript library to support both Alternative Payment Meth
 * Support for PayPal Payments
 
 # Alternative Payment Methods
-* [PayPal](Sections/APM.md#paypal)
+* [PayPal](APM.md#paypal)
 * [**Future**] Apple Pay
 * [**Future**] Google Pay
 
