@@ -8,7 +8,7 @@ And currently, PayFabric support below gateways.
 * [Authorize.Net](#authorizenet)
 * [CybersourceSOAP](#cybersourcesoap)
 * [Cybersource](#cybersource)
-* [Paymentech Orbital](#paymentech)
+* [Paymentech Orbital](#paymentech-Orbital)
 * [WorldPay](#worldpay)
 * [Moneris (Canadian currency only)](#moneris)
 * [Forte](#forte)
