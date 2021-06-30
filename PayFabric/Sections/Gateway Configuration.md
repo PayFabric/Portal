@@ -96,6 +96,8 @@ Note: Support multiple captures against one authorized transaction.
 | MerchantID           | This is the merchant ID for the Cybersource account |
 | TRANSACTION_Key      | Generated from CyberSource Business Center > Account Management > Transaction Security Keys > Security Keys for the SOAP Toolkit API |
 | CurrencyCode         | Transaction currency, e.g. 'USD' |
+| IncludeLevel3DataForCapture         | Enable submitting level 3 data for Capture transaction when the value is `true`|
+| IncludeLevel3DataForRefund         | Enable submitting level 3 data for Refund transaction when the value is `true` |
 
 ## Cybersource
 
@@ -130,8 +132,8 @@ To use the Cybersource Gateway, it is necessary to obtain the secure CyberSource
 | IndustryType         | EC |
 | CurrencyCode         | Transaction currency, e.g. '840' for US Dollar, '124' for Canadian Dollar |
 | CurrencyExponent     | 2 |
-| DropLevel2Data       | This will prevent sending Level 2 data when value is set to true or 1 |
-| DropLevel3Data       | This will prevent sending Level 3 data when value is set to true or 1 |
+| DropLevel2Data       | This will prevent from sending Level 2 data when value is set to true or 1 |
+| DropLevel3Data       | This will prevent from sending Level 3 data when value is set to true or 1 |
 
 ## WorldPay
 
