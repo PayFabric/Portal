@@ -200,7 +200,7 @@ Note: For Canadian currency only.
 | Field                | Value                   | 
 | -------------------- |:---------------------------- | 
 |Connector|EVO|
-|Processor|Evo US  |
+|Processor|Evo US and Evo eService, Evo eService processor support 3DS.  |
 |Card Class|Credit|
 | MerchantProfile             | This is the Merchant ID for the API service obtained from EVO |
 | ServiceId             | This is the Service ID for the API service obtained from EVO |
