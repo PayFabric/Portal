@@ -16,7 +16,7 @@ And currently, PayFabric support below gateways.
 * [EVO](#evo)
 * [EziDebit](#ezidebit)
 * [NMI](#nmi)
-* [EVOACH](#EVOACH)
+* [EVOACH](#evoach)
 
 Configure the Gateway Account Profile using the following information. Fields not mentioned here are not required for the minimum configuration.
 
@@ -205,7 +205,8 @@ Note: For Canadian currency only.
 | MerchantProfile             | This is the Merchant ID for the API service obtained from EVO |
 | ServiceId             | This is the Service ID for the API service obtained from EVO |
 | SurchargeRate             | This rate provide merchant the ability to support surcharge, this rate is between 0.00% to 4.00%, once merchant configure this rate and when process transaction with a credit card*, PayFabric will auto calculate the surcharge amount (original transaction amount * Surcharge Rate) and include the surcharge amount into the final transaction amount. Possible values are between 0.00 and 4.00. |
-*note: PayFabric uses `Card Validation Type` to indicate the used card is `Credit`, `Debit` or `PrePay`.
+
+*Note: PayFabric uses `Card Validation Type` to indicate the used card is `Credit`, `Debit` or `PrePay`.
 
 
 ## EziDebit
