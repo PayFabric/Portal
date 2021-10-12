@@ -76,3 +76,4 @@ Following parameters are able to be embeded into email templates. At the moment 
 | \[\[ZipResponse\]\]   | Gateway Zip Response Code|
 | \[\[SurchargePercentage\]\]   | Surcharge Percentage|
 | \[\[SurchargeAmount\]\]   | Surcharge amount (Original amount * SurchargeRate)|
+| \[\[TipAmount\]\]   | Tip amount|
