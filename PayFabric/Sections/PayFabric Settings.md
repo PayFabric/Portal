@@ -60,7 +60,7 @@ These are settings relate to process a payment transaction.
 |Maximum Limit for Refund Transaction(Credit)|Specify a maximum amount for refund transaction when process transaction with credit card.|
 |Maximum Limit for Refund Transaction(eCheck)|Specify a maximum amount for refund transaction when process transaction with eCheck.|
 |Enable Tip Amount |If enabled, will show below three Tip Options on setting page, then should show 5 buttons: A button 'No Tip' and three buttons per percentage (%) value as in device setting page (for example, like 15% 18% 20%) The fifth button will be "Other", which allows to enter custom tip amount in currency amount (like US Dollars $)|
-|Tip - Option 1|This option is to configure the Tip Percentage, it allows 2 decimal places.|
+|Tip - Option 1|This option is to configure the Tip Percentage, it allows 2 decimal places. This setting is not available for Virtual Terminal device.|
 |Tip - Option 2|This option is to configure the Tip Percentage, Tip percentage should be greater than the above percentage.|
 |Tip - Option 3|This option is to configure the Tip Percentage, Tip percentage should be greater than the above percentage.|
 
