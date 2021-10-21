@@ -22,7 +22,7 @@ Steps:
 
 
 # Apple Pay
-Provide Apple Pay as a new form of alternative payment method (APM) on PayFabric. After activate Apple Pay, it will be available as an alternative payment method on your PayFabric account. Apple pay button only available on IOS device. Please see the detailed description & instruction below.
+Provide Apple Pay as a new form of alternative payment method (APM) on PayFabric. After activate Apple Pay, it will be available as an alternative payment method on your PayFabric account. Apple Pay button only available on IOS device. Please see the detailed description & instruction below.
 
 ### Active Apple Pay
 Steps:
