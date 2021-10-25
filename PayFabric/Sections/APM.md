@@ -1,5 +1,5 @@
 # Alternative Payment Methods
-Alternative payment methods are not applicable for the transactions contains Surcharge or Tip amounts.
+Alternative payment methods are not applicable for the transactions contain Surcharge or Tip amounts.
 
 # PayPal
 Provide PayPal as a new form of alternative payment method (APM) on PayFabric. After activate your connection to PayPal, it will be available as an alternative payment method on your PayFabric account. Please see the detailed description & instruction below.
