@@ -59,10 +59,10 @@ These are settings relate to process a payment transaction.
 |Maximum Limit for Sale Transaction(eCheck)|Specify a maximum amount for Sale transaction when process transaction with eCheck.|
 |Maximum Limit for Refund Transaction(Credit)|Specify a maximum amount for refund transaction when process transaction with credit card.|
 |Maximum Limit for Refund Transaction(eCheck)|Specify a maximum amount for refund transaction when process transaction with eCheck.|
-|Enable Tip Amount |If enabled, will show below three Tip Options on setting page, then should show 5 buttons on MRHPP: A button 'No Tip' and three buttons per percentage (%) value as in device setting page (for example, like 15% 18% 20%) The fifth button will be "Other", which allows to enter custom tip amount. <b>Note:</b> This setting is only available for new created devices, not available for Virtual Terminal device.|
-|Tip - Option 1|This option is to configure the Tip Percentage, it allows 2 decimal places. This setting is not available for Virtual Terminal device.|
-|Tip - Option 2|This option is to configure the Tip Percentage, Tip percentage should be greater than the Tip - Option 1.|
-|Tip - Option 3|This option is to configure the Tip Percentage, Tip percentage should be greater than the Tip - Option 2.|
+|Enable Tip Amount |If enabled, will show Tip - Option 1, Tip - Option 2 and Tip - Option 3 on the setting page; MRHPP will displays three buttons according to the rates of these Tip options. With that, "No Tip" and "Other" buttons will be added as well, which allow users to select tip rate or enter tip amount. <b>Note:</b> This setting is only applicable for created devices rather than Virtual Terminal.|
+|Tip - Option 1|This option will be available after Enable Tip Amount, it allows 2 decimal places.|
+|Tip - Option 2|This option will be available after Enable Tip Amount, it allows 2 decimal places. The value must be greater than the value entered in Tip - Option 1.|
+|Tip - Option 3|This option will be available after Enable Tip Amount, it allows 2 decimal places. The value must be greater than the value entered in Tip - Option 2.|
 
 
 ## General Settings
