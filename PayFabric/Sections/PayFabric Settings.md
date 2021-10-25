@@ -59,10 +59,10 @@ These are settings relate to process a payment transaction.
 |Maximum Limit for Sale Transaction(eCheck)|Specify a maximum amount for Sale transaction when process transaction with eCheck.|
 |Maximum Limit for Refund Transaction(Credit)|Specify a maximum amount for refund transaction when process transaction with credit card.|
 |Maximum Limit for Refund Transaction(eCheck)|Specify a maximum amount for refund transaction when process transaction with eCheck.|
-|Enable Tip Amount |If enabled, will show below three Tip Options on setting page, then should show 5 buttons: A button 'No Tip' and three buttons per percentage (%) value as in device setting page (for example, like 15% 18% 20%) The fifth button will be "Other", which allows to enter custom tip amount in currency amount (like US Dollars $)|
+|Enable Tip Amount |If enabled, will show below three Tip Options on setting page, then should show 5 buttons on MRHPP: A button 'No Tip' and three buttons per percentage (%) value as in device setting page (for example, like 15% 18% 20%) The fifth button will be "Other", which allows to enter custom tip amount. <b>Note:</b> This setting is only available for new created devices, not available for Virtual Terminal device.|
 |Tip - Option 1|This option is to configure the Tip Percentage, it allows 2 decimal places. This setting is not available for Virtual Terminal device.|
-|Tip - Option 2|This option is to configure the Tip Percentage, Tip percentage should be greater than the above percentage.|
-|Tip - Option 3|This option is to configure the Tip Percentage, Tip percentage should be greater than the above percentage.|
+|Tip - Option 2|This option is to configure the Tip Percentage, Tip percentage should be greater than the Tip - Option 1.|
+|Tip - Option 3|This option is to configure the Tip Percentage, Tip percentage should be greater than the Tip - Option 2.|
 
 
 ## General Settings
