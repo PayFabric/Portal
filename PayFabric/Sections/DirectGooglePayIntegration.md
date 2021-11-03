@@ -10,7 +10,7 @@ Want to get started with Direct Google Pay integration? Here's a quick check lis
 
 1. Register and then configure a PayFabric account, check out the [Guide](https://github.com/PayFabric/Portal/tree/master/PayFabric/Sections/Configure%20Portal.md) to learn how.
 2. Activate Google Pay, check out the [Guide](https://github.com/PayFabric/Portal/blob/R17/PayFabric/Sections/APM.md#google-pay) to learn how.
-3. Intergrate Google Pay as you would for any standard implementation, [follow Google's instructions](https://developers.google.com/pay/api/web/guides/setup).
+3. Intergrate Google Pay as you would for any standard implementation, [follow Google's instructions](https://developers.google.com/pay/api/web/overview).
 4. Have a question or need help? Contact <support@payfabric.com>.
 
 
