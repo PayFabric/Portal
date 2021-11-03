@@ -20,7 +20,7 @@ Steps:
 2.	From **Alternative Payment Methods** page > click **Configure** button on Google Pay box.
 3.	Click **Activate** button, status will changed to **ACTIVE**.
 
-If you are already using our Mobile Hosted Payment Page, then no other steps are needed aside from the below instructions for our JavaScript SDK.
+If you will be using our Mobile Hosted Payment Page, then no other steps are needed aside from the below instructions for our [JavaScript SDK](JavaScript%20SDK.md).
 
 If you would like to integrate directly to the Google Pay API, then please [follow Google's instructions](https://developers.google.com/pay/api/web/guides/setup).  For the details on how to provide the Google Pay provided Token's to PayFabric for payment processing, please follow the details found in our [Direct Google Pay Integration](DirectGooglePayIntegration.md) documentation.
 
