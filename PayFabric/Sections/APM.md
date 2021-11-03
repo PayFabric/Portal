@@ -4,7 +4,7 @@ Alternative payment methods are not applicable for the transactions contain Surc
 # PayPal
 Provide PayPal as a new form of alternative payment method (APM) on PayFabric. After activate your connection to PayPal, it will be available as an alternative payment method on your PayFabric account. Please see the detailed description & instruction below.
 
-### Active PayPal
+### Activate PayPal
 Steps:
 1.	Navigate to **Settings** > **Alternative Payment Methods**.
 2.	From **Alternative Payment Methods** page > click **Configure** button on PayPal box.
@@ -14,17 +14,21 @@ Steps:
 # Google Pay
 Provide Google Pay as a new form of alternative payment method (APM) on PayFabric. After activate Google Pay, it will be available as an alternative payment method on your PayFabric account. Please see the detailed description & instruction below.
 
-### Active Google Pay
+### Activate Google Pay
 Steps:
 1.	Navigate to **Settings** > **Alternative Payment Methods**.
 2.	From **Alternative Payment Methods** page > click **Configure** button on Google Pay box.
 3.	Click **Activate** button, status will changed to **ACTIVE**.
 
+If you are already using our Mobile Hosted Payment Page, then no other steps are needed aside from the below instructions for our JavaScript SDK.
+
+If you would like to integrate directly to the Google Pay API, then please [follow Google's instructions](https://developers.google.com/pay/api/web/guides/setup).  For the details on how to provide the Google Pay provided Token's to PayFabric for payment processing, please follow the details found in our [Direct Google Pay Integration](DirectGooglePayIntegration.md) documentation.
+
 
 # Apple Pay
 Provide Apple Pay as a new form of alternative payment method (APM) on PayFabric. After activate Apple Pay, it will be available as an alternative payment method on your PayFabric account. Apple Pay button only available on IOS device. Please see the detailed description & instruction below.
 
-### Active Apple Pay
+### Activate Apple Pay
 Steps:
 1.	Navigate to **Settings** > **Alternative Payment Methods**.
 2.	From **Alternative Payment Methods** page > click **Configure** button on Apple Pay box.
