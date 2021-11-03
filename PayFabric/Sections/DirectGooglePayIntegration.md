@@ -1,7 +1,9 @@
 # Direct Google Pay:tm: Integration
 PayFabric allows your customers to make payments through our platform using any credit or debit card saved to their Google Account using Google Pay.  This allows them to use this instead of using our normal credit card entry page, saving some time required to enter their card details again.
 
+## Google Pay Terms
 
+By accepting and integrating Google Pay, you agree to Google's [terms of service](https://payments.developers.google.com/terms/sellertos)
 
 Where do I start?
 -----------------
