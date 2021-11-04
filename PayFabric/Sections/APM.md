@@ -12,7 +12,7 @@ Steps:
 4.	Once merchant login PayPal successfully and go back to PayFabric side, PayPal status will changed to **ACTIVE**.
 
 # Google Pay:tm:
-Provide Google Pay as a new form of alternative payment method (APM) on PayFabric. After activate Google Pay, it will be available as an alternative payment method on your PayFabric account. Please see the detailed description & instruction below.
+Provide Google Pay as a new form of alternative payment method (APM) on PayFabric. After activating Google Pay, it will be available as an alternative payment method on your PayFabric account. Please see the detailed description & instruction below.
 
 ### Activate Google Pay
 Steps:
