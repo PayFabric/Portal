@@ -53,7 +53,15 @@ To start submitting Google Pay payment token, PayFabric utilizies our existing [
 }
 ```
 
-In order to submit a Google Pay token, you can submit in two ways, PayFabric can either consume the entire Google Pay payment data object, or just the individual payment token object.
+In order to submit a Google Pay token, you can submit in two ways, PayFabric can either consume the entire Google Pay payment data object, or just the individual payment token object.  PayFabric supports the following card networks and countries for Google Pay:
+* Countries
+  * United States of America - USD Only
+* Card Networks
+  * American Express
+  * Discover
+  * JCB
+  * MasterCard
+  * Visa
 
 ### Payment Data
 ```JS
