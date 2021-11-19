@@ -14,6 +14,10 @@ Steps:
 # Google Pay:tm:
 Provide Google Pay as a new form of alternative payment method (APM) on PayFabric. After activating Google Pay, it will be available as an alternative payment method on your PayFabric account. Please see the detailed description & instruction below.
 
+## Google Pay Terms
+
+By accepting and integrating Google Pay, you agree to Google's [terms of service](https://payments.developers.google.com/terms/sellertos)
+
 ### Activate Google Pay
 Steps:
 1.	Navigate to **Settings** > **Alternative Payment Methods**.
