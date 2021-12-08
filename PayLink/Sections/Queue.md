@@ -19,10 +19,10 @@ Note: Cancelled PayLinks are not displayed by default, user needs to mark **Incl
 Wallet Queue
 --------
 
-User is able to search for all existing WalletLinks in Wallet Queue and export the list. Furthermore, it allows user to perform various actions against existing WalletLinks, such as:
+User is able to search for all existing Wallet Links in Wallet Queue and export the list. Furthermore, it allows user to perform various actions against existing Wallet Links, such as:
 
-* Cancel Incomplete WalletLinks
-* Resend Notifications for WalletLinks
+* Cancel Incomplete Wallet Links
+* Resend Notifications for Wallet Links
 
 ![WalletLinkQueue](https://raw.githubusercontent.com/PayFabric/Portal/master/PayFabric/Sections/Screenshots/WalletLinkQueue.png)
 
