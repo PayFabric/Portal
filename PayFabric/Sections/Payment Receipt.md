@@ -77,3 +77,7 @@ Following parameters are able to be embeded into email templates. At the moment 
 | \[\[SurchargePercentage\]\]   | Surcharge Percentage|
 | \[\[SurchargeAmount\]\]   | Surcharge amount (Original amount * SurchargeRate)|
 | \[\[TipAmount\]\]   | Tip amount|
+| \[\[Document.PaidInvoiceList\]\]   | Indicates the paid invoice list, this parameter is only available for the PayLink transactions. |
+| \[\[Document.DocumentAmount\]\]   | Indicates the document amount, this parameter is only available for the PayLink transactions. |
+| \[\[Document.DocumentDate\]\]   | Indicates the document date, this parameter is only available for the PayLink transactions. |
+| \[\[Document.CustomerName\]\]   | Indicates the customer name, this parameter is only available for the PayLink transactions. |
