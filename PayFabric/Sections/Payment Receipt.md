@@ -1,9 +1,9 @@
 # Summary
-Merchant can turn on the feature that send payment receipt to end customer after a transaction is processed. To do this, navigate through **Settings** > **Email Receipt Templates**, each [Transaction Type](Transaction%20Types.md) have their own email receipt template.
+Merchant can turn on the feature that send payment receipt to end customer after a transaction is processed. To do this, navigate through **Settings** > **Email Receipt Templates**, each [Transaction Type](Transaction%20Types.md) have their own email receipt template. Each device can configure different templates and can enable/disable this feature independently.
 
 **Note**: Email receipt does not support for _Verify_ transaction.
 
-![receipt](https://raw.githubusercontent.com/PayFabric/Portal/master/PayFabric/Sections/Screenshots/EmailReceiptTemplates.png)
+![receipt](https://raw.githubusercontent.com/PayFabric/Portal/master/PayFabric/Sections/Screenshots/EmailReceiptTemplateR18.png)
 
 ### Send to Customer
 Once checked, PayFabric will send receipt to customer once a transaction is processed. The email address of customer which will receive receipts is the email address in the billing address. The billing email address must be present for each transaction.
@@ -18,6 +18,9 @@ Setup email subject.
 
 ### Body
 Setup the email template. PayFabric support to setup seperate email templates for different transaction types and different tender types. The textboxes accepts html tags. PayFabric automatically setup a simple email template as below, you can preivew the email template by clicking the "preview" button on the right bottom corner of each textbox.
+
+### Save to All Templates
+This button will save the current email receipt template body to all other transaction types for current device.
 
 ### Template Parameters
 Following parameters are able to be embeded into email templates. At the moment of sending a receipt, these parameters are going to be replaced by the actual values.
