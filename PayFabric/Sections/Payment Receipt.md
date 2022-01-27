@@ -1,7 +1,10 @@
 # Summary
 Merchant can turn on the feature that send payment receipt to end customers after a transaction is processed. To do this, navigate through **Settings** > **Email Receipt Templates**, each [Transaction Type](Transaction%20Types.md) have their own email receipt template. Each device can configure different templates and can enable/disable this feature independently.
 
-**Note**: Email receipt does not support for _Verify_ transaction.
+**Note**: 
+1. Email receipt does not support for _Verify_ transaction.
+2. The default receipt must include the required receipt data as accessible via required PF merchant configuration, transaction, or payment fields. 
+3. By default, the merchant email receipt template will contain a Refund Policy field with default text at the bottom of the template.  PayFabric will not enforce merchants to update nor do we validate if they remove it.
 
 ![receipt](https://raw.githubusercontent.com/PayFabric/Portal/master/PayFabric/Sections/Screenshots/EmailReceiptTemplateR18.png)
 
