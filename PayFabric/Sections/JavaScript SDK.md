@@ -86,7 +86,7 @@ function payFabricSDKLoaded() {
 | acceptedPaymentMethods | Optional | array of string | The list of available payment methods you wish to offer, available list of methods are:	`CreditCard`, `ECheck`, `PayPal`, `ApplePay` and `GooglePay`. By default it will use all the available configured payment methods. |
 | disableCancel | Optional | boolean | A parameter to determine whether the cancel link is available for customer.<br/><br/>**True** indicates that the cancelUrl and cancelCallback will not fire. | 
 |UseBluefin| Optional |number |A parameter to control bluefin options on MRHPP when [BlueFin Profile](https://github.com/PayFabric/Portal/blob/master/PayFabric/Sections/Bluefin.md) get enabled. When the value is '0', only regular keyboard entry for credit card is available, when the value is `1`, only encryption key entry via Bluefin device for credit card is available, when the value is `2`, both regular keyboard & encryption key entry for credit card is available.|
-|UseDefaultWallet|Optional | number |A parameter to control default wallet auto loading or not. When the value is `0`, then the default wallet won't load out while open hosted payment page. And if you set the value as `1`, then PayFabric will load the default wallet on hosted payment page by default.  Default value is `1`.|
+|UseDefaultWallet|Optional | boolean |A parameter to control default wallet auto loading or not. When the value is `false`, then the default wallet won't load out while open hosted payment page. And if you set the value as `true`, then PayFabric will load the default wallet on hosted payment page by default.  Default value is `true`.|
 
 
 # Mobile Hosted Payment Page with APM Example
