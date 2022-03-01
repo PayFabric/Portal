@@ -48,7 +48,7 @@ To start submitting Google Pay payment token, PayFabric utilizies our existing [
 {
   "Card": {
     "Tender": "GooglePay",
-    "Token": "<Payment Data | Payment Token>"
+    "EncryptedToken": "<Payment Data | Payment Token>"
   }
 }
 ```
@@ -90,7 +90,7 @@ Note that the token should be a string value and **not** a JSON object.  See the
     "SetupId": "EVO US_CC",
     "Card": {
       "Tender": "GooglePay",
-      "Token": "{ \"signature\": \"MEUCIChSWu3shwWceGGLMJ...lDecEp+KpSW0gVXdarbE=\", \"intermediateSigningKey\": { \"signedKey\": \"{\\\"keyValue\\\":\\\"MFkwEwYHKoZIzj0...YJuyfrQBg\\\\u003d\\\\u003d\\\",\\\"keyExpiration\\\":\\\"1612040747821\\\"}\", \"signatures\": [ \"MEUCIE8/acZOJIL...SHz3uBP08=\" ] }, \"protocolVersion\": \"ECv2\", \"signedMessage\": \"{\\\"encryptedMessage\\\":\\\"JLJLXYJLB7M...FKK4Z794yMQcldgFY8unxPwaH8QRrZVC0YZ\\\",\\\"ephemeralPublicKey\\\":\\\"BLTMDROl...hVYVyJuS4\\\\u003d\\\",\\\"tag\\\":\\\"kPRhTN1dl...uX2mU\\\\u003d\\\"}\" }"
+      "EncryptedToken": "{ \"signature\": \"MEUCIChSWu3shwWceGGLMJ...lDecEp+KpSW0gVXdarbE=\", \"intermediateSigningKey\": { \"signedKey\": \"{\\\"keyValue\\\":\\\"MFkwEwYHKoZIzj0...YJuyfrQBg\\\\u003d\\\\u003d\\\",\\\"keyExpiration\\\":\\\"1612040747821\\\"}\", \"signatures\": [ \"MEUCIE8/acZOJIL...SHz3uBP08=\" ] }, \"protocolVersion\": \"ECv2\", \"signedMessage\": \"{\\\"encryptedMessage\\\":\\\"JLJLXYJLB7M...FKK4Z794yMQcldgFY8unxPwaH8QRrZVC0YZ\\\",\\\"ephemeralPublicKey\\\":\\\"BLTMDROl...hVYVyJuS4\\\\u003d\\\",\\\"tag\\\":\\\"kPRhTN1dl...uX2mU\\\\u003d\\\"}\" }"
     }
   }
   ```
