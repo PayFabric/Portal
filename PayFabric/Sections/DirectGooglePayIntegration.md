@@ -66,21 +66,37 @@ In order to submit a Google Pay token, you can submit in two ways, PayFabric can
 ### Payment Data
 ```JS
 googlePayPaymentsClient.loadPaymentData(paymentDataRequest).then(function (paymentData) {
-  var googlePayPaymentData = JSON.stringify(paymentData);
+  var googlePayPaymentData = JSON.stringify(JSON.stringify(paymentData));
 }
 ```
+**Important Note:** The double `JSON.stringify` is required to ensure the token is encoded correctly for submission in the PayFabric API.
 
 ### Payment Token
 ```JS
 googlePayPaymentsClient.loadPaymentData(paymentDataRequest).then(function (paymentData) {
-  var googlePayPaymentToken = paymentData.paymentMethodData.tokenizationData.token;
+  var googlePayPaymentToken = JSON.stringify(paymentData.paymentMethodData.tokenizationData.token);
 }
 ```
 
 Both of these values are valid for the `Token` property of the `Card` object.
 Note that the token should be a string value and **not** a JSON object.  See the below example.
+
+### Example Payment Data
   
-### Example
+  ```JSON
+ {
+    "Type": "Sale",
+    "Amount": "1.00",
+    "Currency": "USD",
+    "SetupId": "EVO US_CC",
+    "Card": {
+        "Tender": "GooglePay",
+        "EncryptedToken": "{\"apiVersionMinor\":0,\"apiVersion\":2,\"paymentMethodData\":{\"description\":\"Visa •••• 1111\",\"tokenizationData\":{\"type\":\"PAYMENT_GATEWAY\",\"token\":\"{\\\"signature\\\":\\\"MEUCIQDl35oRV4kZO...Y2rNe4+sWfNVOjos67h/zY\\\\u003d\\\",\\\"intermediateSigningKey\\\":{\\\"signedKey\\\":\\\"{\\\\\\\"keyValue\\\\\\\":\\\\\\\"MFkwEwYHKoZ...s+wowBMRf1g\\\\\\\\u003d\\\\\\\\u003d\\\\\\\",\\\\\\\"keyExpiration\\\\\\\":\\\\\\\"1647376198746\\\\\\\"}\\\",\\\"signatures\\\":[\\\"MEQCICbrcn6...0aRHayLw\\\\u003d\\\\u003d\\\"]},\\\"protocolVersion\\\":\\\"ECv2\\\",\\\"signedMessage\\\":\\\"{\\\\\\\"encryptedMessage\\\\\\\":\\\\\\\"A7nONsjpiYMmlxoUqZNvcusm...pVaxadquij18LYdtpQK+BNMpCOHQ\\\\\\\\u003d\\\\\\\",\\\\\\\"ephemeralPublicKey\\\\\\\":\\\\\\\"BOMFyy...wOHYI8\\\\\\\\u003d\\\\\\\",\\\\\\\"tag\\\\\\\":\\\\\\\"uysAwTdadkgoE...CAA0YVl6vo\\\\\\\\u003d\\\\\\\"}\\\"}\"},\"type\":\"CARD\",\"info\":{\"cardNetwork\":\"VISA\",\"cardDetails\":\"1111\"}}}"
+    }
+  }
+  ```
+  
+### Example Payment Token
   
   ```JSON
   {
