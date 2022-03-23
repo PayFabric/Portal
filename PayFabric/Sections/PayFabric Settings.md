@@ -69,7 +69,7 @@ These are settings relate to process a payment transaction.
 |Field                          |Description  | 
 |:------------------------------|:-------------| 
 | Transaction Key Prefix          | User defined prefix for PayFabric transaction key. |
-| PostURL       | PayFabric will post transaction response data (Non-sensitive fields) to this URL once this transaction is processed (successful or failed) |
+| PostURL       | PayFabric will post transaction response data (Non-sensitive fields) to this URL once this transaction is processed (successful or failed). **Note:** for 3DS transctions, you will get 2 webhooks. One that is 3DS Challenge status and one that is the final transaction response. |
 | Maximum History Cards |Limit the number of wallet entries loaded on PayFabric hosted pages by specify the number of saved card. The default value is 10.|
 | Return URL|A URL address that PayFabric can redirect to once a transaction is processed. The response fields will be encoded and attached into query string.|
 | Maximum Shipping Address| Limit the number of shipping address(s) loaded on PayFabric hosted payment page by specify the number of saved card. The default value is 10. Note: this options is only available for `Legacy Design`|
