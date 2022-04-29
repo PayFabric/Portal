@@ -2,7 +2,7 @@
 
 PayFabric has been named as a proprietary US gateway of EVO Payments to offer companies and software providers a streamlined payment service platform for digital payment acceptance and accounts receivables automation. EVO Payments (NASDAQ: EVOP) is among the largest fully integrated merchant acquirers and payment processors in the world. With PayFabric, EVO provides a one-stop-shop payment experience to merchants. PayFabric helps merchants accept electronic payments directly within their business applications and helps lower processing rates through qualified level 2 and 3 data submission.
 
-Merchant needs to setup gateway profile on PayFabric and associate to their merchant processing account information. Follow the field desription below to configure your PayFabric gateway profile(s) for credit card and/or ACH processing needs. 
+Merchant needs to setup gateway profile on PayFabric and associate to their merchant processing account information. Follow the field description below to configure your PayFabric gateway profile(s) for credit card and/or ACH processing needs. 
 
 ## EVO
 
