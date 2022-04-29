@@ -31,9 +31,9 @@ Note: PayFabric uses `Card Validation Type` to indicate the used card is `Credit
 Note: EVOACH gateway supports Sale, Void and Refund transaction types.
 
 # Batch Close
-Navigate to Settings > Gateway Account Configuration > Click Batch Close button on an existing gateway.
+Navigate to Settings > Gateway Account Configuration > Click Batch Close button on an existing gateway profile.
 
-PayFabric provide merchant the ability to specify their automatic batch close time at the gateway profile level based on hour, minute, am/pm with the interval of 30 minutes. By default, the batch close time is 8pm PT. When automatic batch closes occurs, PayFabric will gather all transactions that were processed from the last 24-hours from the cut-off time and will send it through to EVO processing backend for batch capture. 
+PayFabric provide merchant the ability to specify their automatic batch close time at the gateway profile level based on hour, minute, am/pm with the interval of 30 minutes. By default, the batch close time is 8pm PT. When automatic batch close occurs, PayFabric will gather all transactions that were processed from the last 24-hours from the cut-off time and will send it through to EVO processing backend for batch capture. 
 
 ![BatchClose](https://raw.githubusercontent.com/PayFabric/Portal/master/PayFabric/Sections/Screenshots/BatchClose.png)
 
