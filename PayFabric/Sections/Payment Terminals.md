@@ -14,8 +14,10 @@ Steps:
 |Field                          |Description  | 
 |------------------------------|-------------| 
 |**Terminal Name**| Enter a descriptive name for the device. |
-|**Local Network IP Address**| Enter the local network IP address for the device. |
-|**Local Network Port**| Populate the network port number for the device. Default is 10009. |
+|**Registration Mode**| Choose 'Manual IP Address' or 'DNS Provider'. Manual IP Address requires manual IP address entry and registering of the EMV terminal device. DNS Provider option offers the auto-registering capability for each EMV hardware terminal device based on the serial number.|
+|**Serial Number**| This field exists if selected registration mode is 'DNS Provider'. Populate the serial number of the hardware terminal device. |
+|**Local Network IP Address**| This field exists if selected registration mode is 'Manual IP Address'. Enter the local network IP address for the device. |
+|**Local Network Port**| This field exists if selected registration mode is 'Manual IP Address'. Populate the network port number for the device. Default is 10009. |
 |**Payment Terminal Type**| Use default option ‘PAX Generic’ for PAX’s EMV device. |
 
 ## Options
