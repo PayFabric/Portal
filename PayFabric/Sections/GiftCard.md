@@ -4,7 +4,7 @@ PayFabric supports EVO Gift, you can manage your gift card and process transacti
 ## How to Inquiry Balance for your Gift Card?
 1. Create an Evo Gift gateway, you can refer [Gateway Account Profile](https://github.com/PayFabric/Portal/blob/R19/PayFabric/Sections/Gateway%20Configuration.md)
 
-2. Set the Evo Gift gateway as your Gift Card Default gateawy, you can refer [Default Gateway]()
+2. Set the Evo Gift gateway as your Gift Card Default gateawy, you can refer [Default Gateway Profile](https://github.com/PayFabric/Portal/blob/R19/PayFabric/Sections/Gateway%20Configuration.md#default-gateway-profile)
 
 3. Then you can inquiry balance on Gift Card Maintenance page Customers->Gift Card Maintenance
 
