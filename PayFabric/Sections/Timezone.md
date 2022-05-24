@@ -1,4 +1,4 @@
-# Preffered Timezone
+# Timezone
 PayFabric is able to provide merchant an ability to set a preferred time zone against their PayFabric organization. All the date fields in PayFabric portal and API will show the datetime in configured merchant timezone.
 
 ## Change Timezone
