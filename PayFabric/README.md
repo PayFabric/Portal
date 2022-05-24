@@ -41,5 +41,5 @@ Before programming with PayFabric, you need a PayFabric account to get started. 
 * [Transaction Types](https://github.com/PayFabric/APIs/blob/master/PayFabric/Sections/Transaction%20Types.md)
 * [Error Codes](Sections/PayFabric%20Error%20Codes.md)
 * [eCommerce with PayFabric & GP](Sections/eCommerce%20with%20PayFabric%20%26%20GP.pdf)
-* [Time Zone](https://github.com/PayFabric/Portal/blob/R19/PayFabric/Sections/Timezone.md)
-* [Gift Card](https://github.com/PayFabric/Portal/blob/R19/PayFabric/Sections/GiftCard.md)
+* [Time Zone](https://github.com/PayFabric/Portal/blob/PayFabric/Sections/Timezone.md)
+* [Gift Card](https://github.com/PayFabric/Portal/blob/PayFabric/Sections/GiftCard.md)
