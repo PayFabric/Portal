@@ -62,5 +62,9 @@ This option is only available when **Both EMV and Web Entry option** of **Proces
 
 This option is only available when **Both EMV and Web Entry option** of **Processing Method** are selected. If check marked, customer will be required to provide signature for card-present transaction, as applicable.
 
+### Allow Gift Card
+
+This option is to enable the ability to process transaction with Gift Card on the EMV entry.
+
 ###### Related Reading
 * [How to retrieve signature image](../../../../../../PayFabric/Hosted-Pages/blob/master/Sections/Payment%20Terminals%20Signature%20Page.md)
