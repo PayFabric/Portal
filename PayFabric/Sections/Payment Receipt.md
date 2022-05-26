@@ -3,10 +3,11 @@ Merchant can turn on the feature that send payment receipt to end customers afte
 
 **Note**: 
 1. Email receipt does not support for _Verify_ transaction.
-2. The default receipt must include the required receipt data as accessible via required PF merchant configuration, transaction, or payment fields. 
-3. By default, the merchant email receipt template will contain a Refund Policy field with default text at the bottom of the template.  PayFabric will not enforce merchants to update nor do we validate if they remove it.
+2. For Gift card transaction, only _Sale_ and _Void_ transaction have email receipt template.
+3. The default receipt must include the required receipt data as accessible via required PF merchant configuration, transaction, or payment fields. 
+4. By default, the merchant email receipt template will contain a Refund Policy field with default text at the bottom of the template.  PayFabric will not enforce merchants to update nor do we validate if they remove it.
 
-![receipt](https://raw.githubusercontent.com/PayFabric/Portal/master/PayFabric/Sections/Screenshots/EmailReceiptTemplateR18.png)
+![receipt](https://github.com/PayFabric/Portal/blob/master/PayFabric/Sections/Screenshots/GiftEmailReceipt.png)
 
 ### Send to Customer
 Once checked, PayFabric will send receipt to customer once a transaction is processed. The email address of customer which will receive receipts is the email address in the billing address. The billing email address must be present for each transaction.
