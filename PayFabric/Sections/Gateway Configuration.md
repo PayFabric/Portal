@@ -40,7 +40,7 @@ PayFabric provide merchant the ability to specify their automatic batch close ti
 # Default Gateway Profile
 Navigate to Settings->Gateway Account Configuration->Default Gateway Settings 
 
-PayFabric provide merchant the ability to specify the default gateway for specific Device and specific currency, once configured, then if no gateway passed in when process transaction, PF will use the default one.
+PayFabric provide merchant the ability to specify the default gateway for specific Device and specific currency, once configured, then if no gateway passed in when creating/processing transaction, PF will use the default one.
 
 ![DefaultGateways](https://github.com/PayFabric/Portal/blob/master/PayFabric/Sections/Screenshots/DefaultGateway.png)
 
