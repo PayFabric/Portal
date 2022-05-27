@@ -30,5 +30,8 @@ Please refer [MRHPP](https://github.com/PayFabric/Hosted-Pages/blob/R19/Sections
 
 ### Process transaction with Gift Card via API
 [Inquiry Balance API](https://github.com/PayFabric/APIs/blob/master/PayFabric/Sections/GfitCardAPI.md)
-[Gift Card Transaction API]
+
+[Gift Card Transaction API](https://github.com/PayFabric/APIs/blob/master/PayFabric/Sections/ProcessGiftCardTransaction.md)
  
+### Configure email receipt template for Gift Card transactions
+Please refere [Payment Receipt Template](https://github.com/PayFabric/Portal/blob/R19/PayFabric/Sections/Payment%20Receipt.md)
