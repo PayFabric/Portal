@@ -20,7 +20,7 @@ PayFabric supports to do below transaction types with Gift card, refer the [Tran
 
 ## Enable Gift Card Processing Method
 ### PAX Terminal
-Navigate to Settings->Payment Terminals, check the option "Allow Gift Card". Then you can see the "Gift Card" button on Terminal Entry. Please refer [Hosted Payment Page](https://github.com/PayFabric/Portal/blob/R19/PayFabric/Sections/Payment%20Terminals.md#allow-gift-card)
+Navigate to Settings->Payment Terminals, check the option ["Allow Gift Card"](https://github.com/PayFabric/Portal/blob/R19/PayFabric/Sections/Payment%20Terminals.md#allow-gift-card). Then you can see the "Gift Card" button on Terminal Entry. Please refer [Hosted Payment Page](https://github.com/PayFabric/Hosted-Pages/blob/R19/Sections/Payment%20Page.md#terminal-entry)
 
 ### Process transaction with Gift Card on Hosted Payment Page 
 Please refer [Hosted payment page](https://github.com/PayFabric/Hosted-Pages/blob/R19/Sections/Payment%20Page.md#hosted-payment-page-for-gift-card) for details.
