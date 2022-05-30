@@ -1,5 +1,5 @@
 # Gift Card
-PayFabric supports EVO Gift for USD currency, you can manage your gift card and process transaction with gift card in PayFabric. Gift card transactions won't be settled.
+PayFabric supports EVO Gift for USD currency, you can manage your gift card and process transaction with gift card in PayFabric. There is not settlement for Gift card transactions.
 
 ## Transaction Types for Gift Card
 PayFabric supports to do below transaction types with Gift card, refer the [Transaction Type](https://github.com/PayFabric/APIs/blob/R19/PayFabric/Sections/Transaction%20Types.md) for the definition.
