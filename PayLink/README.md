@@ -23,10 +23,10 @@ Below is the terms we are using in this documents. You may not see it before, or
 
 | Terms        | Definition| 
 | :-------------|:-------------| 
-| Gateway | Payment gateway such as PayPal, FirstDataGGe4 and so on | 
+| Gateway | A payment gateway such as PayFabric via EVO Payments | 
 | Transaction | Payment transaction submitted to PayFabric | 
 | Wallet | Payment wallet submitted to PayFabric |
-| Device ID | A Guid to identify different applications or websites under one merchant account |  
+| Device ID | A unique identifier (GUID) to identify different applications or websites under one merchant account |  
 | Device Password | Each device has one. Required when exchanging security token with PayFabric |  
 | Security Token | Token string is submitted along with API call for authentication |
 
