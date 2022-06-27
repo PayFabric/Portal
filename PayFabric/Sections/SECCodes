@@ -1,4 +1,4 @@
-#ACH Standard Entry Class (SEC) Codes 
+# ACH Standard Entry Class (SEC) Codes 
 
 Each ACH application has a unique Standard Entry Class (SEC) Code that identifies a single ACH debit used by an Originator for the conversion of an eligible source document received via the U.S. mail or delivery service, at a lockbox location, or in person at a manned location for the payment of a bill. 
 
@@ -7,7 +7,7 @@ The SEC Code generally indicates:
 - Whether the transaction is single-entry or recurring.
 - The specific computer record format that will be used to carry the payment and payment-related information relevant to the application.
 
-##Supported SEC Codes by PayFabric with EVO ACH
+## Supported SEC Codes by PayFabric with EVO ACH
 
 | SEC Code             | ACH Application              | Application Use       | Authorization Requirements    |
 | -------------------- |:---------------------------- | |:--------------------| |:---------------------------- | 
