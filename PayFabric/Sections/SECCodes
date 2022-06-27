@@ -1,4 +1,4 @@
-# ACH Standard Entry Class (SEC) Codes 
+# ACH Standard Entry Class (SEC) Codes
 
 Each ACH application has a unique Standard Entry Class (SEC) Code that identifies a single ACH debit used by an Originator for the conversion of an eligible source document received via the U.S. mail or delivery service, at a lockbox location, or in person at a manned location for the payment of a bill. 
 
