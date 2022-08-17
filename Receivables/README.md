@@ -32,4 +32,4 @@ Information on utilizing the Receivables API can be found on the [PayFabric Rece
 Extended Reading
 ----------------
 
-* [User Guide](http://www.nodus.com/documentation/PayFabric-Receivables-User-Guide.pdf)
+* [User Guide](https://www.nodus.com/payfabric-receivables-user-guide)
