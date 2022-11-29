@@ -15,7 +15,7 @@ Batch detail report lets users view all transactions processed within a batch an
 
 ![MultipleTransactions](./Screenshots/BatchDetails-MultipleTransactions.png)
   
-<b>PayFabric also provide the ability to get the Batch Summary, Batch Details and Export Batch details via API, please refer [Settlement](https://github.com/PayFabric/APIs/blob/R20/PayFabric/Sections/Settlement.md#settlement) for details.</b>
+<b>PayFabric also provide the ability to get Batch Summary report, Batch Details report and Export Batch details report via API, please refer [Settlement](https://github.com/PayFabric/APIs/blob/R20/PayFabric/Sections/Settlement.md#settlement) for details.</b>
   
 
 
