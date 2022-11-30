@@ -10,7 +10,7 @@ PayFabric Virtual Terminal have introduced two UI Modes for virtual terminal , `
 
 * `Legacy Design`: Maintain the existing user interface and experience for virtual terminal where user can mimic the hosted API calls for PayFabric and also review the custom’s device theme directly on PayFabric portal. 
 ![Legacy VT_General](https://raw.githubusercontent.com/PayFabric/Portal/master/PayFabric/Sections/Screenshots/Legacy%20VT_General.png)
-![TrxOptionR20](./Sections/Screenshots/TrxOptionR20.png)
+![TrxOptionR20](./Screenshots/TrxOptionR20.png)
 
 
 * `Modern Design`: Introduce a new user friendly design for Virtual Terminal to allow merchant to process transactions against PayFabric web portal via web entry and/or terminal entry. 
@@ -95,7 +95,7 @@ Navigate to Settings > Gateway Account Configuration > Default Gateway Settings.
 
 With `Modern Design` mode for Virtual Terminal, PayFabric provides merchant the ability to specify default gateway profile based on currency types so their internal user does not need to select a gateway profile at the time of processing a transaction. This functionality is supported through PayFabric API calls for all PayFabric apps/devices.
 
-![DefaultGatewaySetings](https://raw.githubusercontent.com/PayFabric/Portal/master/PayFabric/Sections/Screenshots/DefaultGatewaySetings.png)
+![DefaultGateway](./Screenshots/DefaultGateway.png)
 
 Each Device is allowed to setup a Credit card and a eCheck gateway profile against currency, prior to setup default gateway, gateway profile must be created from `Settings` > `Gateway Account Profiles`. `Virtual Terminal` option of Device Name is only available when Design Mode is `Modern Design` under `PayFabric Settings`.
 
