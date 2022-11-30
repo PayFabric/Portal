@@ -10,7 +10,7 @@ PayFabric Virtual Terminal have introduced two UI Modes for virtual terminal , `
 
 * `Legacy Design`: Maintain the existing user interface and experience for virtual terminal where user can mimic the hosted API calls for PayFabric and also review the custom’s device theme directly on PayFabric portal. 
 ![Legacy VT_General](https://raw.githubusercontent.com/PayFabric/Portal/master/PayFabric/Sections/Screenshots/Legacy%20VT_General.png)
-![TrxOptionR13](https://raw.githubusercontent.com/PayFabric/Portal/master/PayFabric/Sections/Screenshots/TrxOptionR13.png)
+![TrxOptionR20](./Sections/Screenshots/TrxOptionR20.png)
 
 
 * `Modern Design`: Introduce a new user friendly design for Virtual Terminal to allow merchant to process transactions against PayFabric web portal via web entry and/or terminal entry. 
@@ -55,6 +55,7 @@ These are settings relate to process a payment transaction.
 |Return Legacy Transaction Types |If enabled, when retrieving transactions through the use of the API, the transaction types returned will be those of the legacy Book, Ship and Credit instead of the new Authorization, Capture and Refund.|
 |Credit Card Validation Required |If enabled, Payfabric will validate credit card before storing for later use.|
 |Enable Bin Range Validation |If enabled, PayFabric will do BIN Range validation on all credit card data to determine the card type. If card level is a Non-Commercial card, PayFabric will exclude L2/L3 data when submitting to gateway/processing.|
+|Enabled For Fraud|If enabled, transction processed with current device will be submitted to RiskShield.|
 |Maximum Limit for Sale Transaction(Credit)|Specify a maximum amount for Sale/Authorization/Force transaction when process transaction with credit card.|
 |Maximum Limit for Sale Transaction(eCheck)|Specify a maximum amount for Sale transaction when process transaction with eCheck.|
 |Maximum Limit for Refund Transaction(Credit)|Specify a maximum amount for refund transaction when process transaction with credit card.|
