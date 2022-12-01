@@ -3,7 +3,7 @@ As EVO gateway service provider, PayFabric is able to provide merchants the abil
 
 PayFabric supports a Merchant level configuration/feature flag that requires merchant contact PayFabric support to enable the Fraud integration. Once enabled at the Merchant level, they will have the ability to disable RiskShield on a per-device level.  By default, ALL new created PayFabric devices will be enabled once enabled at the Merchant level.
 
-PayFabric will have some more additional validation with below rules for the transactions which will submit to RiskShield. The related fields info, please refer to the [Object](https://github.com/PayFabric/APIs/blob/R20/PayFabric/Sections/Objects.md) for details.
+PayFabric will have some more additional validation with below rules when processing transaction while merchant enables Fraud. The related fields info, please refer to the [Object](https://github.com/PayFabric/APIs/blob/R20/PayFabric/Sections/Objects.md) for details.
 * Invalid formats provided – Transaction will fail for field validation error.
 * Required fields missing – Transaction will fail for field validation error 
 * Field Maximum Length Exceed – Instead of failing, we will just trim the field to the maximum length before submission to RiskShield.  
