@@ -8,7 +8,7 @@ Click Run Report button to view Batch Summary report for specified Post Date .
 ![BatchSummaryReport](./Screenshots/BatchSummaryReport.png)
 
 # Batch Detail Records
-Batch detail report lets users view all transactions processed within a batch and show reconciliation result, user can download the details report as well.
+Merchant can view Batch details report by clciking the Batch ID, Batch detail report lets users view all transactions processed within a batch and show reconciliation result, user can download the details report as well.
 
 <b>Transaction does not exist in PayFabric will be highlighted in orange as below and will show message 'PayFabric Transaction could not be found.' in Reconciliation Issue column. <b>
   
