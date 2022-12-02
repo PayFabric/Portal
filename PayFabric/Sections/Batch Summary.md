@@ -1,8 +1,11 @@
 # Batch Summary Report
 Batch Summary report supports PayFabric merchant users access settlement data to reconcile their PayFabric payments and meet the accounting needs. Batch Summary report can be downloaded as excel, csv and tsv.
-Merchants can access Batch Summary report under Reports menu and run Batch Summary report for specified Post Date .
+Merchants can access Batch Summary report under Reports menu.
 
 ![BatchSummary](./Screenshots/BatchSummary.png)
+
+Click Run Report button to view Batch Summary report for specified Post Date .
+![BatchSummaryReport](./Screenshots/BatchSummaryReport.png)
 
 # Batch Detail Records
 Batch detail report lets users view all transactions processed within a batch and show reconciliation result, user can download the details report as well.
