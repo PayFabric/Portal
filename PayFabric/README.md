@@ -46,6 +46,6 @@ Before programming with PayFabric, you need a PayFabric account to get started. 
 * [Fraud](Sections/Fraud.md)
 * [Settlement and Reconciliation Report](Sections/Settlement%20Report.md)
 * [ACH SEC Codes](https://github.com/PayFabric/Portal/blob/master/PayFabric/Sections/SECCodes.md)
-* [Batch Summary](Sections/Batch%20Summary.md)
+* [Batch Summary Report](Sections/Batch%20Summary%20Report.md)
 * [Fraud Service](Sections/Fraud%20Service.md)
 
