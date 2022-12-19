@@ -9,5 +9,5 @@ PayFabric will have additional validations for particular fields with below rule
 * Field Maximum Length Exceed the Fraud check's requirement – Instead of failing, we will just trim the field to the maximum length before submission.  
 
 # Transaction Response
-The transactions submitted for Fraud check will return three more fields, ExoneratingText, IncriminatingText and FraudScore.
-And Transaction may failed because of the Fraud check, Transaction status for this transaction is 'FraudReject' with message 'Unable to process the transaction. Rejected due to fraud.'
+The transactions submitted for Fraud check will return three more fields, `FraudScore`, `ExoneratingText` and `IncriminatingText`.
+And Transaction may failed because of the Fraud check, Transaction status for this transaction is `FraudReject` with message 'Unable to process the transaction. Rejected due to fraud.'
