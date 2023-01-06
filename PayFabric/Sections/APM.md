@@ -38,8 +38,11 @@ Steps:
 2.	From **Alternative Payment Methods** page > click **Configure** button on Apple Pay box.
 3.	Click **Add a Domain** button, specify the top-level domain (ex: payfabric.com) or sub-domain (ex: manage.payfabric.com) that you wish to enable Apple Pay against.
 4.  Click **Download Files** button to download verification file.
-5.  Host the Apple Pay's verification file you downloaded from the step above at your domain in the following location,
-    https://example.com/.well-known/apple-developer-merchantid-domain-association
+    > Download and hosting the Apple's domain-verification file will only have to be done once for each domain registering with PayFabric. You do not need to download the file again if the domain has already been registered with another PayFabric account.
+5.  Host the Apple's domain-verification file you downloaded from the step above at the following path:
+
+    `https://[[DOMAIN_NAME]/.well-known/apple-developer-merchantid-domain-association`
+6.  Click the **Confirm** button to register the domain.
 
 ### Embed Pay by PayPal/Google Pay/Apple Pay to your page
 Please check the detailed instructions for [JavaScript SDK](JavaScript%20SDK.md)
