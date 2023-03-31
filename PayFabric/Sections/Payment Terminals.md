@@ -18,7 +18,8 @@ Steps:
 |**Serial Number**| This field exists if selected registration mode is 'DNS Provider'. Populate the serial number of the hardware terminal device. |
 |**Local Network IP Address**| This field exists if selected registration mode is 'Manual IP Address'. Enter the local network IP address for the device. |
 |**Local Network Port**| This field exists if selected registration mode is 'Manual IP Address'. Populate the network port number for the device. Default is 10009. |
-|**Payment Terminal Type**| Use default option ‘PAX Generic’ for PAX’s EMV device. |
+|**Payment Terminal Type**| This field is to indicate the EMV connection type, supported options are 'PAX Generic' and 'Diamond Cloud'. 'PAX Generic': PayFabric initial request to the terminal via the browser being used for PayFabric. 'Diamond Cloud': PayFabric inital request to the terminal via Diamond cloud API. |
+|**POSID**| This field exists if selected Payment Terminal Type 'Diamond Cloud'. Populate the POSID configured in Diamond Cloud. |
 
 ## Options
 
