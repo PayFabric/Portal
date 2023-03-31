@@ -53,7 +53,7 @@ Specify a terminal device under this option so the selected device is always the
 
 ### Default Processing Method
 
-This option is available when **Both EMV and Web Entry option** or **EMV Only** of **Processing Method** is selected. Specify the default processing method on payment processing page.
+This option is only available when **Both EMV and Web Entry option** of **Processing Method** is selected. Specify the default processing method on payment processing page.
 
 ### Only Allow Default Payment Terminal
 
