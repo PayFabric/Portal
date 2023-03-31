@@ -17,7 +17,7 @@ Steps:
 |**Registration Mode**| Choose 'Manual IP Address' or 'DNS Provider'. Manual IP Address requires manual IP address entry and registering of the EMV terminal device. DNS Provider option offers the auto-registering capability for each EMV hardware terminal device based on the serial number.|
 |**Serial Number**| This field exists if selected registration mode is 'DNS Provider'. Populate the serial number of the hardware terminal device. |
 |**Local Network IP Address**| This field exists if selected registration mode is 'Manual IP Address'. Enter the local network IP address for the device. |
-|**Local Network Port**| This field exists if selected registration mode is 'Manual IP Address'. Populate the network port number for the device. Default is 10009. |
+|**Local Network Port**| This field exists if selected registration mode is 'Manual IP Address'. Populate the network port number for the device. Default is 7777. |
 |**Payment Terminal Type**| This field is to indicate the EMV connection type, supported options are 'PAX Generic' and 'Diamond Cloud'. 'PAX Generic': PayFabric initial request to the terminal via the browser being used for PayFabric. 'Diamond Cloud': PayFabric inital request to the terminal via Diamond cloud API. |
 |**POSID**| This field exists if selected Payment Terminal Type 'Diamond Cloud'. Populate the POSID configured in Diamond Cloud. |
 
