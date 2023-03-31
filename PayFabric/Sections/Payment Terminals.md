@@ -52,15 +52,15 @@ Specify a terminal device under this option so the selected device is always the
 
 ### Default Processing Method
 
-This option is available when **Both EMV and Web Entry option** or **EMV Only** of **Processing Method** are selected. Specify the default processing method on payment processing page.
+This option is available when **Both EMV and Web Entry option** or **EMV Only** of **Processing Method** is selected. Specify the default processing method on payment processing page.
 
 ### Only Allow Default Payment Terminal
 
-This option is available when **Both EMV and Web Entry option** or **EMV Only** of **Processing Method** are selected. If check marked, user will only be able to use the default payment terminal without the ability to switch to a different terminal device from the list.
+This option is available when **Both EMV and Web Entry option** or **EMV Only** of **Processing Method** is selected. If check marked, user will only be able to use the default payment terminal without the ability to switch to a different terminal device from the list.
 
 ### Require Credit Card Signature
 
-This option is available when **Both EMV and Web Entry option** or **EMV Only** of **Processing Method** are selected. If check marked, customer will be required to provide signature for card-present transaction, as applicable. Please note that PayFabric will ignore the signature for reference transactions.
+This option is available when **Both EMV and Web Entry option** or **EMV Only** of **Processing Method** is selected. If check marked, customer will be required to provide signature for card-present transaction, as applicable. Please note that PayFabric will ignore the signature for reference transactions.
 
 ### Allow Gift Card
 
