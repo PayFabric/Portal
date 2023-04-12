@@ -68,12 +68,12 @@ This option is available when **Both EMV and Web Entry option** or **EMV Only** 
 This option is to enable the ability to process transaction with Gift Card on the EMV entry.
 
 ### Batch Close
-PayFabric allows to manually batch close the transactions on the terminal via Diamond Cloud service.
+PayFabric allows to trigger the batch close on terminal via Diamond Cloud service by clicking 'Manually Close Batch' button.
 
 ![DiamondCloudTerminal](/PayFabric/Sections/Screenshots/DiamondCloudTerminal.png)
 
 ### Test Connection for specified Terminals
-PayFabric provide the ability to send a test connection request to the terminal via Diamond Cloud service. Merchants can check the connection status on the terminal side.
+PayFabric provide the ability to send a test connection request to the terminal via Diamond Cloud service. Merchants can check the connection status on the terminal.
 
 ![DCTestConnection](/PayFabric/Sections/Screenshots/DCTestConnection.png)
 
