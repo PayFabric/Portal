@@ -1,7 +1,7 @@
-# JavaScript SDK
+# JavaScript SDK V2
 PayFabric provides a JavaScript library to support both Alternative Payment Methods as well as interaction with our new responsive Hosted Payment Page.  This JavaScript Library hosted by PayFabric will be responsible for configuring and presenting a payment popup or element that supports our hosted payment page as well as any alternative payments methods PayFabric supports today or into the future.
 
-**Looking for V1/Original version of our JavaScript SDK? Click [here](JavaScript-SDK-V1.md).**
+PayFabric released a new version of our JavaScript SDK during our May release of PayFabric.  This new version supports additional features, settings and callbacks. Looking for V1/Original version of our JavaScript SDK? Click [here](JavaScript-SDK-V1.md).
 
 # Alternative Payment Methods
 * [PayPal](APM.md#paypal)
@@ -29,13 +29,13 @@ Using our [Create a new Transaction](https://github.com/PayFabric/APIs/blob/mast
 
 Once you have obtained your JWT Token, you have all the data you need to initiate our payment flow using our JavaScript SDK library.
 
-## Using our Hosted JavaScript SDK library to start the payment flow
+## Using our Hosted Bundled JavaScript SDK library to start the payment flow
 
 Firstly, configure your checkout page to reference our JavaScript SDK and create an **Empty** DIV element with an id.
 ```HTML
 <html>
   <head>
-    <script src="https://www.payfabric.com/Payment/WebGate/Content/bundles/payfabricpayments.bundle.min.js" 
+    <script src="https://www.payfabric.com/Payment/WebGate/Content/bundles/payfabricpayments.v2.bundle.min.js" 
             type="text/javascript" onload="payFabricSDKLoaded()"></script>
   </head>
   <body>
@@ -43,6 +43,20 @@ Firstly, configure your checkout page to reference our JavaScript SDK and create
   </body>
 </html>
 ```
+
+**Live Endpoint:** https://www.payfabric.com/Payment/WebGate/Content/bundles/payfabricpayments.v2.bundle.min.js
+**Sandbox Endpoint:** https://sandbox.payfabric.com/Payment/WebGate/Content/bundles/payfabricpayments.v2.bundle.min.js
+
+## Using our Hosted Standalone JavaScript SDK library to start the payment flow
+
+If the platform that you are attempting to connect to PayFabric and our JavaScript SDK is experiencing some conflicts between the bundled PayFabric JS SDK and your platform, then we have provided a standalone version of the JS SDK.  This standalone version only includes the PayFabric JavaScript and none of the required depdenencies.  
+
+**Live Endpoint:** https://www.payfabric.com/Payment/WebGate/Content/bundles/payfabricpayments.v2.standalone.min.js
+**Sandbox Endpoint:** https://sandbox.payfabric.com/Payment/WebGate/Content/bundles/payfabricpayments.v2.standalone.min.js
+
+### Dependencies
+* [Axios](https://axios-http.com/) >= v0.21.1
+* [iFrameResizer](https://github.com/davidjbradshaw/iframe-resizer) >= v4.3.1
 
 Secondly, create a new function to load our payments SDK.  We will immediately display the payment box as soon as it is ready.  We recommend that you do this either on our script load, or through a button click.
 ```javascript
