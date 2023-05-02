@@ -1,6 +1,8 @@
 # JavaScript SDK
 PayFabric provides a JavaScript library to support both Alternative Payment Methods as well as interaction with our new responsive Hosted Payment Page.  This JavaScript Library hosted by PayFabric will be responsible for configuring and presenting a payment popup or element that supports our hosted payment page as well as any alternative payments methods PayFabric supports today or into the future.
 
+**Looking for V1/Original version of our JavaScript SDK? Click [here](JavaScript-SDK-V1.md).**
+
 # Alternative Payment Methods
 * [PayPal](APM.md#paypal)
 * [Apple Pay](APM.md#apple-pay)
