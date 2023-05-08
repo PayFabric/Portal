@@ -1,5 +1,5 @@
 # JavaScript SDK V2
-PayFabric provides a JavaScript library to support both Alternative Payment Methods as well as interaction with our new responsive Hosted Payment Page.  This JavaScript Library hosted by PayFabric will be responsible for configuring and presenting a payment popup or element that supports our hosted payment page as well as any alternative payments methods PayFabric supports today or into the future.
+PayFabric provides a JavaScript library to support both Alternative Payment Methods as well as interaction with our new responsive Hosted Payment Page.  This JavaScript Library hosted by PayFabric will be responsible for configuring and presenting a payment popup or element that supports our hosted payment page as well as any alternative payment methods PayFabric supports today or into the future.
 
 PayFabric released a new version of our JavaScript SDK during our May release of PayFabric.  This new version supports additional features, settings and callbacks. Looking for V1/Original version of our JavaScript SDK? Click [here](JavaScript-SDK-V1.md).
 
@@ -50,7 +50,7 @@ Firstly, configure your checkout page to reference our JavaScript SDK and create
 
 ## Using our Hosted Standalone JavaScript SDK library to start the payment flow
 
-If the platform that you are attempting to connect to PayFabric and our JavaScript SDK is experiencing some conflicts between the bundled PayFabric JS SDK and your platform, then we have provided a standalone version of the JS SDK.  This standalone version only includes the PayFabric JavaScript and none of the required depdenencies.  
+If the platform that you are attempting to connect to PayFabric and our JavaScript SDK is experiencing some conflicts between the bundled PayFabric JS SDK and your platform, then we have provided a standalone version of the JS SDK.  This standalone version only includes the PayFabric JavaScript and none of the required dependencies.  
 
 **Live Endpoint:** https://www.payfabric.com/Payment/WebGate/Content/bundles/payfabricpayments.v2.standalone.min.js
 
@@ -91,7 +91,7 @@ function payFabricSDKLoaded() {
 | :-------------  | :------------- | :------------- | :------------- | 
 | debug | Optional | boolean | Receive some debugging and verbose logs to the Developer Console of your browser, to assist with understanding specific issues. |
 | environment | Required | string | The PayFabric environment that you will be targeting.  Values are LIVE and SANDBOX. |
-| target | Required | string | The target DIV that will be responsible for displaying the payment box. |
+| target | Required | string | The target DIV will be responsible for displaying the payment box. |
 | session | Required | string | The JWT Token value obtained from our Create JWT Token API. |
 | successUrl | Conditional | string | A local URL from your website which will handle the redirect from the SDK in the event of an approved transaction.  Query parameters will be appended to the URL to indicate transaction status and information.<br/><br/>This field is **required** if successCallback is not populated. |
 | failureUrl | Conditional | string | A local URL from your website which will handle the redirect from the SDK in the event of a declined or failed transaction.  Query parameters will be appended to the URL to indicate transaction status and information.<br/><br/>This field is **required** if failureCallback is not populated. |
