@@ -18,8 +18,8 @@ Steps:
 |**Serial Number**| This field exists if selected registration mode is 'DNS Provider'. Populate the serial number of the hardware terminal device. |
 |**Local Network IP Address**| This field exists if selected registration mode is 'Manual IP Address'. Enter the local network IP address for the device. |
 |**Local Network Port**| This field exists if selected registration mode is 'Manual IP Address'. Populate the network port number for the device. Default is 7777. |
-|**Payment Terminal Type**| This field is to indicate the EMV connection type, supported options are 'PAX Generic' and 'Diamond Cloud'. 'PAX Generic': PayFabric initial request to the terminal via the browser being used for PayFabric. 'Diamond Cloud': PayFabric inital request to the terminal via Diamond cloud API. |
-|**POSID**| This field exists if selected Payment Terminal Type 'Diamond Cloud'. Populate the POSID configured in Diamond Cloud. |
+|**Payment Terminal Type**| This field is to indicate the EMV connection type, supported options are 'PAX Generic' and 'DiamondCloud'. 'PAX Generic': PayFabric initial request to the terminal via the browser being used for PayFabric. 'DiamondCloud': PayFabric inital request to the terminal via DiamondCloud API. |
+|**POSID**| This field exists if selected Payment Terminal Type 'DiamondCloud'. Populate the POSID configured in DiamondCloud. |
 
 ## Options
 
@@ -68,12 +68,12 @@ This option is available when **Both EMV and Web Entry option** or **EMV Only** 
 This option is to enable the ability to process transaction with Gift Card on the EMV entry.
 
 ### Batch Close
-PayFabric allows to trigger the batch close on terminal via Diamond Cloud service by clicking 'Manually Close Batch' button.
+PayFabric allows to trigger the batch close on terminal via DiamondCloud service by clicking 'Manually Close Batch' button.
 
 ![DiamondCloudTerminal](/PayFabric/Sections/Screenshots/DiamondCloudTerminal.png)
 
 ### Test Connection for specified Terminals
-PayFabric provide the ability to send a test connection request to the terminal via Diamond Cloud service. Merchants can check the connection status on the terminal.
+PayFabric provide the ability to send a test connection request to the terminal via DiamondCloud service. Merchants can check the connection status on the terminal.
 
 ![DCTestConnection](/PayFabric/Sections/Screenshots/DCTestConnection.png)
 
