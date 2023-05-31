@@ -10,11 +10,11 @@ PayFabric Virtual Terminal have introduced two UI Modes for virtual terminal , `
 
 * `Legacy Design`: Maintain the existing user interface and experience for virtual terminal where user can mimic the hosted API calls for PayFabric and also review the custom’s device theme directly on PayFabric portal. 
 ![Legacy VT_General](https://raw.githubusercontent.com/PayFabric/Portal/master/PayFabric/Sections/Screenshots/Legacy%20VT_General.png)
-![TrxOptionR20](./Screenshots/TrxOptionR20.png)
+![Legacy VT_TransactionOptions.png](./Screenshots/Legacy%20VT_TransactionOptions.png)
 
 
 * `Modern Design`: Introduce a new user friendly design for Virtual Terminal to allow merchant to process transactions against PayFabric web portal via web entry and/or terminal entry. 
-![ModernTrxOptionR13](https://raw.githubusercontent.com/PayFabric/Portal/master/PayFabric/Sections/Screenshots/ModernTrxOptionR13.png)
+![Modern VT_TransactionOptions](https://raw.githubusercontent.com/PayFabric/Portal/master/PayFabric/Sections/Screenshots/Modern%20VT_TransactionOptions.png)
 ![Modern VT_PaymentDetails](https://raw.githubusercontent.com/PayFabric/Portal/master/PayFabric/Sections/Screenshots/Modern%20VT_FormSettings_PaymentDetails.png)
 ![Modern VT_TransactionDetails](https://raw.githubusercontent.com/PayFabric/Portal/master/PayFabric/Sections/Screenshots/Modern%20VT_FormSettings_TransactionDetails.png)
 ![Modern VT_Addresses](https://raw.githubusercontent.com/PayFabric/Portal/master/PayFabric/Sections/Screenshots/Modern%20VT_FormSettings_Address.png)
@@ -64,7 +64,7 @@ These are settings relate to process a payment transaction.
 |Tip - Option 1|This option will be available after Enable Tip Amount, it allows 2 decimal places.|
 |Tip - Option 2|This option will be available after Enable Tip Amount, it allows 2 decimal places. The value must be greater than the value entered in Tip - Option 1.|
 |Tip - Option 3|This option will be available after Enable Tip Amount, it allows 2 decimal places. The value must be greater than the value entered in Tip - Option 2.|
-
+|Override Duplicate Wallet|If set to 'Yes', this will allow PayFabric to override existing duplicate wallet record with newly provided data. If set to 'No' (default), PayFabric will restrict saving duplicate wallet entries based on the combined dataset validation below: Credit Card: Customer #, Account#, Expiration Date; ACH: Customer #, Account #, Routing #|
 
 ## General Settings
 |Field                          |Description  | 
