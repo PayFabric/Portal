@@ -17,8 +17,9 @@ Steps:
 |**Registration Mode**| Choose 'Manual IP Address' or 'DNS Provider'. Manual IP Address requires manual IP address entry and registering of the EMV terminal device. DNS Provider option offers the auto-registering capability for each EMV hardware terminal device based on the serial number.|
 |**Serial Number**| This field exists if selected registration mode is 'DNS Provider'. Populate the serial number of the hardware terminal device. |
 |**Local Network IP Address**| This field exists if selected registration mode is 'Manual IP Address'. Enter the local network IP address for the device. |
-|**Local Network Port**| This field exists if selected registration mode is 'Manual IP Address'. Populate the network port number for the device. Default is 10009. |
-|**Payment Terminal Type**| Use default option ‘PAX Generic’ for PAX’s EMV device. |
+|**Local Network Port**| This field exists if selected registration mode is 'Manual IP Address'. Populate the network port number for the device. Default is 7777. |
+|**Payment Terminal Type**| This field is to indicate the EMV connection type, supported options are 'PAX Generic' and 'DiamondCloud'. 'PAX Generic': PayFabric initial request to the terminal via the browser being used for PayFabric. 'DiamondCloud': PayFabric inital request to the terminal via DiamondCloud API. |
+|**POSID**| This field exists if selected Payment Terminal Type 'DiamondCloud'. Populate the POSID configured in DiamondCloud. |
 
 ## Options
 
@@ -52,19 +53,29 @@ Specify a terminal device under this option so the selected device is always the
 
 ### Default Processing Method
 
-This option is only available when **Both EMV and Web Entry option** of **Processing Method** are selected. Specify the default processing method on payment processing page.
+This option is only available when **Both EMV and Web Entry option** of **Processing Method** is selected. Specify the default processing method on payment processing page.
 
 ### Only Allow Default Payment Terminal
 
-This option is only available when **Both EMV and Web Entry option** of **Processing Method** are selected. If check marked, user will only be able to use the default payment terminal without the ability to switch to a different terminal device from the list.
+This option is available when **Both EMV and Web Entry option** or **EMV Only** of **Processing Method** is selected. If check marked, user will only be able to use the default payment terminal without the ability to switch to a different terminal device from the list.
 
 ### Require Credit Card Signature
 
-This option is only available when **Both EMV and Web Entry option** of **Processing Method** are selected. If check marked, customer will be required to provide signature for card-present transaction, as applicable.
+This option is available when **Both EMV and Web Entry option** or **EMV Only** of **Processing Method** is selected. If check marked, customer will be required to provide signature for card-present transaction, as applicable. Please note that PayFabric will ignore the signature for reference transactions.
 
 ### Allow Gift Card
 
 This option is to enable the ability to process transaction with Gift Card on the EMV entry.
+
+### Batch Close
+PayFabric allows to trigger the batch close on terminal via DiamondCloud service by clicking 'Manually Close Batch' button.
+
+![DiamondCloudTerminal](/PayFabric/Sections/Screenshots/DiamondCloudTerminal.png)
+
+### Test Connection for specified Terminals
+PayFabric provide the ability to send a test connection request to the terminal via DiamondCloud service. Merchants can check the connection status on the terminal.
+
+![DCTestConnection](/PayFabric/Sections/Screenshots/DCTestConnection.png)
 
 ###### Related Reading
 * [How to retrieve signature image](../../../../../../PayFabric/Hosted-Pages/blob/master/Sections/Payment%20Terminals%20Signature%20Page.md)
