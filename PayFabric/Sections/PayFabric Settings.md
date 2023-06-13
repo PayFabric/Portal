@@ -65,6 +65,7 @@ These are settings relate to process a payment transaction.
 |Tip - Option 2|This option will be available after Enable Tip Amount, it allows 2 decimal places. The value must be greater than the value entered in Tip - Option 1.|
 |Tip - Option 3|This option will be available after Enable Tip Amount, it allows 2 decimal places. The value must be greater than the value entered in Tip - Option 2.|
 |Override Duplicate Wallet|If set to 'Yes', this will allow PayFabric to override existing duplicate wallet record with newly provided data. If set to 'No' (default), PayFabric will restrict saving duplicate wallet entries based on the combined dataset validation below: Credit Card: Customer #, Account#, Expiration Date; ACH: Customer #, Account #, Routing #|
+|Auto-Calculate Tax Amount|If True, PayFabric will auto-calculate tax amount for Level 2 data based on specified tax rate when:a.Level 2 Default is enabled AND b.Card Level is 'purchasing' or 'corporate' or 'business' card AND c.Tax Amount is 0.00, **Note:** If both 'Tax Amount' field and 'Tax Rate' field are have value greater than 0.00 AND the 'Auto-Calculate Tax Amount’ field is set to True, then the field with the higher priority will be the ‘Tax Amount’ field. ; If False, PayFabric will behave the same way it is today, which it will not auto-calculate tax amount based on specified tax rate when Level 2 Default is enabled. |
 
 ## General Settings
 |Field                          |Description  | 
