@@ -45,7 +45,7 @@ Steps:
 6.  Click the **Confirm** button to register the domain.
 
 #### Apple Pay Sandbox Testing
-Once you activated Apple Pay in PayFabric, you can follow the steps below to do a test transaction.
+Once activated Apple Pay in PayFabric, you can follow the steps below to do a test transaction.
 1. Create an Apple Pay sandbox account and log in to your Apple machines with the sandbox account.
 2. Open your app which is integrated with PayFabric SDK and click the Apple Pay button.
 3. Select or manually enter the Apple Pay test card to process the transaction.
