@@ -32,7 +32,7 @@ If you would like to integrate directly to the Google Pay API, then please [foll
 # Apple Pay
 Provide Apple Pay as a new form of alternative payment method (APM) on PayFabric. After activate Apple Pay, it will be available as an alternative payment method on your PayFabric account. Apple Pay button only available on IOS device. Please see the detailed description & instruction below.
 
-### Activate Apple Pay
+### Activate Apple Pay in PayFabric
 Steps:
 1.	Navigate to **Settings** > **Alternative Payment Methods**.
 2.	From **Alternative Payment Methods** page > click **Configure** button on Apple Pay box.
@@ -44,5 +44,13 @@ Steps:
     `https://[[DOMAIN_NAME]/.well-known/apple-developer-merchantid-domain-association`
 6.  Click the **Confirm** button to register the domain.
 
+#### Apple Pay Sandbox Testing
+Once you activated Apple Pay in PayFabric, you can follow the steps below to do a test transaction.
+1. Create an Apple Pay sandbox account and log in to your Apple machines with the sandbox account.
+2. Open your app which is integrated with PayFabric SDK and click the Apple Pay button.
+3. Select or manually enter the Apple Pay test card to process the transaction.
+
+Please read [Apple Pay Sandbox Testing](https://developer.apple.com/apple-pay/sandbox-testing/) to get the instructions for creating an Apple Pay sandbox account, get test cards and other information.
+   
 ### Embed Pay by PayPal/Google Pay/Apple Pay to your page
 Please check the detailed instructions for [JavaScript SDK](JavaScript%20SDK.md)
