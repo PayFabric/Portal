@@ -1,5 +1,5 @@
 # Payment Terminals
-PayFabric supports card-present transactions using EMV devices from PAX Technology. The supported devices from PAX are: PAX S300, A60, A80, A80S, A77, A920. 
+PayFabric supports card-present transactions using EMV devices from PAX Technology. The supported devices from PAX are: S300, A60, A80, A80S, A77, A920. 
 To configure terminal devices & settings, navigate to **Settings** > **Terminals** (under Payment Terminals). Please see the detailed description & instruction below.
 
 ## Terminals
