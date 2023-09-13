@@ -110,7 +110,7 @@ function payFabricSDKLoaded() {
 | disableCancel | Optional | boolean | A parameter to determine whether the cancel link is available for customer.<br/><br/>**True** indicates that the cancelUrl and cancelCallback will not fire. | 
 | useBluefin | Optional | number | A parameter to control bluefin options on MRHPP when [BlueFin Profile](https://github.com/PayFabric/Portal/blob/master/PayFabric/Sections/Bluefin.md) get enabled. When the value is '0', only regular keyboard entry for credit card is available, when the value is `1`, only encryption key entry via Bluefin device for credit card is available, when the value is `2`, both regular keyboard & encryption key entry for credit card is available.|
 | useDefaultWallet | Optional | boolean | A parameter to control default wallet record will automatically load or not. If the value is `false`, then the default wallet record will not automatically load when the hosted payment page loads. If the value is `true`, then PayFabric will load the default wallet record on the hosted payment page when the hosted payment page loads. The default value is `true`. |
-| iFrameSrcAdditionalParameters | Optional | Object | A JavaScript object provoding a list of official and custom query paramters that should be appended to the generation of the URL used in the hosted page iFrame. |
+| iFrameSrcAdditionalParameters | Optional | Object | A JavaScript object providing a list of official and custom query paramters that should be appended to the generation of the URL used in the hosted page iFrame. |
 
 
 ## iFrameSrcAdditionalParameters Object
