@@ -8,33 +8,48 @@ PayFabric released a new version of our JavaScript SDK during our Nov. release o
 * [Google Pay](APM.md#Google-pay)
 
 # Maintain Wallets
-* [Create a Wallet](MRHWP.md#create-a-credit-card--echeck)
-* [Edit a Wallet](MRHWP.md#edit-a-credit-card--echeck)
+* [Create a Wallet](https://github.com/PayFabric/Hosted-Pages/blob/Master/Sections/MRHWP.md#create-a-credit-card--echeck)
+* [Edit a Wallet](https://github.com/PayFabric/Hosted-Pages/blob/master/Sections/MRHWP.md#edit-a-credit-card--echeck)
 
 # Where do I start?
 
-Want to get started with our PayFabric JavaScript SDK integration for payment?  Here's a quick checklist:
+Want to get started with our PayFabric JavaScript SDK integration for payments?  Here's a quick checklist:
 
 1. Read up on our [guides and information](https://github.com/PayFabric/APIs/tree/master/PayFabric) for our APIs
 2. Read up on how to [Create a new Transaction](https://github.com/PayFabric/APIs/blob/master/PayFabric/Sections/Transactions.md#create-a-transaction) with our APIs.
 3. Read up on how to [Create a JWT Token](https://github.com/PayFabric/APIs/blob/master/PayFabric/Sections/JWTToken.md) with our APIs. 
 4. Have a question or need help? Contact <support@payfabric.com>.
 
+Want to get started with our PayFabric JavaScript SDK integration for wallets?  Here's a quick checklist:
+
+1. Read up on our [guides and information](https://github.com/PayFabric/APIs/tree/master/PayFabric) for our APIs
+2. Read up on how to [Create a wallet](https://github.com/PayFabric/APIs/blob/master/PayFabric/Sections/Wallets.md) with our APIs.
+3. Read up on how to [Create a JWT Token](https://github.com/PayFabric/APIs/blob/master/PayFabric/Sections/JWTToken.md) with our APIs. 
+4. Have a question or need help? Contact <support@payfabric.com>.
+
 # Ready to Go?
 
 Once you have followed our guides and information, you are ready to go.  Our JavaScript SDK is split into two (2) components:
-* Initiating a new Transaction and Payment Intent
-* Using our Hosted JavaScript SDK library to start the payment flow 
+* Initiating a new Transaction and Payment Intent OR preparing a customer name for wallet creation, and preparing a wallet ID for wallet updating.
+* Using our Hosted JavaScript SDK library to start the payment/maintain wallet flow 
 
 ## Initiating a new Transaction and Payment Intent
 
 Using our [Create a new Transaction](https://github.com/PayFabric/APIs/blob/master/PayFabric/Sections/Transactions.md#create-a-transaction) and [Create a JWT Token](https://github.com/PayFabric/APIs/blob/master/PayFabric/Sections/JWTToken.md#json-web-tokens) API's you will receive a JWT Token which is used to indicate your payment intent, this token value is all you need to use to populate our new JavaScript Library.
 
-Once you have obtained your JWT Token, you have all the data you need to initiate our payment flow using our JavaScript SDK library.
+## Initiating a new wallet creation
 
-## Using our Hosted Bundled JavaScript SDK library to start the payment flow
+Prepare a customer name and [Create a JWT Token](https://github.com/PayFabric/APIs/blob/master/PayFabric/Sections/JWTToken.md#json-web-tokens) API's you will receive a JWT Token which is used to indicate your wallet creation intent, this token value is all you need to use to populate our new JavaScript Library.
 
-Firstly, configure your checkout page to reference our JavaScript SDK and create an **Empty** DIV element with an id.
+## Initiating a new wallet updating
+
+Using our [Create a new wallet](https://github.com/PayFabric/APIs/blob/master/PayFabric/Sections/Wallets.md#credit-card--echeck-wallet) and [Create a JWT Token](https://github.com/PayFabric/APIs/blob/master/PayFabric/Sections/JWTToken.md#json-web-tokens) API's you will receive a JWT Token which is used to indicate your wallet updating intent, this token value is all you need to use to populate our new JavaScript Library.
+
+Once you have obtained your JWT Token, you have all the data you need to initiate our payment flow and wallet maintenance using our JavaScript SDK library.
+
+## Using our Hosted Bundled JavaScript SDK library to start the payment/wallet maintenance flow
+
+Firstly, configure your checkout page to reference our JavaScript SDK and create an **Empty** DIV element with an ID.
 ```HTML
 <html>
   <head>
