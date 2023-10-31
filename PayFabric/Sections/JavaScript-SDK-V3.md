@@ -1,7 +1,7 @@
 # JavaScript SDK V3
 PayFabric provides a JavaScript library to support both Alternative Payment Methods as well as interaction with our new responsive Hosted Payment Page.  This JavaScript Library hosted by PayFabric will be responsible for configuring and presenting a payment popup or element that supports our hosted payment page as well as any alternative payment methods PayFabric supports today or into the future.
 
-PayFabric released a new version of our JavaScript SDK during our Nov. release of PayFabric.  This new version supports additional features, settings, and callbacks. Looking for previous versions of our JavaScript SDK? Click [V1](JavaScript-SDK-V1.md) and  [V2](JavaScript-SDK-V2.md).
+PayFabric released a new version of our JavaScript SDK during our Nov. release of PayFabric.  This new version supports a new responsive wallet page. Looking for previous versions of our JavaScript SDK? Click [V1](JavaScript-SDK-V1.md) and  [V2](JavaScript-SDK-V2.md).
 # Alternative Payment Methods
 * [PayPal](APM.md#paypal)
 * [Apple Pay](APM.md#apple-pay)
@@ -16,16 +16,14 @@ PayFabric released a new version of our JavaScript SDK during our Nov. release o
 Want to get started with our PayFabric JavaScript SDK integration for payments?  Here's a quick checklist:
 
 1. Read up on our [guides and information](https://github.com/PayFabric/APIs/tree/master/PayFabric) for our APIs
-2. Read up on how to [Create a new Transaction](https://github.com/PayFabric/APIs/blob/master/PayFabric/Sections/Transactions.md#create-a-transaction) with our APIs.
-3. Read up on how to [Create a JWT Token](https://github.com/PayFabric/APIs/blob/master/PayFabric/Sections/JWTToken.md) with our APIs. 
-4. Have a question or need help? Contact <support@payfabric.com>.
-
-Want to get started with our PayFabric JavaScript SDK integration for wallets?  Here's a quick checklist:
-
-1. Read up on our [guides and information](https://github.com/PayFabric/APIs/tree/master/PayFabric) for our APIs
-2. Read up on how to [Create a wallet](https://github.com/PayFabric/APIs/blob/master/PayFabric/Sections/Wallets.md) with our APIs.
-3. Read up on how to [Create a JWT Token](https://github.com/PayFabric/APIs/blob/master/PayFabric/Sections/JWTToken.md) with our APIs. 
-4. Have a question or need help? Contact <support@payfabric.com>.
+2. Read up on how to [Create a new Transaction](https://github.com/PayFabric/APIs/blob/master/PayFabric/Sections/Transactions.md#create-a-transaction) with our APIs,
+   
+   OR prepare a customer name,
+   
+   OR read up on how to [Create a wallet](https://github.com/PayFabric/APIs/blob/master/PayFabric/Sections/Wallets.md) with our APIs.
+   
+4. Read up on how to [Create a JWT Token](https://github.com/PayFabric/APIs/blob/master/PayFabric/Sections/JWTToken.md) with our APIs. 
+5. Have a question or need help? Contact <support@payfabric.com>.
 
 # Ready to Go?
 
@@ -41,7 +39,7 @@ Using our [Create a new Transaction](https://github.com/PayFabric/APIs/blob/mast
 
 Prepare a customer name and [Create a JWT Token](https://github.com/PayFabric/APIs/blob/master/PayFabric/Sections/JWTToken.md#json-web-tokens) API's you will receive a JWT Token which is used to indicate your wallet creation intent, this token value is all you need to use to populate our new JavaScript Library.
 
-## Initiating a new wallet updating
+## Initiating an existing wallet updating
 
 Using our [Create a new wallet](https://github.com/PayFabric/APIs/blob/master/PayFabric/Sections/Wallets.md#credit-card--echeck-wallet) and [Create a JWT Token](https://github.com/PayFabric/APIs/blob/master/PayFabric/Sections/JWTToken.md#json-web-tokens) API's you will receive a JWT Token which is used to indicate your wallet updating intent, this token value is all you need to use to populate our new JavaScript Library.
 
@@ -111,15 +109,15 @@ function payFabricSDKLoaded() {
 | environment | Required | string | The PayFabric environment that you will be targeting.  Values are LIVE and SANDBOX. |
 | target | Required | string | The target DIV will be responsible for displaying the payment box. |
 | session | Required | string | The JWT Token value obtained from our Create JWT Token API. |
-| successUrl | Conditional | string | A local URL from your website which will handle the redirect from the SDK in the event of an approved transaction.  Query parameters will be appended to the URL to indicate transaction status and information.<br/><br/>This field is **required** if successCallback is not populated. |
-| failureUrl | Conditional | string | A local URL from your website which will handle the redirect from the SDK in the event of a declined or failed transaction.  Query parameters will be appended to the URL to indicate transaction status and information.<br/><br/>This field is **required** if failureCallback is not populated. |
-| cancelUrl | Conditional | string | A local URL from your website which will handle the redirect from the SDK in the event of a customer cancelling the payment box. <br/><br/> To support retry we suggest using the cancelCallback option instead.<br/><br/>This field is **required** if cancelCallback is not populated and disableCancel is set to false or not provided. |
-| successCallback | Optional | function | A local javascript function on your checkout page which will handle the call from the SDK in the event of an approved transaction.  A JavaScript object containing the transaction status and information will be provided. |
-| failureCallback | Optional | function | A local javascript function on your checkout page which will handle the call from the SDK in the event of an declined or failed transaction.  A JavaScript object containing the transaction status and information will be provided. |
-| cancelCallback | Optional | function | A local javascript function on your checkout page which will handle the call from the SDK in the event of a customer cancelling the payment box. |
-| readyCallback | Optional | function | A local javascript function on your checkout page which will handle the call from the SDK when all payment methods are ready and able to be used for processing. |
-| transactionProcessingCallback | Optional | function | A local javascript function on your checkout page which will handle the call from the SDK when a payment method is selected and processing starts. A JavaScript object containing the selected payment method type will be provided. |
-| transactionStoppedProcessingCallback | Optional | function | A local javascript function on your checkout page which will handle the call from the SDK when the processing of a transaction stops before finializing (for example, if a user closes the `ApplePay` payment drawer or a local validation fails such as expiration date is incorrect or CVV is required). A JavaScript object containing the selected payment method type will be provided. |
+| successUrl | Conditional | string | A local URL from your website which will handle the redirect from the SDK in the event of an approved transaction and completion for wallet creation/ updating.  Query parameters will be appended to the URL to indicate transaction status and information.<br/><br/>This field is **required** if successCallback is not populated. |
+| failureUrl | Conditional | string | A local URL from your website that will handle the redirect from the SDK in the event of a declined or failed transaction and exception during wallet creation/updating.  Query parameters will be appended to the URL to indicate transaction status and information.<br/><br/>This field is **required** if failureCallback is not populated. |
+| cancelUrl | Conditional | string | A local URL from your website that will handle the redirect from the SDK in the event of a customer canceling the payment/wallet box. <br/><br/> To support retry we suggest using the cancelCallback option instead.<br/><br/>This field is **required** if cancelCallback is not populated and disableCancel is set to false or not provided. |
+| successCallback | Optional | function | A local javascript function on your checkout page that will handle the call from the SDK in the event of an approved transaction and completion for wallet creation/ updating.  A JavaScript object containing the transaction status and information will be provided. |
+| failureCallback | Optional | function | A local javascript function on your checkout page that will handle the call from the SDK in the event of a declined or failed transaction and exception during wallet creation/updating.  A JavaScript object containing the transaction status and information will be provided. |
+| cancelCallback | Optional | function | A local javascript function on your checkout page that will handle the call from the SDK in the event of a customer canceling the payment/wallet box. |
+| readyCallback | Optional | function | A local javascript function on your checkout page that will handle the call from the SDK when all payment methods are ready and able to be used for processing, or the Create/Edit wallet page is loaded. |
+| transactionProcessingCallback | Optional | function | A local javascript function on your checkout page that will handle the call from the SDK when a payment method is selected and processing starts. A JavaScript object containing the selected payment method type will be provided. It is also a local JavaScript function on your wallet page that will handle the call from the SDK when a wallet creation/updating process starts. A JavaScript object containing the tender type will be provided.|
+| transactionStoppedProcessingCallback | Optional | function | A local javascript function on your checkout page that will handle the call from the SDK when the processing of a transaction stops before finalizing (for example, if a user closes the `ApplePay` payment drawer or a local validation fails such as expiration date is incorrect or CVV is required). A JavaScript object containing the selected payment method type will be provided. It is also a local javascript function on your wallet page that will handle the call from the SDK when the processing of a wallet creation/updating stops before finalizing. |
 | transaction3DSChallengeCallback | Optional | function | A local javascript function on your checkout page which will handle the call from the SDK when a 3DS challenge is presented to the consumer/cardholder.  **Note:** Only applies to transactions processing through countries that require 3DS. |
 | displayMethod | Optional | string | The method in which PayFabric should display the payment box, list of methods are: <br/><br/>**DIALOG** – Will pop up a new dialog box with a grayed-out background displaying payment information. <br/><br/>**IN_PLACE** – Will just populate the HTML elements for payment processing within the placeholder DIV provided by the target option. |
 | width | Optional | number | A parameter to resize the dialog's width, by default will use SDK default size of 600px.<br/><br/>Used only by the **DIALOG** display method. |
