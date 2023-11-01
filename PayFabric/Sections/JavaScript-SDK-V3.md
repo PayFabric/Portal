@@ -121,7 +121,7 @@ function payFabricSDKLoaded() {
 | useBluefin | Optional | number | A parameter to control bluefin options on MRHPP when [BlueFin Profile](https://github.com/PayFabric/Portal/blob/master/PayFabric/Sections/Bluefin.md) gets enabled. When the value is '0', only regular keyboard entry for the credit card is available, when the value is `1`, only encryption key entry via Bluefin device for the credit card is available, when the value is `2`, both regular keyboard & encryption key entry for credit card is available.|
 | useDefaultWallet | Optional | boolean | A parameter to control default wallet record will automatically load or not. If the value is `false`, then the default wallet record will not automatically load when the hosted payment page loads. If the value is `true`, then PayFabric will load the default wallet record on the hosted payment page when the hosted payment page loads. The default value is `true`. |
 | iFrameSrcAdditionalParameters | Optional | Object | A JavaScript object providing a list of official and custom query parameters that should be appended to the generation of the URL used in the hosted page iFrame. |
-| AccpetTender | Optional | array of string | The list of available wallet tenders you wish to offer on the Responsive Hosted Create Wallet Page, available list of methods are:	`CreditCard` and `ECheck`. By default, it will use all the available tenders.|
+| AcceptedWalletTenderTypes | Optional | array of string | The list of available wallet tenders you wish to offer on the Responsive Hosted Create Wallet Page, available list of methods are:	`CreditCard` and `ECheck`. By default, it will use all the available tenders.|
 
 
 ## iFrameSrcAdditionalParameters Object
