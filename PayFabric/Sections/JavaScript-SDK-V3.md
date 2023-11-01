@@ -13,15 +13,9 @@ PayFabric released a new version of our JavaScript SDK during our Nov. release o
 
 # Where do I start?
 
-Want to get started with our PayFabric JavaScript SDK integration for payments?  Here's a quick checklist:
-
 1. Read up on our [guides and information](https://github.com/PayFabric/APIs/tree/master/PayFabric) for our APIs
-2. Read up on how to [Create a new Transaction](https://github.com/PayFabric/APIs/blob/master/PayFabric/Sections/Transactions.md#create-a-transaction) with our APIs,
-   
-   OR prepare a customer name,
-   
-   OR read up on how to [Create a wallet](https://github.com/PayFabric/APIs/blob/master/PayFabric/Sections/Wallets.md) with our APIs.
-   
+2. Read up on how to [Create a new Transaction](https://github.com/PayFabric/APIs/blob/master/PayFabric/Sections/Transactions.md#create-a-transaction) with our APIs.
+3. Read up on how to [Create a wallet](https://github.com/PayFabric/APIs/blob/master/PayFabric/Sections/Wallets.md) with our APIs.   
 4. Read up on how to [Create a JWT Token](https://github.com/PayFabric/APIs/blob/master/PayFabric/Sections/JWTToken.md) with our APIs. 
 5. Have a question or need help? Contact <support@payfabric.com>.
 
