@@ -10,11 +10,11 @@ PayFabric Virtual Terminal has introduced two UI Modes for the virtual terminal,
 
 * `Legacy Design`: Maintain the existing user interface and experience for the virtual terminal where the user can mimic the hosted API calls for PayFabric and also review the custom device theme directly on the PayFabric portal. 
 ![Legacy VT_General](https://raw.githubusercontent.com/PayFabric/Portal/master/PayFabric/Sections/Screenshots/Legacy%20VT_General.png)
-![Legacy VT_TransactionOptions.png](./Screenshots/Legacy%20VT_TransactionOptions.png)
+![LVTSettings](./Screenshots/LVTSettings.png)
 
 
 * `Modern Design`: Introduce a new user-friendly design for Virtual Terminal to allow merchants to process transactions against the PayFabric web portal via web entry and/or terminal entry. 
-![Modern VT_TransactionOptions](https://raw.githubusercontent.com/PayFabric/Portal/master/PayFabric/Sections/Screenshots/Modern%20VT_TransactionOptions.png)
+![MVTSettings](https://raw.githubusercontent.com/PayFabric/Portal/master/PayFabric/Sections/Screenshots/MVTSettings.pngg)
 ![Modern VT_PaymentDetails](https://raw.githubusercontent.com/PayFabric/Portal/master/PayFabric/Sections/Screenshots/Modern%20VT_FormSettings_PaymentDetails.png)
 ![Modern VT_TransactionDetails](https://raw.githubusercontent.com/PayFabric/Portal/master/PayFabric/Sections/Screenshots/Modern%20VT_FormSettings_TransactionDetails.png)
 ![Modern VT_Addresses](https://raw.githubusercontent.com/PayFabric/Portal/master/PayFabric/Sections/Screenshots/Modern%20VT_FormSettings_Address.png)
