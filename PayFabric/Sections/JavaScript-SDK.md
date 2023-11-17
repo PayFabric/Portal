@@ -39,7 +39,7 @@ Using our [Create a new wallet](https://github.com/PayFabric/APIs/blob/master/Pa
 
 Once you have obtained your JWT Token, you have all the data you need to initiate our payment flow and wallet maintenance using our JavaScript SDK library.
 
-## Using our Hosted Bundled JavaScript SDK library to start the payment/wallet maintenance flow
+## Using our Hosted Bundled JavaScript SDK library to start the wallet maintenance flow
 
 Firstly, configure your checkout page to reference our JavaScript SDK and create an **Empty** DIV element with an ID.
 ```HTML
