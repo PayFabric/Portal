@@ -38,7 +38,6 @@ Following parameters are able to be embeded into email templates. At the moment 
 | \[\[CompanyCountry\]\]   | Merchant's company country in profile page|
 | \[\[CompanyStreet1\]\]   | Merchant's street line 1 in profile page|
 | \[\[CompanyStreet2\]\]   | Merchant's street line 2 in profile page|
-| \[\[CompanyStreet3\]\]   | Merchant's street line 3 in profile page|
 | \[\[CompanyEmail\]\]   | Merchant's company email in profile page|
 | \[\[DocumentNumber\]\]   | Invoice number or order number of this transaction|
 | \[\[PaymentNumber\]\]   | PayFabric transaction key|
