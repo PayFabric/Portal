@@ -29,7 +29,7 @@ Before programming with PayFabric, you need a PayFabric account to get started. 
 # Extended Reading
 * [User Guide](https://www.nodus.com/payfabric-user-guide/)
 * [APIs](https://github.com/PayFabric/PayFabric-APIs)
-* [JavaScript SDK](Sections/JavaScript%20SDK.md)
+* [JavaScript SDK](Sections/JavaScript-SDK.md)
 * [Settings](Sections/PayFabric%20Settings.md)
 * [Gateway Configuration](Sections/Gateway%20Configuration.md)
 * [Themes](Sections/Themes.md)
