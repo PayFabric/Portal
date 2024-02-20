@@ -35,11 +35,12 @@ Note: EVOACH gateway supports Sale, Void and Refund transaction types.
 | -------------------- |:---------------------------- | 
 |Connector|Global Payments|
 |Processor|Portico  |
-|Card Class|Credit and ECheck.|
+|Card Class|Credit, ECheck, and GiftCard.|
 | PrivateAPIKey             | This is the PrivateAPIKey for the API service obtained from Globa Payments. |
 | MerchantID             | This is the Merchant ID for the API service obtained from Globa Payments. |
 | IgnoreDuplicate             | This is a flag for accepting duplicate transactions or not. If true, Global Payments accepts the duplicate transactions; If false, Global Payments will fail the duplicate transaction. |
 | SurchargeRate             | This rate provides merchants the ability to support surcharge, this rate is between 0.00% to 4.00%, once the merchant configures this rate and when processing a transaction with a credit card*, PayFabric will auto calculate the surcharge amount (original transaction amount * Surcharge Rate) and include the surcharge amount into the final transaction amount. Possible values are between 0.00 and 4.00. |
+|EnableTokenization| By default, this is set to False to have it disabled. Once set to true, PayFabric will enable Portico tokenization against the gateway profile. This setting will not be available to merchants and can only be enabled by a partner. |
 
 # Batch Close
 Navigate to Settings > Gateway Account Configuration > Click the Batch Close button on an existing gateway profile.
