@@ -88,3 +88,4 @@ Following parameters are able to be embeded into email templates. At the moment 
 | \[\[Document.DocumentDate\]\]   | Indicates the document date, this parameter is only available for the PayLink transactions. |
 | \[\[Document.CustomerName\]\]   | Indicates the customer name, this parameter is only available for the PayLink transactions. |
 | \[\[Document.Message\]\]   | Indicates the custom message when sending payment link, this parameter is only available for the PayLink transactions. |
+| \[\[EntryMode\]\]|Indicates the entry mode of the transaction, like `ChipReliable`, `ContactlessEMV`, `ManualEntry`, `Swipe` etc.|
