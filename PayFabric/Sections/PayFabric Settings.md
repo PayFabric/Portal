@@ -55,7 +55,6 @@ These are settings related to processing a payment transaction.
 |Return Legacy Transaction Types |If enabled, when retrieving transactions through the use of the API, the transaction types returned will be those of the legacy Book, Ship, and Credit instead of the new Authorization, Capture, and Refund.|
 |Credit Card Validation Required |If enabled, Payfabric will validate the credit card before storing it for later use.|
 |Enable Bin Range Validation |If enabled, PayFabric will do BIN Range validation on all credit card data to determine the card type. If the card level is a Non-Commercial card, PayFabric will exclude L2/L3 data when submitting to gateway/processing.|
-|Enabled For Fraud|If enabled, transactions processed with the current device will be submitted for fraud check.|
 |Maximum Limit for Sale Transaction(Credit)|Specify a maximum amount for Sale/Authorization/Force transaction when processing a transaction with a credit card.|
 |Maximum Limit for Sale Transaction(eCheck)|Specify a maximum amount for Sale transaction when processing a transaction with eCheck.|
 |Maximum Limit for Refund Transaction(Credit)|Specify a maximum amount for a refund transaction when processing a transaction with a credit card.|
