@@ -46,19 +46,22 @@ Your verified email, which was used during the Merchant Portal registration proc
 A text message (SMS) to your mobile phone 
 
 An authenticator app installed on your device (such as Google Authenticator, Authy, Duo Mobile, or Microsoft Authenticator)
- 
+
+![SelectMFA](https://github.com/PayFabric/Portal/blob/master/PayFabric/Sections/Screenshots/SelectMFA.png) 
 
 ## What if I didn’t receive the verification code?
 
 If you haven’t received your verification code, try these methods of troubleshooting:
 
-Have a code sent to you again—a sent code expires after five minutes. 
+1) Have a Resend link to send a new code — a sent code expires after five minutes. 
 
-If this is your first time authenticating with your chosen method, a third-party security app on your mobile phone might be blocking the text message. Try disabling the security app temporarily while you go through the authentication process again. 
+![ResendCode](https://github.com/PayFabric/Portal/blob/master/PayFabric/Sections/Screenshots/ResendCode.png)
 
-If that doesn’t work, try selecting a new primary authentication method. 
+2) If this is your first time authenticating with your chosen method, a third-party security app on your mobile phone might be blocking the text message. Try disabling the security app temporarily while you go through the authentication process again. 
 
-If you still don’t receive the code using another method, contact support@payfabric.com.
+3) If that doesn’t work, try selecting a new primary authentication method. 
+
+4) If you still don’t receive the code using another method, contact support@payfabric.com.
 
 ## How to login PayFabric with Internal Employee?
 
