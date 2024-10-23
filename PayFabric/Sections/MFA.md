@@ -18,10 +18,10 @@ Why do you need multi factor authentication? It’s extra account security for a
 ## How will future logins work?
 
 Users navigating to the PayFabric login page will automatically be redirected to the new secure login page.
-![LoginPageURL](//Sections/Screenshots/LoginPageURL.png)
+![LoginPageURL](//PayFabric/Sections/Screenshots/LoginPageURL.png)
 
 Once multi-factor authentication is setup, when a user logs into PayFabric, the will need to provide their additional authentication code from either their email, a text message or from an authenticator app. 
-![MFAPage](//Sections/Screenshots/MFAPage.png)
+![MFAPage](//PayFabric/Sections/Screenshots/MFAPage.png)
 
 After a user performs the multi-factor authentication procedure once, they will have the option to not have to verify their additional authentication method on the same browser for the next 28 days.
 
