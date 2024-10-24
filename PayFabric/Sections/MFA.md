@@ -27,14 +27,6 @@ Once multi-factor authentication is setup, when a user logs into PayFabric, the 
 
 After a user performs the multi-factor authentication procedure once, they will have the option to not have to verify their additional authentication method on the same browser for the next 28 days.
 
-## Why the change?
-
-This change improves the security of our merchant’s data on PayFabric
-This is a move to the common authentication platform used by Global Payments
-
-## If I have an elevated account, do I have to set up MFA?
-Yes. You’ll need to set up multi factor authentication for each of your accounts, including elevated ones.
-
 ## Can I change my primary authentication method?
 Yes. You'll need to contact to support@PayFabric.com 
 
@@ -63,13 +55,7 @@ If you haven’t received your verification code, try these methods of troublesh
 
 4) If you still don’t receive the code using another method, contact support@payfabric.com.
 
-## How to login PayFabric with Internal Employee?
 
-Internal Employees with an ‘@globalpay.com’ email address will utilize their Global Payments credentials to access PayFabric which will also require multi-factor authentication to be setup. 
-
-## How to login PayFabric with External Users?
-
-External Employees will still be able to access PayFabric with the original credentials.
 
 
 
