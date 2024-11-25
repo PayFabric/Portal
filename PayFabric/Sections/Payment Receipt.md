@@ -1,5 +1,5 @@
 # Summary
-Merchant can turn on the feature that send payment receipt to end customers after a transaction is processed. To do this, navigate through **Settings** > **Email Receipt Templates**, each [Transaction Type](Transaction%20Types.md) have their own email receipt template. Each device can configure different templates and can enable/disable this feature independently.
+Merchant can turn on the feature that send payment receipt to end customers after a transaction is processed. To do this, navigate through **Settings** > **Email Receipt Templates**, each [Transaction Type](https://github.com/PayFabric/APIs/blob/master/PayFabric/Sections/Transaction%20Types.md) have their own email receipt template. Each device can configure different templates and can enable/disable this feature independently.
 
 **Note**: 
 1. Email receipt does not support for _Verify_ transaction.
