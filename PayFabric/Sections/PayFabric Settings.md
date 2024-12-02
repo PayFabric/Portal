@@ -110,3 +110,10 @@ With the `Modern Design` mode for Virtual Terminal, the merchant will have the a
 Navigate to Settings > Products.
 
 With the `Modern Design` mode for Virtual Terminal, PayFabric provides the ability to manage the products. The uploaded products can be added to the transactions when processing transactions.
+
+# InterPayments
+
+Navigate to Settings > Integrations > InterPayments Advanced Surcharge
+
+Upon activating InterPayments to enable surcharge support, make sure to allow PayFabric to gather and transmit billing zip code information during transaction processing, as it is required for determining surcharge eligibility.
+
