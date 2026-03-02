@@ -33,7 +33,7 @@ With `Modern Design` mode for Virtual Terminal, the defined field(s) that will b
 | Data Level Qualification      | Upon selection, this option will dynamically display this field is only required to be populated if the card level is purchasing/corporate/business card.|
 
 ## Accept Card Types
-Define the supported card type(s) by tick or untick the card type from the list. 
+Define the supported card type(s) by ticking or unticking the card type from the list. 
 
 ## Transaction Options
 These are settings related to processing a payment transaction. 
@@ -71,6 +71,7 @@ These are settings related to processing a payment transaction.
 |:------------------------------|:-------------| 
 | Transaction Key Prefix          | User-defined prefix for PayFabric transaction key. |
 | PostURL       | PayFabric will post transaction response data (Non-sensitive fields) to this URL once this transaction is processed (successful or failed). **Note:** For 3DS transactions, you will get 2 webhooks. One that is the 3DS Challenge status and one that is the final transaction response. |
+| Post URL Content-Type header|Provide the ability to specify the value of Content-Type header for the Post form. **Legacy:** The Content-Type header value is text/xml;**Default:** The Content-Type header value is application/x-www-form-urlencoded，Furthermore, PF will set UserAgent = "PayFabric/3.0" |
 | Maximum History Cards |Limit the number of wallet entries loaded on PayFabric hosted pages by specifying the number of saved cards. The default value is 10.|
 | Return URL|A URL address that PayFabric can redirect to once a transaction is processed. The response fields will be encoded and attached to the query string.|
 | Maximum Shipping Address| Limit the number of shipping address(s) loaded on the PayFabric hosted payment page by specifying the number of saved cards. The default value is 10. Note: this option is only available for `Legacy Design`|
