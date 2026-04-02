@@ -90,3 +90,4 @@ Following parameters are able to be embeded into email templates. At the moment 
 | \[\[Document.Message\]\]   | Indicates the custom message when sending payment link, this parameter is only available for the PayLink transactions. |
 | \[\[EntryMode\]\]|Indicates the entry mode of the transaction, like `ChipReliable`, `ContactlessEMV`, `ManualEntry`, `Swipe` etc.|
 | \[\[CurrencySymbol\]\]|Indicates the currency symbol of the transaction, like `$` for US dollar, `C$` for Canadian dollars, etc.|
+| \[\[RemBalance\]\]|Indicates the gift card remaining balance.|
