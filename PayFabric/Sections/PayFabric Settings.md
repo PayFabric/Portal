@@ -75,7 +75,7 @@ These are settings related to processing a payment transaction.
 | Maximum History Cards |Limit the number of wallet entries loaded on PayFabric hosted pages by specifying the number of saved cards. The default value is 10.|
 | Return URL|A URL address that PayFabric can redirect to once a transaction is processed. The response fields will be encoded and attached to the query string.|
 | Maximum Shipping Address| Limit the number of shipping address(s) loaded on the PayFabric hosted payment page by specifying the number of saved cards. The default value is 10. Note: this option is only available for `Legacy Design`|
-| Batch Number Prefix| User-defined prefix for batch number. Note: this option is only available for `Legacy Design`|
+| Batch Number Prefix| User-defined prefix for batch number. Note: this option is available for `Legacy Design`,`Modern Design` and Legacy Hosted payment page|
 |Enable Security Token|For APIs and Hosted Pages: this is the default option where security tokens will be allowed to be used as the authentication method in both hosted pages and APIs. For Hosted Pages Only: With this option, a security token is only able to be used as the authentication method in hosted pages. The API service response will fail authentication if any API calls are authenticated using a security token.|
 | Default Transaction Type|PayFabric offers the ability for merchants to specify the default transaction type on PayFabric’s Virtual Terminal. Note: this option is only available for `Modern Design`|
 | Credit card validation gateway profile| This is a sub-setting for ``Credit Card Validation Required``, now support validating credit card from EVO, CybersourceSOAP, Paymentech, and Global Payments|
