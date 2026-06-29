@@ -49,7 +49,6 @@ Following parameters are able to be embeded into email templates. At the moment 
 | \[\[DutyAmount\]\]   | Duty amount of this transaction |
 | \[\[FreightAmount\]\]   | Freight amount of this transaction|
 | \[\[HandlingAmount\]\]   | Handling amount of this transaction|
-| \[\[TotalAmount\]\]   | Total amount of this transaction. This amount will be equal to transaction amount |
 | \[\[LineItemsHtmlTable\]\]   | Line items will be populated as HTML table to this table|
 | \[\[BillToStreet1\]\]   | Billing address street line 1 of this transaction|
 | \[\[BillToStreet2\]\]   | Billing address street line 2 of this transaction|
@@ -60,7 +59,7 @@ Following parameters are able to be embeded into email templates. At the moment 
 | \[\[BillToEmail\]\]   | Billing address email address of this transaction|
 | \[\[BillToPhone\]\]   | Billing address phone number of this transaction|
 | \[\[TransactionType\]\]   | Transaction type of this transaction. e.g. Sale, Pre-Authorization, Capture, Refund, Cancel|
-| \[\[TransactionAmount\]\]   | Transaction amount of this transaction. This amount will be equal to total amount|
+| \[\[TransactionAmount\]\]   | Total Transaction amount of this transaction.|
 | \[\[TenderType\]\]   | Tender type of this transaction. |
 | \[\[CardHolderFirstName\]\]   | Card holder first name|
 | \[\[CardHolderMiddleName\]\]   | Card holder middle name|
