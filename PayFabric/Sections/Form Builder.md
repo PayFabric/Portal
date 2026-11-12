@@ -75,7 +75,7 @@ The following values are calculated automatically based on the selected items:
 - Discount
 - Total
 
-**IMPORTANT: **Product Details, Subtotal, Tax, Discount, and Total are linked to the payment calculation engine. Do not separate or modify these components.
+**IMPORTANT:** Product Details, Subtotal, Tax, Discount, and Total are linked to the payment calculation engine. Do not separate or modify these components.
 
 
 ## Customize Your Form
@@ -84,7 +84,7 @@ To add or modify content:
 
 1. Drag an element from the **Left Panel** onto the canvas.
 2. Select the element on the canvas.
-3. Configure its properties in the **Settings Panel **on the right of the canvas.
+3. Configure its properties in the **Settings Panel** on the right of the canvas.
 4. Save your changes.
 
 ### Basic Elements
@@ -114,6 +114,7 @@ Use these elements to provide instructions, organize content, and customize the 
 | --- | --- | --- |
 | Percentage | Applies a percentage discount to the order subtotal. | Entering **10** applies a **10% discount.** |
 | Fixed Amount | Applies a flat dollar amount discount to the order. | Entering **10** applies a **$10.00 discount.** |
+
 
 ## Test Your Form
 
